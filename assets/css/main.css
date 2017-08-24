@@ -311,7 +311,7 @@ h1.navbar-brand {
 /*Home*/
 
 #home {
-    margin-top:100px;
+    padding-top:100px;
     background-color: black;
     background: url(../img/hero-pattern.svg) no-repeat center center;
     background-size: contain;
