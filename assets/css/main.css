@@ -278,10 +278,12 @@ main > section {
 
     background-color: rgba(0,0,0,.4);
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
-    padding: 5px 0;
+    padding: 10px 0;
 }
 
 #navigation.animated-header {
+  background:  #282d32;
+  /*box-shadow: none;*/
     padding: 20px 0;
 }
 .navbar-brand {
@@ -309,9 +311,12 @@ h1.navbar-brand {
 /*Home*/
 
 #home {
-    background: #020507;
+    margin-top:100px;
+    background-color: black;
+    background: url(../img/hero-pattern.svg) no-repeat center center;
+    background-size: contain;
     width: 100%;
-    height: 100vh;
+    height: 75vh;
     min-height: 800px;
     z-index: 600;
     position: relative;
@@ -319,18 +324,46 @@ h1.navbar-brand {
 
 
 .hero {
-    padding-top: 10%;
+    margin-top: 5%;
 }
 
 .hero h1 {
-    color: #fff;
+  font-size: 52px;
+  line-height: 54px;
+  letter-spacing: 1px;
+  font-family: "akzidenz-grotesk-next", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+      position: relative;
+
+    /*color: #000;
     font-size: 40px;
     margin-top: 130px;
     margin-bottom: 24px;
     font-weight: 300;
-    line-height: 2em;
+    line-height: 2em;*/
 }
 
+.hero h1:after {
+    border-bottom: 10px solid #282d32;
+    content: "";
+    display: block;
+    left: 45%;
+    bottom: 0;
+    position: absolute;
+    width: 115px;
+}
+
+
+.hero h2 {
+    /*font-size: 33px;
+    line-height: 38px;
+    letter-spacing: 0.25px;
+    font-family: "akzidenz-grotesk-next", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    margin-bottom: 24px;*/
+    /*position: relative;*/
+}
 .design-develop {
     border-bottom: 1px solid;
 }
@@ -351,8 +384,9 @@ h1.navbar-brand {
 ==================================================================*/
 
 #about {
-    background-color: #009EE3;
+    background-color: #282d32;;
     color: #fff;
+    padding: 90px 0
 }
 
 #about h3 {
@@ -486,7 +520,7 @@ h1.navbar-brand {
 
 .quote .overlay {
     background: url("../img/slide_bg.png") repeat scroll 0 0 transparent;
-    padding: 100px 0 120px;
+    padding: 150px 0 120px;
 }
 
 
@@ -559,4 +593,36 @@ background-color: #eef4f7;
     font-weight: medium;
     color: #a0a0a0;
 
+}
+
+ .tagline .tagline_desc {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+#portfolio{
+      background-color: #eef4f7;
+}
+
+blockquote {
+    padding: 6px 16px;
+    border: none;
+    quotes: "\201C" "\201D";
+    display: inline-block;
+    position: relative;
+}
+
+blockquote:before {
+    content: open-quote;
+    font-weight: bold;
+    position:absolute;
+    top:0;
+    left: 0;
+}
+blockquote:after {
+    content: close-quote;
+    font-weight: bold;
+    position:absolute;
+    top:0; right: 0;
 }
