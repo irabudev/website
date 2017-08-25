@@ -172,12 +172,13 @@ main > section {
 
 .sec-title h2:after {
     border-bottom: 1px solid #282d32;
-    content: "";
-    display: block;
-    left: 45%;
-    bottom: 0;
-    position: absolute;
-    width: 115px;
+    width: 120px;
+      height: 3px;
+      content: '\0020';
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      margin-left: -60px;
 }
 
 .sec-title.white h2:after {
