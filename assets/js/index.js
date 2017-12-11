@@ -9,6 +9,8 @@ jQuery(window).load(function(){
 });
 
 $(document).ready(function(){
+
+
 	//
 	// $(window).scroll(function () {
 	// 		if ($(window).scrollTop() > 400) {
@@ -60,15 +62,12 @@ $(document).ready(function(){
 	}
 })
 
-
 	var secondaryNav = $('.cd-secondary-nav'),
 		secondaryNavTopPosition = secondaryNav.offset().top,
 		taglineOffesetTop = $('#cd-intro-tagline').offset().top + $('#cd-intro-tagline').height() + parseInt($('#cd-intro-tagline').css('paddingTop').replace('px', '')),
 		contentSections = $('.cd-section');
 
-		console.log(taglineOffesetTop);
-		console.log(secondaryNavTopPosition);
-	$(window).on('scroll', function(){
+	$(window).scroll( function(){
 		//on desktop - assign a position fixed to logo and action button and move them outside the viewport
 		( $(window).scrollTop() > taglineOffesetTop ) ? $('#cd-logo, .cd-btn').addClass('is-hidden') : $('#cd-logo, .cd-btn').removeClass('is-hidden');
 		console.log();
@@ -95,19 +94,22 @@ $(document).ready(function(){
 	        }, 50);
 		}
 
+				// console.log(taglineOffesetTop);
+				// console.log(secondaryNavTopPosition);
 		//on desktop - update the active link in the secondary fixed navigation
-		// updateSecondaryNavigation();/
+		updateSecondaryNavigation();
 	});
 
 	function updateSecondaryNavigation() {
 
-		// console.log(contentSections);
 		contentSections.each(function(){
 			var actual = $(this),
 				actualHeight = actual.height() + parseInt(actual.css('paddingTop').replace('px', '')) + parseInt(actual.css('paddingBottom').replace('px', '')),
 				actualAnchor = secondaryNav.find('a[href="#'+actual.attr('id')+'"]');
+					console.log( ( actual.offset().top ) ) ;
 			if ( ( actual.offset().top - secondaryNav.height() <= $(window).scrollTop() ) && ( actual.offset().top +  actualHeight - secondaryNav.height() > $(window).scrollTop() ) ) {
 				actualAnchor.addClass('active');
+				console.log(actualAnchor);
 			}else {
 				actualAnchor.removeClass('active');
 			}

@@ -956,7 +956,7 @@ Secondary Fixed Navigation
     font-size: 15px;
     /*font-size: 0.8125rem;*/
     font-weight: 700;
-    /*color: rgba(240, 238, 225, 0.3);*/
+    color: rgba(240, 238, 225, 0.3);
   }
   .cd-secondary-nav li a span {
     position: absolute;
@@ -978,7 +978,7 @@ Secondary Fixed Navigation
     transition: opacity 0.2s;
   }
   .cd-secondary-nav li a:hover b, .cd-secondary-nav li a.active b {
-    color: #f0eee1;
+    color: #fff;
   }
   .cd-secondary-nav li:nth-child(1) a span {
     background-position: 0 0;
