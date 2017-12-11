@@ -1111,3 +1111,8 @@ Secondary Fixed Navigation
     display: none;
   }
 }
+
+#map {
+       height: 400px;
+       width: 100%;
+      }

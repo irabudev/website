@@ -10,33 +10,6 @@ jQuery(window).load(function(){
 
 $(document).ready(function(){
 
-
-	//
-	// $(window).scroll(function () {
-	// 		if ($(window).scrollTop() > 400) {
-	// 				$(".navbar-brand a").css("color","#fff");
-	// 				$("#navigation").removeClass("animated-header");
-	// 		} else {
-	// 				$(".navbar-brand a").css("color","inherit");
-	// 				$("#navigation").addClass("animated-header");
-	// 		}
-	// });
-
-	// $('#nav').singlePageNav({
-	// 	offset: jQuery('#nav').outerHeight(),
-	// 	filter: ':not(.external)',
-	// 	speed: 2000,
-	// 	currentClass: 'current',
-	// 	easing: 'easeInOutExpo',
-	// 	updateHash: true,
-	// 	beforeStart: function() {
-	// 		console.log('begin scrolling');
-	// 	},
-	// 	onComplete: function() {
-	// 		console.log('done scrolling');
-	// 	}
-	// });
-
   $(".owl-carousel").owlCarousel({
 		 loop:true,
 	 margin:10,
@@ -70,7 +43,7 @@ $(document).ready(function(){
 	$(window).scroll( function(){
 		//on desktop - assign a position fixed to logo and action button and move them outside the viewport
 		( $(window).scrollTop() > taglineOffesetTop ) ? $('#cd-logo, .cd-btn').addClass('is-hidden') : $('#cd-logo, .cd-btn').removeClass('is-hidden');
-		console.log();
+		// console.log();
 		//on desktop - fix secondary navigation on scrolling
 		if($(window).scrollTop() > secondaryNavTopPosition ) {
 			//fix secondary navigation
@@ -106,10 +79,8 @@ $(document).ready(function(){
 			var actual = $(this),
 				actualHeight = actual.height() + parseInt(actual.css('paddingTop').replace('px', '')) + parseInt(actual.css('paddingBottom').replace('px', '')),
 				actualAnchor = secondaryNav.find('a[href="#'+actual.attr('id')+'"]');
-					console.log( ( actual.offset().top ) ) ;
 			if ( ( actual.offset().top - secondaryNav.height() <= $(window).scrollTop() ) && ( actual.offset().top +  actualHeight - secondaryNav.height() > $(window).scrollTop() ) ) {
 				actualAnchor.addClass('active');
-				console.log(actualAnchor);
 			}else {
 				actualAnchor.removeClass('active');
 			}
@@ -124,19 +95,6 @@ $(document).ready(function(){
 		secondaryNav.find('ul').toggleClass('is-visible');
 	});
 
-	// //smooth scrolling when clicking on the secondary navigation items
-	// secondaryNav.find('ul a').on('click', function(event){
-  //       event.preventDefault();
-  //       var target= $(this.hash);
-  //       $('body,html').animate({
-  //       	'scrollTop': target.offset().top - secondaryNav.height() + 1
-  //       	}, 400
-  //       );
-  //       //on mobile - close secondary navigation
-  //       $('.cd-secondary-nav-trigger').removeClass('menu-is-open');
-  //       secondaryNav.find('ul').removeClass('is-visible');
-  //   });
-
 	secondaryNav.singlePageNav({
 		offset: jQuery('#nav').outerHeight(),
 		filter: ':not(.external)',
@@ -145,10 +103,10 @@ $(document).ready(function(){
 		easing: 'easeInOutExpo',
 		updateHash: true,
 		beforeStart: function() {
-			console.log('begin scrolling');
+			// console.log('begin scrolling');
 		},
 		onComplete: function() {
-			console.log('done scrolling');
+			// console.log('done scrolling');
 		}
 	});
     //on mobile - open/close primary navigation clicking/tapping the menu icon
