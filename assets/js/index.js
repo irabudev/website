@@ -11,11 +11,12 @@ jQuery(window).load(function(){
 $(document).ready(function(){
 
   $(".owl-carousel").owlCarousel({
-		 loop:true,
-	 margin:10,
-	 nav:true,
-
-
+		 	loop:true,
+	 		margin:10,
+	 		nav:false,
+			autoplay:true,
+ 		autoplayTimeout:3000,
+ 	autoplayHoverPause:true,
 	 responsiveClass:true,
 	 responsive:{
 			 0:{
@@ -29,7 +30,7 @@ $(document).ready(function(){
 			 1000:{
 					 items:5,
 					//  nav:true,
-					 loop:false
+					 loop:true
 			 }
 
 	}
