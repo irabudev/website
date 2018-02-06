@@ -2,5 +2,11 @@
   "dependencies": {
     "bootstrap": "3",
     "owl.carousel": "^2.2.0"
-  }
+  },
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  },
+"scripts":{
+	"dev": "lite-server"
+}
 }
