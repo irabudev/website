@@ -97,7 +97,7 @@ $(document).ready(function(){
 	});
 
 	secondaryNav.singlePageNav({
-		offset: jQuery('#nav').outerHeight(),
+		offset: 40,
 		filter: ':not(.external)',
 		speed: 2000,
 		currentClass: 'current',
