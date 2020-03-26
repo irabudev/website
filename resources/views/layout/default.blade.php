@@ -2,8 +2,7 @@
 <html lang="en">
 
 <head>
-
-
+  <link rel="stylesheet" href="{{ mix('/css/style.css') }}">
     @include('layout.partials.favicons')
 
 </head>
@@ -12,9 +11,9 @@
 
     @include('layout.partials.header')
 
-    <div class="flex-grow" role="main">
+
         @yield('content')
-    </div>
+    
 
     @include('layout.partials.footer')
 </body>
