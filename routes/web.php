@@ -19,4 +19,16 @@ Route::get('/', function () {
 
 Route::get('/home', function () {
     return view('pages.home');
-});
+})->name('home');
+
+Route::get('/proces', function () {
+    return view('pages.home');
+})->name('process');
+
+Route::get('/stack', function () {
+    return view('pages.home');
+})->name('stack');
+
+Route::get('/about', function () {
+    return view('pages.home');
+})->name('about');
