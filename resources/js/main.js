@@ -1,12 +1,14 @@
+const Swiper = require('./plugins/swiper.min');
 (function ($) {
     "use strict";
 
     /*===============================
     =         Wow Active            =
     ================================*/
+    //
+    // new WOW().init();
+    window.wow.init();
 
-    new WOW().init();
-    
     /*=============================================
     =       Menu sticky & Scroll to top          =
     =============================================*/
@@ -55,7 +57,7 @@
         });
     }
     scrollToTop();
-    
+
     /*=========================================
     =            Preloader active            =
     ===========================================*/
@@ -63,39 +65,39 @@
     windows.on('load', function(){
         $(".preloader-activate").removeClass('preloader-active');
     });
-    
-    
+
+
     jQuery(window).on('load', function(){
 		setTimeout(function(){
         jQuery('.open_tm_preloader').addClass('loaded');
         }, 1000);
 	});
-    
+
 
     /*=========================================
     =            One page nav active          =
     ===========================================*/
-    
-    var top_offset = $('.navigation-menu--onepage').height() - 60;
-    $('.navigation-menu--onepage ul').onePageNav({
-        currentClass: 'active',
-        scrollOffset: top_offset,
-    });
-    
-    var top_offset_mobile = $('.header-area').height();
-    $('.offcanvas-navigation--onepage ul').onePageNav({
-        currentClass: 'active',
-        scrollOffset: top_offset_mobile,
-    });
-    
-    
+
+    // var top_offset = $('.navigation-menu--onepage').height() - 60;
+    // $('.navigation-menu--onepage ul').onePageNav({
+    //     currentClass: 'active',
+    //     scrollOffset: top_offset,
+    // });
+    //
+    // var top_offset_mobile = $('.header-area').height();
+    // $('.offcanvas-navigation--onepage ul').onePageNav({
+    //     currentClass: 'active',
+    //     scrollOffset: top_offset_mobile,
+    // });
+
+
     /*===========================================
     =            Submenu viewport position      =
     =============================================*/
-    
+
     if ($(".has-children--multilevel-submenu").find('.submenu').length) {
         var elm = $(".has-children--multilevel-submenu").find('.submenu');
-        
+
         elm.each(function(){
             var off = $(this).offset();
             var l = off.left;
@@ -112,22 +114,22 @@
     /*==========================================
     =            mobile menu active            =
     ============================================*/
-    
+
     $("#mobile-menu-trigger").on('click', function(){
         $("#mobile-menu-overlay").addClass("active");
         $body.addClass('no-overflow');
     });
-    
+
     $("#mobile-menu-close-trigger").on('click', function(){
         $("#mobile-menu-overlay").removeClass("active");
         $body.removeClass('no-overflow');
     });
-    
+
     $(".offcanvas-navigation--onepage ul li a").on('click', function(){
         $("#mobile-menu-overlay").removeClass("active");
         $body.removeClass('no-overflow');
     });
-    
+
     /*Close When Click Outside*/
     $body.on('click', function(e){
         var $target = e.target;
@@ -140,8 +142,8 @@
             $body.removeClass('no-overflow');
         }
     });
-    
-    
+
+
     /*===================================
     =           Menu Activeion          =
     ===================================*/
@@ -161,8 +163,8 @@
         else
         $(".navigation-menu li a[href*='"+curpage+"']").parents("li").addClass("active");
     }
-    
-    
+
+
     /*=========================================
     =             open menu Active            =
     ===========================================*/
@@ -175,8 +177,8 @@
         e.preventDefault();
         $('.open-menuberger-wrapper').removeClass('is-visiable');
     });
-    
-      
+
+
     /*=========================================
     =             open menu Active            =
     ===========================================*/
@@ -184,44 +186,44 @@
         $("#page-oppen-off-sidebar-overlay").addClass("active");
         $body.addClass('no-overflow');
     });
-    
+
     $("#menu-close-trigger").on('click', function(){
         $("#page-oppen-off-sidebar-overlay").removeClass("active");
         $body.removeClass('no-overflow');
     });
-    
+
     /*=============================================
     =            search overlay active            =
     =============================================*/
-    
+
     $("#search-overlay-trigger").on('click', function(){
         $("#search-overlay").addClass("active");
         $body.addClass('no-overflow');
     });
-    
+
     $("#search-close-trigger").on('click', function(){
         $("#search-overlay").removeClass("active");
         $body.removeClass('no-overflow');
     });
-    
+
     /*=============================================
     =            hidden icon active            =
     =============================================*/
-    
+
     $("#hidden-icon-trigger").on('click', function(){
         $("#hidden-icon-wrapper").toggleClass("active");
     });
-    
+
 
     /*=============================================
     =            newsletter popup active            =
     =============================================*/
-    
+
     $("#newsletter-popup-close-trigger").on('click', function(){
         $("#newsletter-popup").removeClass("active");
     });
-    
-    
+
+
     /*=========================================
     =             open menu Active            =
     ===========================================*/
@@ -237,19 +239,19 @@
     $(".entry-post-share").on("click", function(e) {
         e.stopPropagation();
     });
-    
+
     /*=============================================
     =            offcanvas mobile menu            =
     =============================================*/
     var $offCanvasNav = $('.offcanvas-navigation'),
         $offCanvasNavSubMenu = $offCanvasNav.find('.sub-menu');
-    
+
     /*Add Toggle Button With Off Canvas Sub Menu*/
     $offCanvasNavSubMenu.parent().prepend('<span class="menu-expand"><i></i></span>');
-    
+
     /*Close Off Canvas Sub Menu*/
     $offCanvasNavSubMenu.slideUp();
-    
+
     /*Category Sub Menu Toggle*/
     $offCanvasNav.on('click', 'li a, li .menu-expand', function(e) {
         var $this = $(this);
@@ -266,55 +268,55 @@
             }
         }
     });
-    
+
     /*=======================================
     =    	Portfolio Masonry Activation    =
     =========================================*/
 
-        $('.projects-masonary-wrapper').imagesLoaded(function () {
+        // $('.projects-masonary-wrapper').imagesLoaded(function () {
+        //
+        //     // filter items on button click
+        //     $('.messonry-button').on('click', 'button', function () {
+        //         var filterValue = $(this).attr('data-filter');
+        //         $(this).siblings('.is-checked').removeClass('is-checked');
+        //         $(this).addClass('is-checked');
+        //         $grid.isotope({
+        //             filter: filterValue
+        //         });
+        //     });
+        //
+        //     // init Isotope
+        //     var $grid = $('.mesonry-list').isotope({
+        //         percentPosition: true,
+        //         transitionDuration: '0.7s',
+        //         layoutMode: 'masonry',/*
+        //         masonry: {
+        //             columnWidth: '.resizer',
+        //         }*/
+        //     });
+        // });
 
-            // filter items on button click
-            $('.messonry-button').on('click', 'button', function () {
-                var filterValue = $(this).attr('data-filter');
-                $(this).siblings('.is-checked').removeClass('is-checked');
-                $(this).addClass('is-checked');
-                $grid.isotope({
-                    filter: filterValue
-                });
-            });
 
-            // init Isotope
-            var $grid = $('.mesonry-list').isotope({
-                percentPosition: true,
-                transitionDuration: '0.7s',
-                layoutMode: 'masonry',/*
-                masonry: {
-                    columnWidth: '.resizer',
-                }*/
-            });
-        });
-    
-  
     /*==================================
     =	      Mesonry Activation       =
     ===================================*/
 
-    $('.masonry-activation').imagesLoaded(function () {
-        // init Isotope
-        var $grid = $('.masonry-wrap').isotope({
-            itemSelector: '.masonary-item',
-            percentPosition: true,
-            transitionDuration: '0.7s',
-            masonry: {
-                // use outer width of grid-sizer for columnWidth
-                columnWidth: 2,
-                percentPosition: true
-            }
-        });
+    // $('.masonry-activation').imagesLoaded(function () {
+    //     // init Isotope
+    //     var $grid = $('.masonry-wrap').isotope({
+    //         itemSelector: '.masonary-item',
+    //         percentPosition: true,
+    //         transitionDuration: '0.7s',
+    //         masonry: {
+    //             // use outer width of grid-sizer for columnWidth
+    //             columnWidth: 2,
+    //             percentPosition: true
+    //         }
+    //     });
+    //
+    // });
 
-    });
-    
-    
+
     /*=============================================
     =            background image            =
     =============================================*/
@@ -330,7 +332,7 @@
     =            wavify activation            =
     =============================================*/
 
-    
+
 
     if($('#feel-the-wave , .feel-the-wave').length) {
         $('#feel-the-wave , .feel-the-wave').wavify({
@@ -357,11 +359,11 @@
     /*=====  End of wavify activation  ======*/
 
     $(document).ready(function(){
-        
+
     /*=============================================
     =            swiper slider activation            =
     =============================================*/
- 
+
     var brandLogoSlider = new Swiper('.brand-logo-slider__container', {
         slidesPerView : 6,
         loop: true,
@@ -390,7 +392,7 @@
             }
         }
     });
-    
+
     var carouselSlider = new Swiper('.top-info-slider__container', {
         slidesPerView : 3,
         slidesPerGroup: 1,
@@ -429,7 +431,7 @@
             }
         }
     });
-        
+
     var carouselSlider = new Swiper('.single-flexible__container', {
         slidesPerView : 1,
         slidesPerGroup: 1,
@@ -468,7 +470,7 @@
         }
     });
 
-        
+
     var carouselSlider = new Swiper('.service-slider__container', {
         slidesPerView : 4,
         slidesPerGroup: 4,
@@ -512,7 +514,7 @@
             }
         }
     });
-  
+
     var carouselSlider = new Swiper('.service-slider__project-active', {
         slidesPerView : 1,
         slidesPerGroup: 1,
@@ -552,7 +554,7 @@
         }
     });
 
-    
+
     var carouselSlider = new Swiper('.three-flexible__container', {
         slidesPerView : 3,
         slidesPerGroup: 1,
@@ -593,7 +595,7 @@
     var carouselSlider = new Swiper('.auto--center-flexible__container', {
         slidesPerView: 'auto',
         centeredSlides: true,
-        freeMode: false,    
+        freeMode: false,
         slidesPerGroup: 1,
         loop: true,
         speed: 1000,
@@ -630,7 +632,7 @@
     var carouselSlider = new Swiper('.auto--per-flexible__container', {
         slidesPerView: 'auto',
         centeredSlides: false,
-        freeMode: true,    
+        freeMode: true,
         slidesPerGroup: 1,
         loop: true,
         speed: 1000,
@@ -680,7 +682,7 @@
         },
         speed: 7000
     });
-        
+
     var carouselSlider = new Swiper('.carousel-slider__container', {
         slidesPerView : 3,
         slidesPerGroup: 1,
@@ -715,7 +717,7 @@
             }
         }
     });
-        
+
     var carouselSlider = new Swiper('.projects-slider__container', {
         slidesPerView : 3,
         slidesPerGroup: 1,
@@ -739,7 +741,7 @@
             1200:{
                 slidesPerView : 2
             },
-            
+
             991:{
                 slidesPerView : 2
             },
@@ -753,9 +755,9 @@
                 slidesPerView : 1
             }
         }
-    });    
-        
-        
+    });
+
+
     var carouselSlider = new Swiper('.testimonial-slider__container', {
         slidesPerView : 2,
         slidesPerGroup: 1,
@@ -790,7 +792,7 @@
             }
         }
     });
-        
+
     var carouselSlider = new Swiper('.testimonial-slider__container-two', {
         slidesPerView : 3,
         slidesPerGroup: 1,
@@ -829,9 +831,9 @@
 
     /*=====  End of swiper slider activation  ======*/
     });
-    
+
     /* =====================================
-        Fullpage Scroll Animation   
+        Fullpage Scroll Animation
     ======================================*/
     if ($('#fullpage').length) {
         $('#fullpage').fullpage({
@@ -850,20 +852,20 @@
         });
     }
 
-    
+
     /*=============================================
     =            circle progress active            =
     =============================================*/
-    
-    $('.chart-progress , .chart-progress__box').appear(function () {
-		$('.chart-progress, .chart-progress__box').circleProgress({
-			startAngle: -Math.PI / 4 * 2,
-		});
+  //
+  //   $('.chart-progress , .chart-progress__box').appear(function () {
+	// 	$('.chart-progress, .chart-progress__box').circleProgress({
+	// 		startAngle: -Math.PI / 4 * 2,
+	// 	});
+  //
+	// });
 
-	});
-    
     /*======================================
-    =       Countdown Activation          =     
+    =       Countdown Activation          =
     ======================================*/
 	$('[data-countdown]').each(function () {
 		var $this = $(this),
@@ -872,9 +874,9 @@
 			$this.html(event.strftime('<div class="single-countdown"><span class="single-countdown__time">%D</span><span class="single-countdown__text">Days</span></div><div class="single-countdown"><span class="single-countdown__time">%H</span><span class="single-countdown__text">Hours</span></div><div class="single-countdown"><span class="single-countdown__time">%M</span><span class="single-countdown__text">Minutes</span></div><div class="single-countdown"><span class="single-countdown__time">%S</span><span class="single-countdown__text">Seconds</span></div>'));
 		});
 	});
-    
+
     /*======================================
-    =       instagram image slider        =     
+    =       instagram image slider        =
     ======================================*/
 
 	// User Changeable Access
@@ -899,7 +901,7 @@
 		userFeed2.run();
 	}
 
-    
+
     /* ==================================
     =          Option Demo              =
     =====================================*/
@@ -917,15 +919,15 @@
     /*=============================================
     =            counter up active            =
     =============================================*/
-    
-    $('.counter').counterUp({
-        delay: 10,
-        time: 1000
-    });
-   
+
+    // $('.counter').counterUp({
+    //     delay: 10,
+    //     time: 1000
+    // });
+
     /*===================================
         Svg Icon Draw
-    ====================================*/ 
+    ====================================*/
     var $svgIconBox = $('.single-svg-icon-box');
     $svgIconBox.each(function() {
         var $this = $(this),
@@ -937,62 +939,62 @@
             $vivus.reset().play();
         });
     });
-    
+
     /*=====================================
     =          Countdown Time Circles     =
     =======================================*/
+    //
+    // $('#DateCountdown').TimeCircles({
+    //     "animation": "smooth",
+    //     "bg_width": 0.60,
+    //     "fg_width": 0.025,
+    //     "circle_bg_color": "#eeeeee",
+    //     "time": {
+    //         "Days": {
+    //             "text": "Days",
+    //             "color": "#086AD8",
+    //             "show": true
+    //         },
+    //         "Hours": {
+    //             "text": "Hours",
+    //             "color": "#086AD8",
+    //             "show": true
+    //         },
+    //         "Minutes": {
+    //             "text": "Minutes",
+    //             "color": "#086AD8",
+    //             "show": true
+    //         },
+    //         "Seconds": {
+    //             "text": "Seconds",
+    //             "color": "#086AD8",
+    //             "show": true
+    //         }
+    //     }
+    // });
 
-    $('#DateCountdown').TimeCircles({
-        "animation": "smooth",
-        "bg_width": 0.60,
-        "fg_width": 0.025,
-        "circle_bg_color": "#eeeeee",
-        "time": {
-            "Days": {
-                "text": "Days",
-                "color": "#086AD8",
-                "show": true
-            },
-            "Hours": {
-                "text": "Hours",
-                "color": "#086AD8",
-                "show": true
-            },
-            "Minutes": {
-                "text": "Minutes",
-                "color": "#086AD8",
-                "show": true
-            },
-            "Seconds": {
-                "text": "Seconds",
-                "color": "#086AD8",
-                "show": true
-            }
-        }
-    });
-    
-    /*=================================- 
+    /*=================================-
     =        Scroll Up Color Change    =
     ==================================-*/
 
-    $('.slide-scroll-bg').height('.slide-scroll-bg').scrollie({
-        scrollOffset: 0,
-        scrollingInView: function (elem) {
-            console.log(elem);
-            var bgColor = elem.data('background');
-            $('.bg-body-color').css('background-color', bgColor);
-
-        }
-    });
+    // $('.slide-scroll-bg').height('.slide-scroll-bg').scrollie({
+    //     scrollOffset: 0,
+    //     scrollingInView: function (elem) {
+    //         console.log(elem);
+    //         var bgColor = elem.data('background');
+    //         $('.bg-body-color').css('background-color', bgColor);
+    //
+    //     }
+    // });
 
     /*=============================================
     =            light gallery active            =
     =============================================*/
-    
-    $('.popup-images').lightGallery(); 
 
-    $('.video-popup').lightGallery(); 
-    
+    $('.popup-images').lightGallery();
+
+    $('.video-popup').lightGallery();
+
     /*=============================================
         showcoupon toggle function
    =============================================*/
@@ -1001,12 +1003,12 @@
     });
     $("#chekout-box-2").on("change",function(){
         $(".ship-box-info").slideToggle("100");
-    }); 
-    
+    });
+
     /*=============================================
     =            reveal footer active            =
     =============================================*/
-    
+
     var revealId = $(".reveal-footer"),
         heightFooter = revealId.outerHeight(),
         windowWidth = $(window).width()
@@ -1023,7 +1025,7 @@
           $(".loadMore").text("All items displayed").addClass("noContent");
         }
     });
-    
+
     $(".loading-item-4").slice(0, 8).show();
     $(".loadMoreBtn").on("click", function(e){
         e.preventDefault();
@@ -1032,8 +1034,8 @@
           $(".loadMoreBtn").text("All items displayed").addClass("noContent");
         }
     });
-    
-    
+
+
     /* ====================================
     =       All Animation For Fade Up      =
     =======================================*/
@@ -1059,6 +1061,6 @@
         }
         allAnimationx();
     })*/
-    
+
 
 })(jQuery);

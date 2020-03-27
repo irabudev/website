@@ -1,5 +1,5 @@
 <!--====================  footer area ====================-->
-<div class="footer-area-wrapper reveal-footer bg-gray">
+<div class="footer-area-wrapper  bg-gray">
     <div class="footer-area section-space--ptb_80">
         <div class="container">
             <div class="row footer-widget-wrapper">

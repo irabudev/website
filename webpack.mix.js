@@ -15,5 +15,5 @@ mix.js('resources/js/app.js', 'public/js')
     .sass('resources/sass/app.scss', 'public/css')
     .options({
         processCssUrls: false
-    });
-    // .styles(['resources/css/plugins/plugins.min.css', 'resources/css/style.css'], 'public/css/style.css');
+    })
+    .styles(['resources/css/plugins/plugins.min.css', 'resources/css/style.css'], 'public/css/style.css');
