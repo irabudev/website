@@ -21,8 +21,8 @@ Route::get('/home', function () {
     return view('pages.home');
 })->name('home');
 
-Route::get('/proces', function () {
-    return view('pages.home');
+Route::get('/process', function () {
+    return view('pages.process');
 })->name('process');
 
 Route::get('/stack', function () {
