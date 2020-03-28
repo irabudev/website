@@ -37,15 +37,7 @@
                                 </nav>
                             </div>
 
-                            <div class="header-search-form-two">
-                                <form action="index-services.html#" class="search-form-top-active">
-                                    <div class="search-icon" id="search-overlay-trigger">
-                                        <a href="javascript:void(0)">
-                                            <i class="fa fa-search"></i>
-                                        </a>
-                                    </div>
-                                </form>
-                            </div>
+                            
 
                             <!-- mobile menu -->
                             <div class="mobile-navigation-icon d-block d-xl-none" id="mobile-menu-trigger">
