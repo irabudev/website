@@ -62,12 +62,12 @@
                                     </a>
                                 </li>
                                 <li class="item">
-                                    <a href="https://instagram.com" target="_blank" aria-label="Instagram" class="social-link hint--bounce hint--top hint--primary">
+                                    <a href="https://www.instagram.com/irabu.dev/" target="_blank" aria-label="Instagram" class="social-link hint--bounce hint--top hint--primary">
                                         <i class="fab fa-instagram link-icon"></i>
                                     </a>
                                 </li>
                                 <li class="item">
-                                    <a href="https://linkedin.com" target="_blank" aria-label="Linkedin" class="social-link hint--bounce hint--top hint--primary">
+                                    <a href="https://www.linkedin.com/company/irabu/" target="_blank" aria-label="Linkedin" class="social-link hint--bounce hint--top hint--primary">
                                         <i class="fab fa-linkedin link-icon"></i>
                                     </a>
                                 </li>
