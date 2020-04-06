@@ -29,5 +29,6 @@
         </main>
 
     @include('partials.footer')
+    @include('partials.mobileheader')
 </body>
 </html>

@@ -35046,6 +35046,27 @@ module.exports = function(module) {
 
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
+(function ($) {
+  "use strict";
+  /*==========================================
+  =            mobile menu active            =
+  ============================================*/
+
+  console.log("a");
+  $("#mobile-menu-trigger").on('click', function () {
+    $("#mobile-menu-overlay").addClass("active");
+    $body.addClass('no-overflow');
+  });
+  $("#mobile-menu-close-trigger").on('click', function () {
+    $("#mobile-menu-overlay").removeClass("active");
+    $body.removeClass('no-overflow');
+  });
+  $(".offcanvas-navigation--onepage ul li a").on('click', function () {
+    $("#mobile-menu-overlay").removeClass("active");
+    $body.removeClass('no-overflow');
+  });
+})(jQuery);
+
 /***/ }),
 
 /***/ "./resources/js/bootstrap.js":
