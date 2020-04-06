@@ -22,10 +22,12 @@
 <body>
     @include('partials.header')
 
-        <main class="py-4">
+        <main>
+            <div class="site-wrapper-reveal">
             @yield('content')
+            </div>
         </main>
-        
+
     @include('partials.footer')
 </body>
 </html>
