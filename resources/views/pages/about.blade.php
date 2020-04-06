@@ -1,4 +1,5 @@
 @extends('layout.default')
 @section('content')
-about
+
+@include('partials.contact_alt')
 @endsection
