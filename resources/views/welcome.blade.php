@@ -68,7 +68,7 @@
 
             <div class="content">
                 <lottie-player
-                    src="https://assets8.lottiefiles.com/packages/lf20_xRmNN8.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop autoplay >
+                    src="https://assets8.lottiefiles.com/packages/lf20_xRmNN8.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px; margin:0 auto;"  mode="bounce" loop autoplay >
                 </lottie-player>
 
                 <div class="title m-b-md">
