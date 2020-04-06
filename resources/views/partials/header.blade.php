@@ -23,7 +23,7 @@
                     <!-- brand logo -->
                     <div class="header__logo">
                         <a href="index.html">
-                            <img src="{{ asset('/images/logo/logo-dark.png') }}" class="img-fluid" alt="">
+                            <img src="{{ asset('/images/logo.svg') }}" class="img-fluid" alt="">
                         </a>
                     </div>
 

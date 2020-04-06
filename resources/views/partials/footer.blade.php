@@ -4,9 +4,8 @@
                 <div class="container">
                     <div class="row footer-widget-wrapper">
                         <div class="col-lg-4 col-md-6 col-sm-6 footer-widget">
-                            <div class="footer-widget__logo mb-30">
-                                @svg('irabu')
-                                <!-- <img src="assets/images/logo/dark-logo-160x48.png" class="img-fluid" alt=""> -->
+                            <div class="footer-widget__logo mb-30 width-160">
+                                <img src="{{ asset('/images/logo.svg') }}" class="img-fluid" alt=""> 
                             </div>
                             <ul class="footer-widget__list">
                                 <li>Dar es Salaam, Tanzania</li>
