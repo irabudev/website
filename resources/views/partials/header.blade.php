@@ -41,7 +41,7 @@
                                                     
                                                 </li>
                                                 <li >
-                                                    <a  href="{{ route('home') }}"><span>{{ __('Our Process') }}</span></a>
+                                                    <a  href="{{ route('process') }}"><span>{{ __('Our Process') }}</span></a>
                                                     
                                                 </li>
                                                 <li >

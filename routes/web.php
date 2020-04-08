@@ -25,6 +25,10 @@ Route::get('/about-us', function () {
     return view('pages.about');
 })->name('about');
 
+Route::get('/process', function () {
+    return view('pages.process');
+})->name('process');
+
 // Auth::routes();
 
 // Route::get('/home', 'HomeController@index')->name('home');
