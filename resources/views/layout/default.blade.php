@@ -20,6 +20,7 @@
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
 </head>
 <body>
+    @include('partials.loader')
     @include('partials.header')
 
         <main>

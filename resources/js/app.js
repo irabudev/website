@@ -2,11 +2,25 @@ require('./bootstrap');
 
 (function ($) {
     "use strict";
+    var windows = $(window);
+        /*=========================================
+    =            Preloader active            =
+    ===========================================*/
+    windows.on('load', function(){
+        $(".preloader-activate").removeClass('preloader-active');
+    });
+    
+    
+    jQuery(window).on('load', function(){
+		setTimeout(function(){
+        jQuery('.open_tm_preloader').addClass('loaded');
+        }, 1000);
+	});
+    
 
     /*==========================================
     =            mobile menu active            =
     ============================================*/
-    console.log("a");
     
     $("#mobile-menu-trigger").on('click', function(){
         $("#mobile-menu-overlay").addClass("active");
