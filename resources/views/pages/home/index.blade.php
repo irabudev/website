@@ -6,11 +6,12 @@
         <div class="row align-items-center">
             <div class="col-lg-6">
                 <div class="preview-hero-text wow move-up">
-                    <h6 class="mb-30">Technology and software</h6>
-                    <h2 class="font-weight--reguler text-white mb-30">Mitech - A Technology, Digital Software HTML Template</h2>
-                    <div class="hero-button mt-40">
+                    <h1 class="font-weight--reguler text-white mb-30">Building,to simplify</h1>
+                    <h6 class="mb-30">We craft SIMPLE & VALUABLE
+solutions to everday challenges</h6>
+                    <!-- <div class="hero-button mt-40">
                         <a href="index.html#section-demos" class="btn btn--white">Browse demos </a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <div class="col-lg-6">
@@ -48,9 +49,10 @@
                     <div class="row">
                         <div class="slide-content col-lg-6 col-xl-5 order-2 order-lg-1">
                             <div class="service-project-slide-info">
-                                <h4 class="heading font-weight--reguler mb-10">Aqua Technology Case Studies</h4>
+                                <h4 class="heading font-weight--reguler mb-10">Gorocket</h4>
                                 <p class="sub-text text-color-primary">Cyber Security</p>
-                                <div class="text">ARM Holdings is the world's leading semiconductor Intellectual Property (IP) supplier. A semiconductor is the electronic controller at the heart of many devices that we use every day.</div>
+                                <div class="text">A simple, instinctive and customizable cloud based tool that helps you manage your leads, sales and product delivery processes; ultimately boosting sales and productivity!</div>
+                                <a  href="https://app.gorocket.co/"><span><i class="fas fa-chevron-right"></i> {{ __('app.gorocket.co') }}</span></a>
                             </div>
                         </div>
 
@@ -58,7 +60,7 @@
                             <div class="slide-image">
                                 <div class="image-wrap">
                                     <div class="image">
-                                        <img class="img-fluid" src="{{ asset('images/home-services-hero-bg.jpg') }}" alt="">
+                                        <img class="img-fluid" src="{{ asset('images/portfolio/gorocket.png') }}" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -221,7 +223,12 @@
                     </div>
                 </div>
 
-                <div class="section-under-heading text-center section-space--mt_80">Challenges are just opportunities in disguise. <a href="it-services.html#">Take the challenge!</a></div>
+                <div class="section-under-heading text-center section-space--mt_80">
+                We'd like to be a substantial part of your project. Read more on
+                <a  href="{{ route('process') }}"><span>{{ __('how we work') }}</span></a>
+                     , or 
+                     <a  href="{{ route('process') }}"><span>{{ __('get in touch !') }}</span></a>
+                    </div>
 
             </div>
         </div>

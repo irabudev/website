@@ -1,18 +1,6 @@
  <!--====================  header area ====================-->
  <div class="header-area header-area--default">
 
-<!-- Header Top Wrap Start -->
-<div class="header-top-wrap border-bottom">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-lg-12">
-                <p class="text-center top-message"><a href="careers.html#">Now Hiring:</a> Are you a driven and motivated 1st Line IT Support Engineer?</p>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Header Top Wrap End -->
-
 <!-- Header Bottom Wrap Start -->
 <div class="header-bottom-wrap header-sticky">
     <div class="container-fluid">
@@ -22,7 +10,7 @@
 
                     <!-- brand logo -->
                     <div class="header__logo">
-                        <a href="index.html">
+                        <a href="{{ route('home') }}">
                             <img src="{{ asset('/images/logo.svg') }}" class="img-fluid" alt="">
                         </a>
                     </div>
