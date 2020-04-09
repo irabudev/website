@@ -1,5 +1,5 @@
 <div class="rev_redraw-wrapper ">
-    <div class="rev_redraw-inner-box  bg-gray-2  section-space--mt_40 section-space--mb_10  rev_redraw-space">
+    <div class="rev_redraw-inner-box  bg-gray-2  section-space--mt_40 section-space--mb_40  rev_redraw-space">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">

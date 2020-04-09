@@ -3,8 +3,8 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="section-title-wrapper text-center section-space--mb_60 wow move-up">
-                    <h6 class="section-sub-title mb-20">discover our company</h6>
-                    <h3 class="section-title">We’ve been thriving in<span class="text-color-primary"> 38 years</span> </h3>
+                    <h6 class="section-sub-title mb-20">Our clients</h6>
+                    <!-- <h3 class="section-title">Clients we have worked with<span class="text-color-primary"> 38 years</span> </h3> -->
                 </div>
             </div>
         </div>
