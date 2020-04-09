@@ -21,7 +21,7 @@
                                 <div class="brand-logo brand-logo--slider">
                                     <a href="index-appointment.html#">
                                         <div class="brand-logo__image">
-                                            <img src="{{ asset('/images/logo.svg') }}" class="img-fluid width-160" alt="">
+                                            <img src="{{ asset('/images/clients/1.png') }}" class="img-fluid width-160" alt="">
                                         </div>
                                         <div class="brand-logo__image-hover">
                                             <img src="assets/images/brand/mitech-client-logo-01-hover.png" class="img-fluid" alt="">
@@ -31,7 +31,7 @@
                                 <div class="brand-logo brand-logo--slider">
                                     <a href="index-appointment.html#">
                                         <div class="brand-logo__image">
-                                            <img src="{{ asset('/images/logo.svg') }}" class="img-fluid width-160" alt="">
+                                            <img src="{{ asset('/images/clients/2.png') }}" class="img-fluid width-160" alt="">
                                         </div>
                                         <div class="brand-logo__image-hover">
                                             <img src="assets/images/brand/mitech-client-logo-02-hover.png" class="img-fluid" alt="">
@@ -41,7 +41,7 @@
                                 <div class="brand-logo brand-logo--slider">
                                     <a href="index-appointment.html#">
                                         <div class="brand-logo__image">
-                                            <img src="{{ asset('/images/logo.svg') }}" class="img-fluid width-160" alt="">
+                                            <img src="{{ asset('/images/clients/3.png') }}" class="img-fluid width-160" alt="">
                                         </div>
                                         <div class="brand-logo__image-hover">
                                             <img src="assets/images/brand/mitech-client-logo-03-hover.png" class="img-fluid" alt="">
@@ -51,7 +51,7 @@
                                 <div class="brand-logo brand-logo--slider">
                                     <a href="index-appointment.html#">
                                         <div class="brand-logo__image">
-                                            <img src="{{ asset('/images/logo.svg') }}" class="img-fluid width-160" alt="">
+                                            <img src="{{ asset('/images/clients/4.png') }}" class="img-fluid width-160" alt="">
                                         </div>
                                         <div class="brand-logo__image-hover">
                                             <img src="assets/images/brand/mitech-client-logo-04-hover.png" class="img-fluid" alt="">
@@ -61,7 +61,7 @@
                                 <div class="brand-logo brand-logo--slider">
                                     <a href="index-appointment.html#">
                                         <div class="brand-logo__image">
-                                            <img src="{{ asset('/images/logo.svg') }}" class="img-fluid width-160" alt="">
+                                            <img src="{{ asset('/images/clients/5.png') }}" class="img-fluid width-160" alt="">
                                         </div>
                                         <div class="brand-logo__image-hover">
                                             <img src="assets/images/brand/mitech-client-logo-05-hover.png" class="img-fluid" alt="">
@@ -71,7 +71,7 @@
                                 <div class="brand-logo brand-logo--slider">
                                     <a href="index-appointment.html#">
                                         <div class="brand-logo__image">
-                                            <img src="{{ asset('/images/logo.svg') }}" class="img-fluid width-160" alt="">
+                                            <img src="{{ asset('/images/clients/6.png') }}" class="img-fluid width-160" alt="">
                                         </div>
                                         <div class="brand-logo__image-hover">
                                             <img src="assets/images/brand/mitech-client-logo-06-hover.png" class="img-fluid" alt="">
@@ -81,7 +81,7 @@
                                 <div class="brand-logo brand-logo--slider">
                                     <a href="index-appointment.html#">
                                         <div class="brand-logo__image">
-                                            <img src="{{ asset('/images/logo.svg') }}" class="img-fluid width-160" alt="">
+                                            <img src="{{ asset('/images/clients/1.png') }}" class="img-fluid width-160" alt="">
                                         </div>
                                         <div class="brand-logo__image-hover">
                                             <img src="assets/images/brand/mitech-client-logo-07-hover.png" class="img-fluid" alt="">

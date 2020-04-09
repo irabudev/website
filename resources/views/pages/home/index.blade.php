@@ -6,9 +6,9 @@
         <div class="row align-items-center">
             <div class="col-lg-6">
                 <div class="preview-hero-text wow move-up">
-                    <h1 class="font-weight--reguler text-white mb-30">Building,to simplify</h1>
+                    <h1 class="font-weight--reguler mb-30 intro-slogan">Building,to simplify</h1>
                     <h6 class="mb-30">We craft SIMPLE & VALUABLE
-solutions to everday challenges</h6>
+                        solutions to everday challenges</h6>
                     <!-- <div class="hero-button mt-40">
                         <a href="index.html#section-demos" class="btn btn--white">Browse demos </a>
                     </div> -->
@@ -50,9 +50,9 @@ solutions to everday challenges</h6>
                         <div class="slide-content col-lg-6 col-xl-5 order-2 order-lg-1">
                             <div class="service-project-slide-info">
                                 <h4 class="heading font-weight--reguler mb-10">Gorocket</h4>
-                                <p class="sub-text text-color-primary">Cyber Security</p>
-                                <div class="text">A simple, instinctive and customizable cloud based tool that helps you manage your leads, sales and product delivery processes; ultimately boosting sales and productivity!</div>
-                                <a  href="https://app.gorocket.co/"><span><i class="fas fa-chevron-right"></i> {{ __('app.gorocket.co') }}</span></a>
+                                <p class="sub-text text-color-primary">WEB, iOS , ANDROID</p>
+                                <div class="text mb-10">A simple, instinctive and customizable cloud based tool that helps you manage your leads, sales and product delivery processes; ultimately boosting sales and productivity!</div>
+                                <a href="https://app.gorocket.co/" class="text-color-primary"><span><i class="fas fa-chevron-right"></i> {{ __('app.gorocket.co') }}</span></a>
                             </div>
                         </div>
 
@@ -122,7 +122,7 @@ solutions to everday challenges</h6>
                                         <h5 class="heading">Consultation </h5>
                                         <div class="text">We provide the most responsive and functional IT design for companies and businesses worldwide.
                                         </div>
-                                      
+
                                     </div>
                                 </div>
                             </div>
@@ -140,7 +140,7 @@ solutions to everday challenges</h6>
                                         <h5 class="heading">Lean design and development</h5>
                                         <div class="text">It’s possible to simultaneously manage and transform information from one server to another.
                                         </div>
-                                      
+
                                     </div>
                                 </div>
                             </div>
@@ -157,7 +157,7 @@ solutions to everday challenges</h6>
                                         <h5 class="heading">Modular design</h5>
                                         <div class="text">Enhancing the strength and security of firewalls to protect online data from malicious sources.
                                         </div>
-                                       
+
                                     </div>
                                 </div>
                             </div>
@@ -175,7 +175,7 @@ solutions to everday challenges</h6>
                                         <h5 class="heading">Simple solution</h5>
                                         <div class="text">Back up your database, store in a safe and secure place while still maintaining its accessibility.
                                         </div>
-                                        
+
                                     </div>
                                 </div>
                             </div>
@@ -193,7 +193,7 @@ solutions to everday challenges</h6>
                                         <h5 class="heading">Testing and deployment</h5>
                                         <div class="text">We propose feasible & practical plans for successfully transform businesses based on their needs.
                                         </div>
-                                      
+
                                     </div>
                                 </div>
                             </div>
@@ -211,24 +211,24 @@ solutions to everday challenges</h6>
                                         <h5 class="heading">Production and scaling</h5>
                                         <div class="text">Mitech takes into account all conditions and budgets needed for building infrastructure plan.
                                         </div>
-                                       
+
                                     </div>
                                 </div>
                             </div>
                             <!-- ht-box-icon End -->
                         </div>
 
-              
+
 
                     </div>
                 </div>
 
                 <div class="section-under-heading text-center section-space--mt_80">
-                We'd like to be a substantial part of your project. Read more on
-                <a  href="{{ route('process') }}"><span>{{ __('how we work') }}</span></a>
-                     , or 
-                     <a  href="{{ route('process') }}"><span>{{ __('get in touch !') }}</span></a>
-                    </div>
+                    We'd like to be a substantial part of your project. Read more on
+                    <a href="{{ route('process') }}"><span>{{ __('how we work') }}</span></a>
+                    , or
+                    <a href="{{ route('process') }}"><span>{{ __('get in touch !') }}</span></a>
+                </div>
 
             </div>
         </div>
