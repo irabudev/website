@@ -1,5 +1,4 @@
 @extends('layout.default')
-<<<<<<< HEAD
 
 @section('content')
 <div class="about-banner-wrap banner-space about-us-bg">
@@ -15,7 +14,7 @@ is achievable
                     </h1>
                     <h5 class="font-weight--normal text-white">
                     We craft SIMPLE & VALUABLE
-solutions to everday challenges 
+solutions to everday challenges
                     </h5>
                 </div>
                 <!-- section-title-wrap Start -->
@@ -68,7 +67,7 @@ solutions to everday challenges
                                     Learn more about the client's business and explore their current approach on solving the problem to find insights that will inform and guide us during the project
                                     </div>
 
-                                   
+
                                 </div>
                             </div>
                             <!-- Single item gradation End -->
@@ -98,7 +97,7 @@ solutions to everday challenges
                 We really need to look at other examples, opinions &amp; competitors to understand what makes them great. --}}
                                     </div>
 
-                                    
+
                                 </div>
                             </div>
                             <!-- Single item gradation End -->
@@ -152,12 +151,12 @@ solutions to everday challenges
                 We blueprint every screen and propose our technical solution.
                 Your feedback only makes these better. --}}</div>
 
-                                    
+
                                 </div>
                             </div>
                             <!-- Single item gradation End -->
 
-                            
+
                         </div>
                     </div>
                 </div>
@@ -277,7 +276,7 @@ solutions to everday challenges
                             </div>
                             <!-- Single item gradation End -->
 
-                            
+
                         </div>
                     </div>
                 </div>
@@ -286,8 +285,3 @@ solutions to everday challenges
         @include('partials.contact')
         @include('partials.clients.clients_alt')
 @endsection
-=======
-@section('content')
-process
-@endsection
->>>>>>> c40a2bc474007bb72466e88283cd8cf090a8a71c
