@@ -6,7 +6,7 @@
                     <div class="col-lg-12">
                         <!-- section-title-wrap Start -->
                         <div class="section-title-wrap text-center section-space--mb_60">
-        
+
                             <h1 class="heading  text-white">Lets grab a <span class="text-color-primary">cup of coffee   <br> (or tea) </span> & <span class="text-color-primary"> chat.</span></h1>
                         </div>
                         <!-- section-title-wrap Start -->
@@ -29,11 +29,11 @@
                             <h5 class="heading">    We are a creative digital agency with a core quest of <strong>build to simplify</strong> — since 2013.</h5>
                             <h5 class="heading section-space--mt_30">     We use human-centered software design tools and techniques to gain a better understanding of users needs and improve the efficacy of their products.</strong> — since 2013.</h5>
                             <h5 class="heading section-space--mt_30">  We work hand in hand with our clients to help them boost their businesses by creating exceptional digital solutions.</h5>
-                            <h5 class="heading section-space--mt_30">    The Irabu team consists of designers, developers, technologists, strategists, engineers to writers, 
+                            <h5 class="heading section-space--mt_30">    The Irabu team consists of designers, developers, technologists, strategists, engineers to writers,
                     With a strong mentality to stay on of things.
                     But most of all we are thirsty problem solvers with an innate desire to simplify. </h5>
 
-                            
+
                         </div>
 
                     </div>
@@ -44,9 +44,9 @@
                                 <h6 class="font-weight--reguler mb-1">Irabu is Swahili for vowels, i.e. relating to the voice.
                                     </h6>
                                 <p>You pronounce it /'Irabuː/.</p>
-                            </div>    
                             </div>
-                          
+                            </div>
+
                         </div>
                     </div>
                 </div>

@@ -1,4 +1,5 @@
 @extends('layout.default')
+<<<<<<< HEAD
 
 @section('content')
 <div class="about-banner-wrap banner-space about-us-bg">
@@ -285,3 +286,8 @@ solutions to everday challenges
         @include('partials.contact')
         @include('partials.clients.clients_alt')
 @endsection
+=======
+@section('content')
+process
+@endsection
+>>>>>>> c40a2bc474007bb72466e88283cd8cf090a8a71c
