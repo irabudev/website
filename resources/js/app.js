@@ -1,4 +1,5 @@
 require('./bootstrap');
+const Swiper = require('./plugins/swiper.min');
 // require('./main');
 
 (function ($) {

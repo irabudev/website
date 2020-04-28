@@ -931,7 +931,7 @@
         opacity: 1
     }
 }
-/* 
+/*
 .move-up {
     -webkit-transform: translateY(0);
     -ms-transform: translateY(0);
@@ -1077,7 +1077,7 @@
     -o-transition: all .3s cubic-bezier(.645, .045, .355, 1);
     transition: all .3s cubic-bezier(.645, .045, .355, 1)
 }
-
+/*
 .bk-hover {
     a: {
         position: relative;
@@ -1110,7 +1110,7 @@
     .hover-text-dark {
         a {}
     }
-}
+} */
 
 @-webkit-keyframes separator-bounce {
     0%,
