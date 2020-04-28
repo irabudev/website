@@ -14,21 +14,17 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/home', function () {
     return view('pages.home.index');
 })->name('home');
 
 Route::get('/about-us', function () {
-    return view('pages.about');
+    return view('pages.about.index');
 })->name('about');
 
 Route::get('/process', function () {
-    return view('pages.process');
+    return view('pages.process.index');
 })->name('process');
 
-// Auth::routes();
-
-// Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/our-stack', function () {
+    return view('pages.stack.index');
+})->name('stack');

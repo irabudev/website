@@ -1,4 +1,8 @@
-@extends('layout.default')
+@extends('layout.default', [
+'title' => 'Design & Development',
+'description' => 'About our preferred tools to build modern web applications. Read more on our technology stack and hire
+us as a team',
+])
 
 @section('content')
 <div class="about-banner-wrap banner-space about-us-bg">
@@ -291,6 +295,6 @@
         </div>
     </div>
 </div>
-@include('partials.contact')
-@include('partials.clients.clients_alt')
+@include('layout.partials.contact')
+@include('layout.partials.clients.clients_alt')
 @endsection

@@ -15,8 +15,8 @@
 </head>
 
 <body>
-    @include('partials.loader')
-    @include('partials.header')
+    @include('layout.partials.loader')
+    @include('layout.partials.header')
 
     <main>
         <div class="site-wrapper-reveal">
@@ -24,8 +24,8 @@
         </div>
     </main>
 
-    @include('partials.footer')
-    @include('partials.mobileheader')
+    @include('layout.partials.footer')
+    @include('layout.partials.mobileheader')
 </body>
 
 </html>
