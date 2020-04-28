@@ -45,8 +45,8 @@
                 <div class="col-lg-2 col-md-4 col-sm-6 footer-widget">
                     <div class="footer-widget__title section-space--mb_50"></div>
                     <ul class="footer-widget__list">
-                        <li><a href="element-cta.html#" class="image_btn"><img class="img-fluid" src="assets/images/icons/aeroland-button-google-play.jpg" alt=""></a></li>
-                        <li><a href="element-cta.html#" class="image_btn"><img class="img-fluid" src="assets/images/icons/aeroland-button-app-store.jpg" alt=""></a></li>
+                        <li><a href="element-cta.html#" class="image_btn"><img class="img-fluid" src="{{ asset('images/icons/aeroland-button-google-play.jpg') }}" alt=""></a></li>
+                        <li><a href="element-cta.html#" class="image_btn"><img class="img-fluid" src="{{ asset('images/icons/aeroland-button-app-store.jpg') }}" alt=""></a></li>
                     </ul>
                 </div>
             </div>

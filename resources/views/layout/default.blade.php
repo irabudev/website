@@ -1,36 +1,31 @@
 <!doctype html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- CSRF Token -->
-    <meta name="csrf-token" content="{{ csrf_token() }}">
-
-    <title>{{ config('app.name', 'Irabu') }}</title>
+    @include('layout.partials.meta')
 
     <!-- Scripts -->
     <script src="{{ mix('js/app.js') }}" defer></script>
+    <script src="https://use.fontawesome.com/78c1a7d708.js"></script>
 
-    <!-- Fonts -->
-    <link rel="dns-prefetch" href="//fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-    @include('partials.favicons')
+    @include('layout.partials.favicons')
 
     <!-- Styles -->
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
 </head>
+
 <body>
     @include('partials.loader')
     @include('partials.header')
 
-        <main>
-            <div class="site-wrapper-reveal">
+    <main>
+        <div class="site-wrapper-reveal">
             @yield('content')
-            </div>
-        </main>
+        </div>
+    </main>
 
     @include('partials.footer')
     @include('partials.mobileheader')
 </body>
+
 </html>

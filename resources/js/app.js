@@ -1,4 +1,5 @@
 require('./bootstrap');
+// require('./main');
 
 (function ($) {
     "use strict";

@@ -16,17 +16,22 @@
             </div>
             <div class="col-lg-6">
                 <div class="preview-inner-img">
-                    <img class="img-fluid min-img  animation_images one wow fadeInDown" src="assets/images/hero/mitech-landing-main-slider-slide-01-image-04.png" alt="">
+                    <img class="img-fluid min-img  animation_images one wow fadeInDown"
+                        src="{{ asset('images/hero/mitech-landing-main-slider-slide-01-image-04.png') }}" alt="">
                 </div>
             </div>
         </div>
 
-        <img class="img-fluid pr-img-01 animation_images two wow fadeInDown" src="assets/images/hero/mitech-landing-main-slider-slide-01-image-01.png" alt="">
-        <img class="img-fluid pr-img-02 animation_images two wow fadeInDown" src="assets/images/hero/mitech-landing-main-slider-slide-01-image-02.png" alt="">
+        <img class="img-fluid pr-img-01 animation_images two wow fadeInDown"
+            src="{{ asset('images/hero/mitech-landing-main-slider-slide-01-image-01.png') }}" alt="">
+        <img class="img-fluid pr-img-02 animation_images two wow fadeInDown"
+            src="{{ asset('images/hero/mitech-landing-main-slider-slide-01-image-02.png') }}" alt="">
 
-        <img class="img-fluid pr-img-03 animation_images two wow fadeInDown" src="assets/images/hero/mitech-landing-main-slider-slide-01-image-03.png" alt="">
+        <img class="img-fluid pr-img-03 animation_images two wow fadeInDown"
+            src="{{ asset('images/hero/mitech-landing-main-slider-slide-01-image-03.png') }}" alt="">
 
-        <img class="img-fluid pr-img-04 animation_images two wow fadeInDown" src="assets/images/hero/mitech-landing-main-slider-slide-01-image-05.png" alt="">
+        <img class="img-fluid pr-img-04 animation_images two wow fadeInDown"
+            src="{{ asset('images/hero/mitech-landing-main-slider-slide-01-image-05.png') }}" alt="">
 
 
     </div>
@@ -39,7 +44,8 @@
             <div class="col-lg-12">
                 <div class="section-title-wrap text-center section-space--mb_60">
                     <h6 class="section-sub-title mb-20">Case studies</h6>
-                    <h3 class="heading">Proud projects that <span class="text-color-primary">make us stand out</span></h3>
+                    <h3 class="heading">Proud projects that <span class="text-color-primary">make us stand out</span>
+                    </h3>
                 </div>
             </div>
         </div>
@@ -51,8 +57,11 @@
                             <div class="service-project-slide-info">
                                 <h4 class="heading font-weight--reguler mb-10">Gorocket</h4>
                                 <p class="sub-text text-color-primary">WEB, iOS , ANDROID</p>
-                                <div class="text mb-10">A simple, instinctive and customizable cloud based tool that helps you manage your leads, sales and product delivery processes; ultimately boosting sales and productivity!</div>
-                                <a href="https://app.gorocket.co/" class="text-color-primary"><span><i class="fas fa-chevron-right"></i> {{ __('app.gorocket.co') }}</span></a>
+                                <div class="text mb-10">A simple, instinctive and customizable cloud based tool that
+                                    helps you manage your leads, sales and product delivery processes; ultimately
+                                    boosting sales and productivity!</div>
+                                <a href="https://app.gorocket.co/" class="text-color-primary"><span><i
+                                            class="fas fa-chevron-right"></i> {{ __('app.gorocket.co') }}</span></a>
                             </div>
                         </div>
 
@@ -60,7 +69,8 @@
                             <div class="slide-image">
                                 <div class="image-wrap">
                                     <div class="image">
-                                        <img class="img-fluid" src="{{ asset('images/portfolio/gorocket.png') }}" alt="">
+                                        <img class="img-fluid" src="{{ asset('images/portfolio/gorocket.png') }}"
+                                            alt="">
                                     </div>
                                 </div>
                             </div>
@@ -73,7 +83,9 @@
                             <div class="service-project-slide-info">
                                 <h4 class="heading font-weight--reguler mb-10">Aqua Technology Case Studies</h4>
                                 <p class="sub-text text-color-primary">Cyber Security</p>
-                                <div class="text">ARM Holdings is the world's leading semiconductor Intellectual Property (IP) supplier. A semiconductor is the electronic controller at the heart of many devices that we use every day.</div>
+                                <div class="text">ARM Holdings is the world's leading semiconductor Intellectual
+                                    Property (IP) supplier. A semiconductor is the electronic controller at the heart of
+                                    many devices that we use every day.</div>
                             </div>
                         </div>
 
@@ -81,7 +93,9 @@
                             <div class="slide-image">
                                 <div class="image-wrap">
                                     <div class="image">
-                                        <img class="img-fluid" src="assets/images/features/home-services-case-study-slide-image-02.png" alt="">
+                                        <img class="img-fluid"
+                                            src="{{ asset('images/features/home-services-case-study-slide-image-02.png') }}"
+                                            alt="">
                                     </div>
                                 </div>
                             </div>
@@ -116,11 +130,14 @@
                             <div class="ht-box-images style-01">
                                 <div class="image-box-wrap">
                                     <div class="box-image">
-                                        <img class="img-fulid" src="assets/images/icons/mitech-box-image-style-01-image-01-100x108.png" alt="">
+                                        <img class="img-fulid"
+                                            src="{{ asset('images/icons/mitech-box-image-style-01-image-01-100x108.png') }}"
+                                            alt="">
                                     </div>
                                     <div class="content">
                                         <h5 class="heading">Consultation </h5>
-                                        <div class="text">We provide the most responsive and functional IT design for companies and businesses worldwide.
+                                        <div class="text">We provide the most responsive and functional IT design for
+                                            companies and businesses worldwide.
                                         </div>
 
                                     </div>
@@ -134,11 +151,14 @@
                             <div class="ht-box-images style-01">
                                 <div class="image-box-wrap">
                                     <div class="box-image">
-                                        <img class="img-fulid" src="assets/images/icons/mitech-box-image-style-01-image-02-100x108.png" alt="">
+                                        <img class="img-fulid"
+                                            src="{{ asset('images/icons/mitech-box-image-style-01-image-02-100x108.png') }}"
+                                            alt="">
                                     </div>
                                     <div class="content">
                                         <h5 class="heading">Lean design and development</h5>
-                                        <div class="text">It’s possible to simultaneously manage and transform information from one server to another.
+                                        <div class="text">It’s possible to simultaneously manage and transform
+                                            information from one server to another.
                                         </div>
 
                                     </div>
@@ -151,11 +171,14 @@
                             <div class="ht-box-images style-01">
                                 <div class="image-box-wrap">
                                     <div class="box-image">
-                                        <img class="img-fulid" src="assets/images/icons/mitech-box-image-style-01-image-06-100x108.png" alt="">
+                                        <img class="img-fulid"
+                                            src="{{ asset('images/icons/mitech-box-image-style-01-image-06-100x108.png') }}"
+                                            alt="">
                                     </div>
                                     <div class="content">
                                         <h5 class="heading">Modular design</h5>
-                                        <div class="text">Enhancing the strength and security of firewalls to protect online data from malicious sources.
+                                        <div class="text">Enhancing the strength and security of firewalls to protect
+                                            online data from malicious sources.
                                         </div>
 
                                     </div>
@@ -169,11 +192,14 @@
                             <div class="ht-box-images style-01">
                                 <div class="image-box-wrap">
                                     <div class="box-image">
-                                        <img class="img-fulid" src="assets/images/icons/mitech-box-image-style-01-image-03-100x108.png" alt="">
+                                        <img class="img-fulid"
+                                            src="{{ asset('images/icons/mitech-box-image-style-01-image-03-100x108.png') }}"
+                                            alt="">
                                     </div>
                                     <div class="content">
                                         <h5 class="heading">Simple solution</h5>
-                                        <div class="text">Back up your database, store in a safe and secure place while still maintaining its accessibility.
+                                        <div class="text">Back up your database, store in a safe and secure place while
+                                            still maintaining its accessibility.
                                         </div>
 
                                     </div>
@@ -187,11 +213,14 @@
                             <div class="ht-box-images style-01">
                                 <div class="image-box-wrap">
                                     <div class="box-image">
-                                        <img class="img-fulid" src="assets/images/icons/mitech-box-image-style-01-image-04-100x108.png" alt="">
+                                        <img class="img-fulid"
+                                            src="{{ asset('images/icons/mitech-box-image-style-01-image-04-100x108.png') }}"
+                                            alt="">
                                     </div>
                                     <div class="content">
                                         <h5 class="heading">Testing and deployment</h5>
-                                        <div class="text">We propose feasible & practical plans for successfully transform businesses based on their needs.
+                                        <div class="text">We propose feasible & practical plans for successfully
+                                            transform businesses based on their needs.
                                         </div>
 
                                     </div>
@@ -205,11 +234,14 @@
                             <div class="ht-box-images style-01">
                                 <div class="image-box-wrap">
                                     <div class="box-image">
-                                        <img class="img-fulid" src="assets/images/icons/mitech-box-image-style-01-image-05-100x108.png" alt="">
+                                        <img class="img-fulid"
+                                            src="{{ asset('images/icons/mitech-box-image-style-01-image-05-100x108.png') }}"
+                                            alt="">
                                     </div>
                                     <div class="content">
                                         <h5 class="heading">Production and scaling</h5>
-                                        <div class="text">Mitech takes into account all conditions and budgets needed for building infrastructure plan.
+                                        <div class="text">Mitech takes into account all conditions and budgets needed
+                                            for building infrastructure plan.
                                         </div>
 
                                     </div>
