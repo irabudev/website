@@ -9,7 +9,6 @@
 
 @include('pages.home.service')
 
-@include('pages.home.wedo')
 
 @include('pages.home.clients')
 

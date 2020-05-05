@@ -18,26 +18,30 @@
                     </ul>
                 </div>
                 <div class="col-lg-2 col-md-4 col-sm-6 footer-widget">
-                    <h6 class="footer-widget__title mb-20">IT Services</h6>
+                    <h6 class="footer-widget__title mb-20">What we do</h6>
                     <ul class="footer-widget__list">
-                        <li><a href="careers.html#" class="hover-style-link">Managed IT</a></li>
-                        <li><a href="careers.html#" class="hover-style-link">IT Support</a></li>
+                        <li><a href="#" class="hover-style-link">Consultation</a></li>
+                        <li><a href="#" class="hover-style-link">Design</a></li>
+                        <li><a href="#" class="hover-style-link">Development</a></li>
+                        <li><a href="#" class="hover-style-link">Testing</a></li>
 
                     </ul>
                 </div>
                 <div class="col-lg-2 col-md-4 col-sm-6 footer-widget">
-                    <h6 class="footer-widget__title mb-20">Quick links</h6>
+                    <h6 class="footer-widget__title mb-20">Anza</h6>
                     <ul class="footer-widget__list">
-                        <li><a href="careers.html#" class="hover-style-link">Pick up locations</a></li>
-                        <li><a href="careers.html#" class="hover-style-link">Terms of Payment</a></li>
+                        <li><a href="#" class="hover-style-link">Careers</a></li>
+                        <li><a href="#" class="hover-style-link">Internship</a></li>
+                        <li><a href="#" class="hover-style-link">Open source</a></li>
 
                     </ul>
                 </div>
                 <div class="col-lg-2 col-md-4 col-sm-6 footer-widget">
-                    <h6 class="footer-widget__title mb-20">Support</h6>
+                    <h6 class="footer-widget__title mb-20">Legal</h6>
                     <ul class="footer-widget__list">
-                        <li><a href="careers.html#" class="hover-style-link">Forum Support</a></li>
-                        <li><a href="careers.html#" class="hover-style-link">Help & FAQ</a></li>
+                        <li><a href="#" class="hover-style-link">Disclaimer</a></li>
+                        <li><a href="#" class="hover-style-link">Privacy</a></li>
+                        <li><a href="#" class="hover-style-link">Terms and Condition</a></li>
 
                     </ul>
                 </div>
@@ -49,8 +53,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-6 text-center text-md-left">
-                    <span class="copyright-text">Disclaimer</span>
-                    <span class="copyright-text">Privacy</span>
+                    <span class="copyright-text">Built with love by irabu team &copy; </span>
                 </div>
                 <div class="col-md-6 text-center text-md-right">
                     <ul class="list ht-social-networks solid-rounded-icon">

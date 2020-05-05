@@ -28,3 +28,8 @@ Route::get('/process', function () {
 Route::get('/our-stack', function () {
     return view('pages.stack.index');
 })->name('stack');
+
+
+Route::get('/legal', function () {
+    return view('pages.legal.index');
+})->name('legal');

@@ -5,7 +5,7 @@ us as a team',
 ])
 
 @section('content')
-<div class="about-banner-wrap banner-space about-us-bg">
+<div class="about-banner-wrap banner-space our-process-bg">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -34,7 +34,7 @@ us as a team',
                 <div class="gradation-title-wrapper section-space--mb_60">
                     <div class="gradation-title-wrap ">
                         <h6 class="section-sub-title text-black mb-20">How we work</h6>
-                        <h4 class="heading">How it helps <span class="text-color-primary">your <br> business
+                        <h4 class="heading">How we helps <span class="text-color-primary">your <br> business
                                 succeed</span></h4>
                     </div>
 

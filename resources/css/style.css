@@ -1,4 +1,5 @@
-
+@charset 'UTF-8';
+@import "../css/components/bullets.css";
 /*============================
     CSS Index
 ==============================
@@ -13235,11 +13236,26 @@ only screen and (max-width: 767px) {
   =      40. About Us pages Css           =
   =======================================*/
 .about-us-bg {
-    background-image: url(../images/bg/contact-us-01-hero-bg.jpg);
+    background-image: url(../images/coffee.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
+
+.our-stack-bg {
+    background-image: url(../images/code.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.our-process-bg {
+    background-image: url(../images/spider.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 
 .banner-space {
     padding-top: 195px;
@@ -13996,9 +14012,9 @@ only screen and (max-width: 767px) {
 }
 
 .preview-hero-bg {
-    background: url(../images/backgrounds/dar.jpg);
+    background: url(../images/dar.jpg);
     background-size: cover;
-    background-position: 50% 50%;
+    /* background-position: 50% 50%; */
     background-color: transparent;
     background-repeat: no-repeat;
 }
