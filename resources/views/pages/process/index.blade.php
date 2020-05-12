@@ -99,9 +99,6 @@ us as a team',
                                 This step is all about evolving the concept
                                 Focus on the main objective of the piece and avoid getting hung up on all the little
                                 details
-
-                                {{-- A lot has been done before.
-                We really need to look at other examples, opinions &amp; competitors to understand what makes them great. --}}
                             </div>
                         </div>
                     </div>

@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="section-title-wrapper text-center section-space--mb_60 wow move-up">
-                <h6 class="section-sub-title mb-20">{{__('Our clients')}}</h6>
+                    <h6 class="section-sub-title mb-20">{{__('Our clients')}}</h6>
                     <!-- <h3 class="section-title">Clients we have worked with<span class="text-color-primary"> 38 years</span> </h3> -->
                 </div>
             </div>
@@ -11,34 +11,23 @@
 
         <div class="row">
             <div class="col-lg-12 ht-tab-wrap">
-
-
                 <div class="tab-content ht-tab__content">
-
                     <div class="tab-pane  fade show active" id="tab_list_08" role="tabpanel">
                         <div class="tab-history-wrap section-space--mt_60 brand-logo-slider__one">
                             <div class="modern-grid--6">
                                 <div class="brand-logo brand-logo--slider">
-                                    <a href="#">
+                                    <a href="https://aashiqshariff.com/" target="_blank">
                                         <div class="brand-logo__image">
-                                            <img src="{{ asset('/images/clients/78-red.jpg')}}" class="img-fluid width-160"
-                                                alt="The house of 78">
-                                        </div>
-                                        <div class="brand-logo__image-hover">
-                                            <img src="{{ asset('/images/clients/78-grey.jpg')}}"
-                                                class="img-fluid" alt="">
+                                            <img src="{{ asset('/images/clients/cpj.png')}}" class="img-fluid width-160"
+                                                alt="The Corporate Junkie">
                                         </div>
                                     </a>
                                 </div>
                                 <div class="brand-logo brand-logo--slider">
-                                    <a href="#">
+                                    <a href="http://www.ten.co.tz/" target="_blank">
                                         <div class="brand-logo__image">
-                                            <img src="{{ asset('/images/clients/cj-alt2.jpg')}}" class="img-fluid width-160"
-                                                alt="">
-                                        </div>
-                                        <div class="brand-logo__image-hover">
-                                            <img src="{{ asset('/images/clients/cj.jpg')}}"
-                                                class="img-fluid" alt="">
+                                            <img src="{{ asset('/images/clients/10.png')}}" class="img-fluid width-160"
+                                                alt="Ten Africa | School of Tech">
                                         </div>
                                     </a>
                                 </div>
@@ -46,134 +35,93 @@
                                 <div class="brand-logo brand-logo--slider">
                                     <a href="#">
                                         <div class="brand-logo__image">
-                                            <img src="{{ asset('/images/clients/nukta.jpeg')}}" class="img-fluid width-160"
-                                                alt="">
-                                        </div>
-                                        <div class="brand-logo__image-hover">
-                                            <img src="{{ asset('/images/clients/nukta.jpeg')}}"
-                                                class="img-fluid" alt="">
+                                            <img src="{{ asset('/images/clients/78inc.png')}}"
+                                                class="img-fluid width-160" alt="The House of 78inc">
                                         </div>
                                     </a>
                                 </div>
 
                                 <div class="brand-logo brand-logo--slider">
-                                    <a href="#">
+                                    <a href="https://jiranileo.com/" target="_blank">
                                         <div class="brand-logo__image">
-                                            <img src="{{ asset('/images/clients/demichtoph.jpg')}}" class="img-fluid width-160"
-                                                alt="">
-                                        </div>
-                                        <div class="brand-logo__image-hover">
-                                            <img src="{{ asset('/images/clients/demichtoph.jpg')}}"
-                                                class="img-fluid" alt="">
+                                            <img src="{{ asset('/images/clients/jiranileo.png')}}"
+                                                class="img-fluid width-160" alt="Jiranleo">
                                         </div>
                                     </a>
                                 </div>
 
                                 <div class="brand-logo brand-logo--slider">
-                                    <a href="#">
+                                    <a href="http://stallionattorneys.com/" target="_blank">
                                         <div class="brand-logo__image">
-                                            <img src="{{ asset('/images/clients/terrific.jpg')}}" class="img-fluid width-160"
-                                                alt="">
-                                        </div>
-                                        <div class="brand-logo__image-hover">
-                                            <img src="{{ asset('/images/clients/terrific.jpg')}}"
-                                                class="img-fluid" alt="">
+                                            <img src="{{ asset('/images/clients/stallion.png')}}"
+                                                class="img-fluid width-160" alt="Stallion Attorneys">
                                         </div>
                                     </a>
                                 </div>
 
                                 <div class="brand-logo brand-logo--slider">
-                                    <a href="#">
+                                    <a href="https://exlprivatebank.com/" target="_blank">
                                         <div class="brand-logo__image">
-                                            <img src="{{ asset('/images/clients/reliance.jpeg')}}" class="img-fluid width-160"
-                                                alt="">
-                                        </div>
-                                        <div class="brand-logo__image-hover">
-                                            <img src="{{ asset('/images/clients/reliance.jpeg')}}"
-                                                class="img-fluid" alt="">
+                                            <img src="{{ asset('/images/clients/exl.png')}}" class="img-fluid width-160"
+                                                alt="EXL Private Bank">
                                         </div>
                                     </a>
                                 </div>
 
                                 <div class="brand-logo brand-logo--slider">
-                                    <a href="#">
+                                    <a href="http://www.nuktaafrica.co.tz/" target="_blank">
                                         <div class="brand-logo__image">
-                                            <img src="{{ asset('/images/clients/jiranileo.jpg')}}" class="img-fluid width-160"
-                                                alt="">
-                                        </div>
-                                        <div class="brand-logo__image-hover">
-                                            <img src="{{ asset('/images/clients/jiranileo.jpg')}}"
-                                                class="img-fluid" alt="">
+                                            <img src="{{ asset('/images/clients/nukta.png')}}"
+                                                class="img-fluid width-160" alt="Nukta Africa">
                                         </div>
                                     </a>
                                 </div>
 
                                 <div class="brand-logo brand-logo--slider">
-                                    <a href="#">
+                                    <a href="http://phd.co.tz/" target="_blank">
                                         <div class="brand-logo__image">
-                                            <img src="{{ asset('/images/clients/exl.jpg')}}" class="img-fluid width-160"
-                                                alt="">
-                                        </div>
-                                        <div class="brand-logo__image-hover">
-                                            <img src="{{ asset('/images/clients/exl.jpg')}}"
-                                                class="img-fluid" alt="">
+                                            <img src="{{ asset('/images/clients/phd.png')}}" class="img-fluid width-160"
+                                                alt="Praxis for Health and Development">
                                         </div>
                                     </a>
                                 </div>
 
                                 <div class="brand-logo brand-logo--slider">
-                                    <a href="#">
+                                    <a href="https://gepc.or.tz/" target="_blank">
                                         <div class="brand-logo__image">
-                                            <img src="{{ asset('/images/clients/gep.jpg')}}" class="img-fluid width-160"
-                                                alt="">
-                                        </div>
-                                        <div class="brand-logo__image-hover">
-                                            <img src="{{ asset('/images/clients/gep.jpg')}}"
-                                                class="img-fluid" alt="">
+                                            <img src="{{ asset('/images/clients/gepc.png')}}"
+                                                class="img-fluid width-160" alt="">
                                         </div>
                                     </a>
                                 </div>
 
                                 <div class="brand-logo brand-logo--slider">
-                                    <a href="#">
+                                    <a href="http://mowara.com/" target="_blank">
                                         <div class="brand-logo__image">
-                                            <img src="{{ asset('/images/clients/mowara.jpg')}}" class="img-fluid width-160"
-                                                alt="">
-                                        </div>
-                                        <div class="brand-logo__image-hover">
-                                            <img src="{{ asset('/images/clients/mowara.jpg')}}"
-                                                class="img-fluid" alt="">
+                                            <img src="{{ asset('/images/clients/mowara.png')}}"
+                                                class="img-fluid width-160" alt="Mowara Limited">
                                         </div>
                                     </a>
                                 </div>
 
 
                                 <div class="brand-logo brand-logo--slider">
-                                    <a href="#">
+                                    <a href="https://terrifictech.co.zw/" target="_blank">
                                         <div class="brand-logo__image">
-                                            <img src="{{ asset('/images/clients/stallion.jpg')}}" class="img-fluid width-160"
-                                                alt="">
-                                        </div>
-                                        <div class="brand-logo__image-hover">
-                                            <img src="{{ asset('/images/clients/stallion.jpg')}}"
-                                                class="img-fluid" alt="">
+                                            <img src="{{ asset('/images/clients/tt.png')}}" class="img-fluid width-160"
+                                                alt="Terrific Tech">
                                         </div>
                                     </a>
                                 </div>
 
                                 <div class="brand-logo brand-logo--slider">
-                                    <a href="#">
+                                    <a href="https://tcsaa.or.tz/" target="_blank">
                                         <div class="brand-logo__image">
-                                            <img src="{{ asset('/images/clients/tcsaa-alt.png')}}" class="img-fluid width-160"
-                                                alt="">
-                                        </div>
-                                        <div class="brand-logo__image-hover">
-                                            <img src="{{ asset('/images/clients/tcsaa-alt.png')}}"
-                                                class="img-fluid" alt="">
+                                            <img src="{{ asset('/images/clients/tcsaa.png')}}"
+                                                class="img-fluid width-160" alt="">
                                         </div>
                                     </a>
                                 </div>
-
                             </div>
                         </div>
                     </div>
