@@ -3,33 +3,23 @@ const Swiper = require('./plugins/swiper.min');
 const WOW = require('./plugins/wow.min');
 // require('./main');
 
-(function ($) {
-    "use strict";
-    var windows = $(window);
+$(document).ready(function() {
 
-     /*===============================
-    =         Wow Active            =
-    ================================*/
-    //
-    window.wow = new WOW.WOW({
-        live: false
-    });
-
-    window.wow.init();
-        /*=========================================
-    =            Preloader active            =
-    ===========================================*/
-    windows.on('load', function(){
         $(".preloader-activate").removeClass('preloader-active');
-    });
+        $(".open_tm_preloader").addClass('loaded');
 
 
-    jQuery(window).on('load', function(){
-		setTimeout(function(){
-        jQuery('.open_tm_preloader').addClass('loaded');
-        }, 1000);
-	});
 
+    // wow = new WOW.WOW(
+    //     {
+    //     boxClass:     'wow',      // default
+    //     animateClass: 'animated', // default
+    //     offset:       0,          // default
+    //     mobile:       true,       // default
+    //     live:         true        // default
+    //   }
+    //   )
+    //   wow.init();
 
     /*==========================================
     =            mobile menu active            =
@@ -88,8 +78,39 @@ const WOW = require('./plugins/wow.min');
             }
         }
     });
+});
 
-})(jQuery);
+
+// (function ($) {
+
+//     var windows = $(window);
+
+//      /*===============================
+//     =         Wow Active            =
+//     ================================*/
+//     //
+//     window.wow = new WOW.WOW({
+//         live: false
+//     });
+
+//     window.wow.init();
+//         /*=========================================
+//     =            Preloader active            =
+//     ===========================================*/
+//     windows.on('load', function(){
+//         $(".preloader-activate").removeClass('preloader-active');
+//     });
+
+
+//     jQuery(window).on('load', function(){
+// 		setTimeout(function(){
+//         jQuery('.open_tm_preloader').addClass('loaded');
+//         }, 1000);
+// 	});
+
+
+
+// })(jQuery);
 
 
 window.Vue = require('vue');

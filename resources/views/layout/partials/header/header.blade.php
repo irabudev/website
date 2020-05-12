@@ -23,28 +23,20 @@
                                         <div class="header__navigation d-none d-xl-block">
                                             <nav class="navigation-menu primary--menu">
                                                 <ul>
-                                                    <li
-                                                        class="{{ (request()->is(app()->getLocale())) ? 'active' : '' }}">
-                                                        <a
-                                                            href="{{ route('home',app()->getLocale()) }}"><span>{{ __('Home') }}</span></a>
+                                                    <li class="{{ (request()->is(app()->getLocale())) ? 'active' : '' }}">
+                                                        <a href="{{ route('home',app()->getLocale()) }}"><span>{{ __('Home') }}</span></a>
 
                                                     </li>
-                                                    <li
-                                                        class="{{ (request()->is(app()->getLocale().'/process*')) ? 'active' : '' }}">
-                                                        <a
-                                                            href="{{ route('process', app()->getLocale()) }}"><span>{{ __('Our Process') }}</span></a>
+                                                    <li class="{{ (request()->is(app()->getLocale().'/process*')) ? 'active' : '' }}">
+                                                        <a href="{{ route('process', app()->getLocale()) }}"><span>{{ __('Our Process') }}</span></a>
 
                                                     </li>
-                                                    <li
-                                                        class="{{ (request()->is(app()->getLocale().'/our-stack*')) ? 'active' : '' }}">
-                                                        <a
-                                                            href="{{ route('stack', app()->getLocale()) }}"><span>{{ __('Our Stack') }}</span></a>
+                                                    <li class="{{ (request()->is(app()->getLocale().'/our-stack*')) ? 'active' : '' }}">
+                                                        <a href="{{ route('stack', app()->getLocale()) }}"><span>{{ __('Our Stack') }}</span></a>
 
                                                     </li>
-                                                    <li
-                                                        class="{{ (request()->is(app()->getLocale().'/about*')) ? 'active' : '' }}">
-                                                        <a
-                                                            href="{{ route('about', app()->getLocale()) }}"><span>{{ __('About Us') }}</span></a>
+                                                    <li class="{{ (request()->is(app()->getLocale().'/about*')) ? 'active' : '' }}">
+                                                        <a href="{{ route('about', app()->getLocale()) }}"><span>{{ __('About Us') }}</span></a>
 
                                                     </li>
                                                 </ul>
@@ -72,24 +64,17 @@
                                             <ul class="ls-sub-menu">
                                                 <li class="">
                                                     <a href="l#" class="">
-                                                        <img class="ls-flag"
-                                                            src="{{ asset('images/flags/tanzania.svg')}}" alt="en"
-                                                            title="Kiswahili"><span
-                                                            class="wpml-ls-native">Kiswahili</span>
+                                                        <img class="ls-flag" src="{{ asset('images/flags/tanzania.svg')}}" alt="en" title="Kiswahili"><span class="wpml-ls-native">Kiswahili</span>
                                                     </a>
                                                 </li>
                                                 <li class="">
                                                     <a href="#" class="">
-                                                        <img class="wpml-ls-flag" src="{{asset('images/flags/en.png')}}"
-                                                            alt="de" title="English"><span
-                                                            class="wpml-ls-native">English</span>
+                                                        <img class="wpml-ls-flag" src="{{asset('images/flags/en.png')}}" alt="de" title="English"><span class="wpml-ls-native">English</span>
                                                     </a>
                                                 </li>
 
                                             </ul> --}}
-                                            <language-switcher locale="{{ app()->getLocale() }}"
-                                                link-en="{{ route(Route::currentRouteName(), 'en') }}"
-                                                link-sw="{{ route(Route::currentRouteName(), 'sw') }}">
+                                            <language-switcher locale="{{ app()->getLocale() }}" link-en="{{ route(Route::currentRouteName(), 'en') }}" link-sw="{{ route(Route::currentRouteName(), 'sw') }}">
                                             </language-switcher>
                                         </li>
                                     </ul>
