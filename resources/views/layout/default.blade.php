@@ -15,17 +15,19 @@
 </head>
 
 <body>
-    @include('layout.partials.loader')
-    @include('layout.partials.header')
+    <div id="app">
+        @include('layout.partials.loader')
+        @include('layout.partials.header')
 
-    <main>
-        <div class="site-wrapper-reveal">
-            @yield('content')
-        </div>
-    </main>
+        <main>
+            <div class="site-wrapper-reveal">
+                @yield('content')
+            </div>
+        </main>
 
-    @include('layout.partials.footer')
-    @include('layout.partials.mobileheader')
+        @include('layout.partials.footer')
+        @include('layout.partials.mobileheader')
+    </div>
 </body>
 
 </html>
