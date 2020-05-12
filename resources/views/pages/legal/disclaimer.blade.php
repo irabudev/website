@@ -1,5 +1,4 @@
 @extends('layout.default', [
-    // 'background' => '/backgrounds/time.jpg',
     'title' => 'Disclaimer',
     'description' => 'Our disclaimer. Yes, we have one too.',
 ])
@@ -12,7 +11,7 @@
                 Disclaimer
             </h1>
             <p class="mt-4 | print:hidden">
-                <span class="icon mr-2 opacity-50 fill-blue">{{ svg('icons/far-angle-left') }}</span> <a href="{{ route('legal.index')}}" class="link-underline link-blue">Legal overview</a>
+                <span class="icon mr-2 opacity-50 fill-blue">{{ svg('icons/far-angle-left') }}</span> <a href="{{ route('legal', app()->getLocale())}}" class="link-underline link-blue">Legal overview</a>
             </p>
         </div>
     </section>

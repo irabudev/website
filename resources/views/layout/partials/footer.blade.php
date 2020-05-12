@@ -39,9 +39,12 @@
                 <div class="col-lg-2 col-md-4 col-sm-6 footer-widget">
                     <h6 class="footer-widget__title mb-20">Legal</h6>
                     <ul class="footer-widget__list">
-                        <li><a href="#" class="hover-style-link">Disclaimer</a></li>
-                        <li><a href="#" class="hover-style-link">Privacy</a></li>
-                        <li><a href="#" class="hover-style-link">Terms and Condition</a></li>
+                        <li><a href="{{ route('legal.disclaimer', app()->getLocale())}}"
+                                class="hover-style-link">Disclaimer</a></li>
+                        <li><a href="{{ route('legal.privacy', app()->getLocale())}}"
+                                class="hover-style-link">Privacy</a></li>
+                        <li><a href="{{ route('legal.conditions', app()->getLocale())}}" class="hover-style-link">Terms
+                                and Condition</a></li>
 
                     </ul>
                 </div>
