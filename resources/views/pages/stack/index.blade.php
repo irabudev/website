@@ -13,13 +13,13 @@ learn how to support us.',
                 <div class="section-title-wrap text-center section-space--mb_60">
 
                     <h1 class="heading  text-white">
-                    Code is for humans
-not machine
+                        Code is for humans
+                        not machine
                     </h1>
                     <h5 class="font-weight--normal text-white">
-                    Let it be tooling, frontend, backend, devops.
+                        Let it be tooling, frontend, backend, devops.
 
-We try to follow almost all best practice
+                        We try to follow almost all best practice
                     </h5>
                 </div>
                 <!-- section-title-wrap Start -->
@@ -27,8 +27,11 @@ We try to follow almost all best practice
         </div>
     </div>
 </div>
+
+@include('pages.stack.partials.icons')
+
 @include('pages.stack.partials.stack')
 
-@include('layout.partials.contact_alt')
+@include('pages.stack.partials.hire')
 
 @endsection
