@@ -127,8 +127,6 @@ us as a team',
                             <div class="text">
                                 Now we can start to develop all of this into high fidelity designs and begin iterate on
                                 our ideas
-                                {{-- What will be your unique voice? Let's focus on your content and core functionality first, and start from there. --}}
-
                             </div>
 
                         </div>
@@ -152,18 +150,13 @@ us as a team',
 
                             <h6 class="heading">04. {{__('DEVELOP (Iterate, iterate & iterate)')}} 🏗️</h6>
 
-                            <div class="text"> Continue refining designs, story and assets. By the end of this step we
+                            <div class="text">
+                                Continue refining designs, story and assets. By the end of this step we
                                 should be <b>95.998328%</b> done with the project
-                                {{-- We'd have to agree on what to build exactly.
-                We blueprint every screen and propose our technical solution.
-                Your feedback only makes these better. --}}</div>
-
-
+                            </div>
                         </div>
                     </div>
                     <!-- Single item gradation End -->
-
-
                 </div>
             </div>
         </div>
@@ -171,37 +164,6 @@ us as a team',
         <div class="row">
             <div class="col-lg-12">
                 <div class="ht-gradation style-01">
-                    <!-- Single item gradation Start -->
-                    <div class="item item-1 animate  wow fadeInRight" data-wow-delay="0.1s">
-                        <div class="line"></div>
-                        <div class="circle-wrap">
-                            <div class="mask">
-                                <div class="wave-pulse wave-pulse-1"></div>
-                                <div class="wave-pulse wave-pulse-2"></div>
-                                <div class="wave-pulse wave-pulse-3"></div>
-                            </div>
-
-                            <h6 class="circle">1</h6>
-                        </div>
-
-                        <div class="content-wrap">
-
-                            <h6 class="heading">01. {{__('Discussion')}}</h6>
-
-                            <div class="text">
-                                We meet customers in set place to discuss the details about needs and
-                                demands before proposing a plan.
-                            </div>
-
-                            <a class="gradation-btn" href="index-services.html#">
-                                <span class="button-text" data-text="Look more">
-                                    {{__('Look more')}} </span>
-                                <span class="button-icon far fa-long-arrow-right"></span>
-                            </a>
-                        </div>
-                    </div>
-                    <!-- Single item gradation End -->
-
                     <!-- Single item gradation Start -->
                     <div class="item item-1 animate  wow fadeInRight" data-wow-delay="0.15s">
                         <div class="line"></div>
@@ -212,12 +174,12 @@ us as a team',
                                 <div class="wave-pulse wave-pulse-3"></div>
                             </div>
 
-                            <h6 class="circle">2</h6>
+                            <h6 class="circle">5</h6>
                         </div>
 
                         <div class="content-wrap">
 
-                            <h6 class="heading">02. {{__('Concepts &amp; Initatives')}}</h6>
+                            <h6 class="heading">05. {{__('Concepts &amp; Initatives')}}</h6>
 
                             <div class="text">
                                 Our experts come up with all kinds of ideas and initiatives for delivering
@@ -244,12 +206,12 @@ us as a team',
                                 <div class="wave-pulse wave-pulse-3"></div>
                             </div>
 
-                            <h6 class="circle">3</h6>
+                            <h6 class="circle">6</h6>
                         </div>
 
                         <div class="content-wrap">
 
-                            <h6 class="heading">03. {{__('Testing &amp; Trying')}}</h6>
+                            <h6 class="heading">06. {{__('Testing & Trying')}}</h6>
 
                             <div class="text">
                                 After agreeing on the ideas and plans, we will conduct as scheduled and
@@ -275,12 +237,12 @@ us as a team',
                                 <div class="wave-pulse wave-pulse-3"></div>
                             </div>
 
-                            <h6 class="circle">4</h6>
+                            <h6 class="circle">7</h6>
                         </div>
 
                         <div class="content-wrap">
 
-                            <h6 class="heading">04. {{__('Execute &amp; install')}}</h6>
+                            <h6 class="heading">07. {{__('Execute & install')}}</h6>
 
                             <div class="text">Once the final plan is approved, everything will be conducted according to
                                 the agreed contract.</div>
