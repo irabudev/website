@@ -18,12 +18,16 @@ Fork the project, make your changes there and merge new features when needed.
 Alternatively:
 
 ```sh
-git clone https://github.com/irabuhq/irabu irabu # Clone the project
+git clone https://github.com/irabudev/irabu # Clone the project
 cd irabu
 composer install # install packages | first-time only
 cp .env-example .env # copy environment variables | first-time only
 php artisan key:generate # generate app-key | first-time only
 php artisan serve # Start development server
+
+# For frontend stack run | Developement
+yarn install  
+yarn dev or watch
 ```
 
 ## Author
