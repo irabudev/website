@@ -1,5 +1,5 @@
-<div class="layouts-section-wrap section-space--pt_100 section-space--pb_60">
-    <div class="container-fluid">
+<section class="layouts-section-wrap">
+    <div class="">
         <div class="row align-items-center">
             <div class="col-lg-6">
                 <div class="layouts-images text-right">
@@ -36,4 +36,4 @@ Anything that helps us to start straightforward!'
             </div>
         </div>
     </div>
-</div>
+</section>
