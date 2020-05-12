@@ -7,7 +7,7 @@ const Swiper = require('./plugins/swiper.min');
     ================================*/
     //
     // new WOW().init();
-    window.wow.init();
+
 
     /*=============================================
     =       Menu sticky & Scroll to top          =

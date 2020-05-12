@@ -1,10 +1,21 @@
 require('./bootstrap');
 const Swiper = require('./plugins/swiper.min');
+const WOW = require('./plugins/wow.min');
 // require('./main');
 
 (function ($) {
     "use strict";
     var windows = $(window);
+
+     /*===============================
+    =         Wow Active            =
+    ================================*/
+    //
+    window.wow = new WOW.WOW({
+        live: false
+    });
+
+    window.wow.init();
         /*=========================================
     =            Preloader active            =
     ===========================================*/

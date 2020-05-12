@@ -33,3 +33,9 @@ Route::get('/our-stack', function () {
 Route::get('/legal', function () {
     return view('pages.legal.index');
 })->name('legal');
+
+
+Route::view('privacy', 'pages.legal.privacy')->name('legal.privacy');
+Route::view('disclaimer', 'pages.legal.disclaimer')->name('legal.disclaimer');
+Route::view('general-conditions', 'pages.legal.generalConditions')->name('legal.conditions');
+Route::view('gdpr', 'pages.legal.gdpr')->name('legal.gdpr');

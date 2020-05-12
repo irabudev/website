@@ -1,5 +1,5 @@
     <!--====================  Conact us Section Start ====================-->
-    <div class="contact-us-section-wrappaer processing-contact-us-bg section-space--ptb_120">
+    <div class="contact-us-section-wrappaer contact-us-bg section-space--ptb_120">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 col-lg-6">
