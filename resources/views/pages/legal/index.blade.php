@@ -37,7 +37,7 @@
                         </div>
                         <ul class="">
                             <li class="list-item">
-                                <a href="{{ route('legal.conditions')}}">General conditions</a>
+                                <a href="{{ route('legal.conditions',app()->getLocale())}}">General conditions</a>
                             </li>
                         </ul>
                     </div>
@@ -52,10 +52,10 @@
                         </div>
                         <ul class="">
                             <li class="list-item">
-                                <a href="{{ route('legal.disclaimer')}}">Disclaimer</a>
+                                <a href="{{ route('legal.disclaimer', app()->getLocale())}}">Disclaimer</a>
                             </li>
                             <li class="list-item">
-                                <a href="{{ route('legal.privacy')}}">Privacy policy</a>
+                                <a href="{{ route('legal.privacy', app()->getLocale())}}">Privacy policy</a>
                             </li>
 
                         </ul>

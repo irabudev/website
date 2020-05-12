@@ -40,6 +40,6 @@ Route::group(['prefix' => '{language}'], function () {
 
     Route::view('privacy', 'pages.legal.privacy')->name('legal.privacy');
     Route::view('disclaimer', 'pages.legal.disclaimer')->name('legal.disclaimer');
-    Route::view('general-conditions', 'pages.legal.generalConditions')->name('legal.conditions');
+    Route::view('general-conditions', 'pages.legal.terms')->name('legal.conditions');
     Route::view('gdpr', 'pages.legal.gdpr')->name('legal.gdpr');
 });
