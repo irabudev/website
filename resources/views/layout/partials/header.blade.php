@@ -23,22 +23,26 @@
                                         <div class="header__navigation d-none d-xl-block">
                                             <nav class="navigation-menu primary--menu">
                                                 <ul>
-                                                    <li>
+                                                    <li
+                                                        class="{{ (request()->is(app()->getLocale())) ? 'active' : '' }}">
                                                         <a
                                                             href="{{ route('home',app()->getLocale()) }}"><span>{{ __('Home') }}</span></a>
 
                                                     </li>
-                                                    <li>
+                                                    <li
+                                                        class="{{ (request()->is(app()->getLocale().'/process*')) ? 'active' : '' }}">
                                                         <a
                                                             href="{{ route('process', app()->getLocale()) }}"><span>{{ __('Our Process') }}</span></a>
 
                                                     </li>
-                                                    <li>
+                                                    <li
+                                                        class="{{ (request()->is(app()->getLocale().'/our-stack*')) ? 'active' : '' }}">
                                                         <a
                                                             href="{{ route('stack', app()->getLocale()) }}"><span>{{ __('Our Stack') }}</span></a>
 
                                                     </li>
-                                                    <li>
+                                                    <li
+                                                        class="{{ (request()->is(app()->getLocale().'/about*')) ? 'active' : '' }}">
                                                         <a
                                                             href="{{ route('about', app()->getLocale()) }}"><span>{{ __('About Us') }}</span></a>
 
