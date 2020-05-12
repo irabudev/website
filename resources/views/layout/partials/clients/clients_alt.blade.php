@@ -19,109 +19,156 @@
                         <div class="tab-history-wrap section-space--mt_60 brand-logo-slider__one">
                             <div class="modern-grid--6">
                                 <div class="brand-logo brand-logo--slider">
-                                    <a href="index-appointment.html#">
+                                    <a href="#">
                                         <div class="brand-logo__image">
-                                            <img src="{{ asset('/images/clients/1.png')}}" class="img-fluid width-160"
-                                                alt="">
+                                            <img src="{{ asset('/images/clients/78-red.jpg')}}" class="img-fluid width-160"
+                                                alt="The house of 78">
                                         </div>
                                         <div class="brand-logo__image-hover">
-                                            <img src="{{ asset('images/brand/mitech-client-logo-01-hover.png') }}"
+                                            <img src="{{ asset('/images/clients/78-grey.jpg')}}"
                                                 class="img-fluid" alt="">
                                         </div>
                                     </a>
                                 </div>
                                 <div class="brand-logo brand-logo--slider">
-                                    <a href="index-appointment.html#">
+                                    <a href="#">
                                         <div class="brand-logo__image">
-                                            <img src="{{ asset('/images/clients/2.png') }}" class="img-fluid width-160"
+                                            <img src="{{ asset('/images/clients/cj-alt2.jpg')}}" class="img-fluid width-160"
                                                 alt="">
                                         </div>
                                         <div class="brand-logo__image-hover">
-                                            <img src="{{ asset('images/brand/mitech-client-logo-02-hover.png') }}"
+                                            <img src="{{ asset('/images/clients/cj.jpg')}}"
                                                 class="img-fluid" alt="">
                                         </div>
                                     </a>
                                 </div>
+
                                 <div class="brand-logo brand-logo--slider">
-                                    <a href="index-appointment.html#">
+                                    <a href="#">
                                         <div class="brand-logo__image">
-                                            <img src="{{ asset('/images/clients/3.png')}}" class="img-fluid width-160"
+                                            <img src="{{ asset('/images/clients/nukta.jpeg')}}" class="img-fluid width-160"
                                                 alt="">
                                         </div>
                                         <div class="brand-logo__image-hover">
-                                            <img src="{{ asset('images/brand/mitech-client-logo-03-hover.png') }}"
+                                            <img src="{{ asset('/images/clients/nukta.jpeg')}}"
                                                 class="img-fluid" alt="">
                                         </div>
                                     </a>
                                 </div>
+
                                 <div class="brand-logo brand-logo--slider">
-                                    <a href="index-appointment.html#">
+                                    <a href="#">
                                         <div class="brand-logo__image">
-                                            <img src="{{ asset('/images/clients/4.png')}}" class="img-fluid width-160"
+                                            <img src="{{ asset('/images/clients/demichtoph.jpg')}}" class="img-fluid width-160"
                                                 alt="">
                                         </div>
                                         <div class="brand-logo__image-hover">
-                                            <img src="{{ asset('images/brand/mitech-client-logo-04-hover.png') }}"
+                                            <img src="{{ asset('/images/clients/demichtoph.jpg')}}"
                                                 class="img-fluid" alt="">
                                         </div>
                                     </a>
                                 </div>
+
                                 <div class="brand-logo brand-logo--slider">
-                                    <a href="index-appointment.html#">
+                                    <a href="#">
                                         <div class="brand-logo__image">
-                                            <img src="{{ asset('/images/clients/5.png')}}" class="img-fluid width-160"
+                                            <img src="{{ asset('/images/clients/terrific.jpg')}}" class="img-fluid width-160"
                                                 alt="">
                                         </div>
                                         <div class="brand-logo__image-hover">
-                                            <img src="{{ asset('images/brand/mitech-client-logo-05-hover.png') }}"
+                                            <img src="{{ asset('/images/clients/terrific.jpg')}}"
                                                 class="img-fluid" alt="">
                                         </div>
                                     </a>
                                 </div>
+
                                 <div class="brand-logo brand-logo--slider">
-                                    <a href="index-appointment.html#">
+                                    <a href="#">
                                         <div class="brand-logo__image">
-                                            <img src="{{ asset('/images/clients/6.png')}}" class="img-fluid width-160"
+                                            <img src="{{ asset('/images/clients/reliance.jpeg')}}" class="img-fluid width-160"
                                                 alt="">
                                         </div>
                                         <div class="brand-logo__image-hover">
-                                            <img src="{{ asset('images/brand/mitech-client-logo-06-hover.png') }}"
+                                            <img src="{{ asset('/images/clients/reliance.jpeg')}}"
                                                 class="img-fluid" alt="">
                                         </div>
                                     </a>
                                 </div>
+
                                 <div class="brand-logo brand-logo--slider">
-                                    <a href="index-appointment.html#">
+                                    <a href="#">
                                         <div class="brand-logo__image">
-                                            <img src="{{ asset('/images/clients/1.png')}}" class="img-fluid width-160"
+                                            <img src="{{ asset('/images/clients/jiranileo.jpg')}}" class="img-fluid width-160"
                                                 alt="">
                                         </div>
                                         <div class="brand-logo__image-hover">
-                                            <img src="{{ asset('images/brand/mitech-client-logo-07-hover.png') }}"
+                                            <img src="{{ asset('/images/clients/jiranileo.jpg')}}"
                                                 class="img-fluid" alt="">
                                         </div>
                                     </a>
                                 </div>
+
                                 <div class="brand-logo brand-logo--slider">
-                                    <a href="index-appointment.html#">
+                                    <a href="#">
                                         <div class="brand-logo__image">
-                                            <img src="{{ asset('/images/logo.svg') }}" class="img-fluid width-160"
+                                            <img src="{{ asset('/images/clients/exl.jpg')}}" class="img-fluid width-160"
                                                 alt="">
                                         </div>
                                         <div class="brand-logo__image-hover">
-                                            <img src="{{ asset('images/brand/mitech-client-logo-08-hover.png') }}"
+                                            <img src="{{ asset('/images/clients/exl.jpg')}}"
                                                 class="img-fluid" alt="">
                                         </div>
                                     </a>
                                 </div>
+
                                 <div class="brand-logo brand-logo--slider">
-                                    <a href="index-appointment.html#">
+                                    <a href="#">
                                         <div class="brand-logo__image">
-                                            <img src="{{ asset('/images/logo.svg') }}" class="img-fluid width-160"
+                                            <img src="{{ asset('/images/clients/gep.jpg')}}" class="img-fluid width-160"
                                                 alt="">
                                         </div>
                                         <div class="brand-logo__image-hover">
-                                            <img src="{{ asset('images/brand/mitech-client-logo-09-hover.png') }}"
+                                            <img src="{{ asset('/images/clients/gep.jpg')}}"
+                                                class="img-fluid" alt="">
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="brand-logo brand-logo--slider">
+                                    <a href="#">
+                                        <div class="brand-logo__image">
+                                            <img src="{{ asset('/images/clients/mowara.jpg')}}" class="img-fluid width-160"
+                                                alt="">
+                                        </div>
+                                        <div class="brand-logo__image-hover">
+                                            <img src="{{ asset('/images/clients/mowara.jpg')}}"
+                                                class="img-fluid" alt="">
+                                        </div>
+                                    </a>
+                                </div>
+
+
+                                <div class="brand-logo brand-logo--slider">
+                                    <a href="#">
+                                        <div class="brand-logo__image">
+                                            <img src="{{ asset('/images/clients/stallion.jpg')}}" class="img-fluid width-160"
+                                                alt="">
+                                        </div>
+                                        <div class="brand-logo__image-hover">
+                                            <img src="{{ asset('/images/clients/stallion.jpg')}}"
+                                                class="img-fluid" alt="">
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="brand-logo brand-logo--slider">
+                                    <a href="#">
+                                        <div class="brand-logo__image">
+                                            <img src="{{ asset('/images/clients/tcsaa-alt.png')}}" class="img-fluid width-160"
+                                                alt="">
+                                        </div>
+                                        <div class="brand-logo__image-hover">
+                                            <img src="{{ asset('/images/clients/tcsaa-alt.png')}}"
                                                 class="img-fluid" alt="">
                                         </div>
                                     </a>
