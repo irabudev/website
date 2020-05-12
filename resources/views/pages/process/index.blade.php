@@ -13,12 +13,10 @@ us as a team',
                 <div class="section-title-wrap text-center section-space--mb_60">
 
                     <h1 class="heading  text-white">
-                        Simple and custom
-                        is achievable
+                        {{__('Simple and custom is achievable')}}
                     </h1>
                     <h5 class="font-weight--normal text-white">
-                        We craft SIMPLE & VALUABLE
-                        solutions to everday challenges
+                        {{__('We craft SIMPLE & VALUABLE solutions to everday challenges')}}
                     </h5>
                 </div>
                 <!-- section-title-wrap Start -->
@@ -33,14 +31,16 @@ us as a team',
             <div class="col-lg-12">
                 <div class="gradation-title-wrapper section-space--mb_60">
                     <div class="gradation-title-wrap ">
-                        <h6 class="section-sub-title text-black mb-20">How we work</h6>
-                        <h4 class="heading">How we helps <span class="text-color-primary">your <br> business
-                                succeed</span></h4>
+                        <h6 class="section-sub-title text-black mb-20">{{__('How we work')}}</h6>
+                        <h4 class="heading">
+                            How we helps <span class="text-color-primary">your <br> business
+                                succeed</span>
+                        </h4>
                     </div>
 
 
                     <div class="gradation-sub-heading">
-                        <h3 class="heading"><mark>07</mark> Steps</h3>
+                        <h3 class="heading"><mark>07</mark> {{__('Steps')}}</h3>
                     </div>
                 </div>
 
@@ -66,7 +66,7 @@ us as a team',
 
                         <div class="content-wrap">
 
-                            <h6 class="heading">01. DISCOVERY (Objectives, Ideas, Concepts) 🔎 </h6>
+                            <h6 class="heading">01. {{__('DISCOVERY (Objectives, Ideas, Concepts)')}} 🔎 </h6>
 
                             <div class="text">
                                 Learn more about the client's business and explore their current approach on solving the
@@ -93,7 +93,7 @@ us as a team',
 
                         <div class="content-wrap">
 
-                            <h6 class="heading">02. DEFINE (Sketches & Stories) ✍️</h6>
+                            <h6 class="heading">02. {{__('DEFINE (Sketches & Stories)')}} ✍️</h6>
 
                             <div class="text">
                                 This step is all about evolving the concept
@@ -103,8 +103,6 @@ us as a team',
                                 {{-- A lot has been done before.
                 We really need to look at other examples, opinions &amp; competitors to understand what makes them great. --}}
                             </div>
-
-
                         </div>
                     </div>
                     <!-- Single item gradation End -->
@@ -124,7 +122,7 @@ us as a team',
 
                         <div class="content-wrap">
 
-                            <h6 class="heading">03. DESIGN (Design, build & iterate) 📐</h6>
+                            <h6 class="heading">03. {{__('DESIGN (Design, build & iterate')}}) 📐</h6>
 
                             <div class="text">
                                 Now we can start to develop all of this into high fidelity designs and begin iterate on
@@ -152,7 +150,7 @@ us as a team',
 
                         <div class="content-wrap">
 
-                            <h6 class="heading">04. DEVELOP (Iterate, iterate & iterate) 🏗️</h6>
+                            <h6 class="heading">04. {{__('DEVELOP (Iterate, iterate & iterate)')}} 🏗️</h6>
 
                             <div class="text"> Continue refining designs, story and assets. By the end of this step we
                                 should be <b>95.998328%</b> done with the project
@@ -188,14 +186,16 @@ us as a team',
 
                         <div class="content-wrap">
 
-                            <h6 class="heading">01. Discussion</h6>
+                            <h6 class="heading">01. {{__('Discussion')}}</h6>
 
-                            <div class="text">We meet customers in set place to discuss the details about needs and
-                                demands before proposing a plan.</div>
+                            <div class="text">
+                                We meet customers in set place to discuss the details about needs and
+                                demands before proposing a plan.
+                            </div>
 
                             <a class="gradation-btn" href="index-services.html#">
                                 <span class="button-text" data-text="Look more">
-                                    Look more </span>
+                                    {{__('Look more')}} </span>
                                 <span class="button-icon far fa-long-arrow-right"></span>
                             </a>
                         </div>
@@ -217,14 +217,17 @@ us as a team',
 
                         <div class="content-wrap">
 
-                            <h6 class="heading">02. Concepts &amp; Initatives</h6>
+                            <h6 class="heading">02. {{__('Concepts &amp; Initatives')}}</h6>
 
-                            <div class="text">Our experts come up with all kinds of ideas and initiatives for delivering
-                                the best solutions for IT services chosen.</div>
+                            <div class="text">
+                                Our experts come up with all kinds of ideas and initiatives for delivering
+                                the best solutions for IT services chosen.
+                            </div>
 
                             <a class="gradation-btn" href="index-services.html#">
-                                <span class="button-text" data-text="Look more">
-                                    Look more </span>
+                                <span class="button-text" data-text="{{__('Look more')}}">
+                                    {{__('Look more')}}
+                                </span>
                                 <span class="button-icon far fa-long-arrow-right"></span>
                             </a>
                         </div>
@@ -246,14 +249,16 @@ us as a team',
 
                         <div class="content-wrap">
 
-                            <h6 class="heading">03. Testing &amp; Trying</h6>
+                            <h6 class="heading">03. {{__('Testing &amp; Trying')}}</h6>
 
-                            <div class="text">After agreeing on the ideas and plans, we will conduct as scheduled and
-                                give comments on the results &amp; adaptations.</div>
+                            <div class="text">
+                                After agreeing on the ideas and plans, we will conduct as scheduled and
+                                give comments on the results &amp; adaptations.
+                            </div>
 
                             <a class="gradation-btn" href="index-services.html#">
                                 <span class="button-text" data-text="Look more">
-                                    Look more </span>
+                                    {{__('Look more')}} </span>
                                 <span class="button-icon far fa-long-arrow-right"></span>
                             </a>
                         </div>
@@ -275,26 +280,23 @@ us as a team',
 
                         <div class="content-wrap">
 
-                            <h6 class="heading">04. Execute &amp; install</h6>
+                            <h6 class="heading">04. {{__('Execute &amp; install')}}</h6>
 
                             <div class="text">Once the final plan is approved, everything will be conducted according to
                                 the agreed contract.</div>
 
                             <a class="gradation-btn" href="index-services.html#">
-                                <span class="button-text" data-text="Look more">
-                                    Look more </span>
+                                <span class="button-text" data-text="{{__('Look more')}}">
+                                    {{__('Look more')}} </span>
                                 <span class="button-icon far fa-long-arrow-right"></span>
                             </a>
                         </div>
                     </div>
                     <!-- Single item gradation End -->
-
-
                 </div>
             </div>
         </div>
     </div>
 </div>
 @include('layout.partials.contact')
-@include('layout.partials.clients.clients_alt')
 @endsection

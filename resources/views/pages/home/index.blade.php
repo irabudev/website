@@ -9,10 +9,8 @@
 
 @include('pages.home.service')
 
-
-@include('pages.home.clients')
+@include('layout.partials.clients.v2')
 
 @include('layout.partials.contact')
-
 
 @endsection
