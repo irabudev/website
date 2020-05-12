@@ -2,13 +2,13 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
-    @include('layout.partials.meta')
+    @include('layout.partials.header.meta')
 
     <!-- Scripts -->
     <script src="{{ mix('js/app.js') }}" defer></script>
     <script src="https://use.fontawesome.com/78c1a7d708.js"></script>
 
-    @include('layout.partials.favicons')
+    @include('layout.partials.header.favicons')
 
     <!-- Styles -->
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
@@ -16,8 +16,8 @@
 
 <body>
     <div id="app">
-        @include('layout.partials.loader')
-        @include('layout.partials.header')
+        @include('layout.partials.header.loader')
+        @include('layout.partials.header.header')
 
         <main>
             <div class="site-wrapper-reveal">
@@ -25,8 +25,8 @@
             </div>
         </main>
 
-        @include('layout.partials.footer')
-        @include('layout.partials.mobileheader')
+        @include('layout.partials.footer.footer')
+        @include('layout.partials.header.mobileheader')
     </div>
 </body>
 

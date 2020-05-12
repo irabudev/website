@@ -100,12 +100,7 @@
                             <div class="mobile-navigation-icon d-block d-xl-none" id="mobile-menu-trigger">
                                 <i></i>
                             </div>
-                            <!-- hidden icons menu -->
-                            <div class="hidden-icons-menu d-block d-md-none" id="hidden-icon-trigger">
-                                <a href="javascript:void(0)">
-                                    <i class="far fa-ellipsis-h-alt"></i>
-                                </a>
-                            </div>
+
                         </div>
 
                     </div>
