@@ -6,7 +6,6 @@
 
     <!-- Scripts -->
     <script src="{{ mix('js/app.js') }}" defer></script>
-    <script src="https://use.fontawesome.com/78c1a7d708.js"></script>
 
     @include('layout.partials.header.favicons')
 

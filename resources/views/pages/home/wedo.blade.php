@@ -5,7 +5,7 @@
             <div class="col-lg-12">
                 <!-- section-title-wrap Start -->
                 <div class="section-title-wrap text-center">
-                    <h3 class="heading">What we do best.</h3>
+                    <h3 class="heading">{{__('What we do best.')}}</h3>
                 </div>
                 <!-- section-title-wrap Start -->
             </div>
@@ -26,8 +26,9 @@
                                             alt="">
                                     </div>
                                     <div class="content">
-                                        <h5 class="heading">Consultation </h5>
-                                        <div class="text">We provide the most responsive and functional IT design for
+                                        <h5 class="heading">{{__('Consultation')}} </h5>
+                                        <div class="text">
+                                            We provide the most responsive and functional IT design for
                                             companies and businesses worldwide.
                                         </div>
 
@@ -47,8 +48,9 @@
                                             alt="">
                                     </div>
                                     <div class="content">
-                                        <h5 class="heading">Lean design and development</h5>
-                                        <div class="text">It’s possible to simultaneously manage and transform
+                                        <h5 class="heading">{{__('Lean design and development')}}</h5>
+                                        <div class="text">
+                                            It’s possible to simultaneously manage and transform
                                             information from one server to another.
                                         </div>
 
@@ -67,8 +69,9 @@
                                             alt="">
                                     </div>
                                     <div class="content">
-                                        <h5 class="heading">Modular design</h5>
-                                        <div class="text">Enhancing the strength and security of firewalls to protect
+                                        <h5 class="heading">{{__('Modular design')}}</h5>
+                                        <div class="text">
+                                            Enhancing the strength and security of firewalls to protect
                                             online data from malicious sources.
                                         </div>
 
@@ -88,8 +91,9 @@
                                             alt="">
                                     </div>
                                     <div class="content">
-                                        <h5 class="heading">Simple solution</h5>
-                                        <div class="text">Back up your database, store in a safe and secure place while
+                                        <h5 class="heading">{{__('Simple solution')}}</h5>
+                                        <div class="text">
+                                            Back up your database, store in a safe and secure place while
                                             still maintaining its accessibility.
                                         </div>
 
@@ -109,8 +113,9 @@
                                             alt="">
                                     </div>
                                     <div class="content">
-                                        <h5 class="heading">Testing and deployment</h5>
-                                        <div class="text">We propose feasible & practical plans for successfully
+                                        <h5 class="heading">{{__('Testing and deployment')}}</h5>
+                                        <div class="text">
+                                            We propose feasible & practical plans for successfully
                                             transform businesses based on their needs.
                                         </div>
 
@@ -130,8 +135,9 @@
                                             alt="">
                                     </div>
                                     <div class="content">
-                                        <h5 class="heading">Production and scaling</h5>
-                                        <div class="text">Mitech takes into account all conditions and budgets needed
+                                        <h5 class="heading">{{__('Production and scaling')}}</h5>
+                                        <div class="text">
+                                            irabu takes into account all conditions and budgets needed
                                             for building infrastructure plan.
                                         </div>
 
@@ -145,9 +151,9 @@
 
                 <div class="section-under-heading text-center section-space--mt_80">
                     We'd like to be a substantial part of your project. Read more on
-                    <a href="{{ route('process') }}"><span>{{ __('how we work') }}</span></a>
+                    <a href="{{ route('process') }}"><span>{{ __('How we work') }}</span></a>
                     , or
-                    <a href="{{ route('process') }}"><span>{{ __('get in touch !') }}</span></a>
+                    <a href="{{ route('process') }}"><span>{{ __('Get in touch !') }}</span></a>
                 </div>
 
             </div>

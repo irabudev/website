@@ -3,24 +3,31 @@
         <div class="row align-items-center">
             <div class="col-lg-6">
                 <div class="layouts-images text-right">
-                    <img class="img-fluid" src="{{ asset('images/tool.jpg') }}" alt="">
+                    <img class="img-fluid" src="{{ asset('images/vertical.png') }}" alt="Let's figure out how we could step in and help
+                    you out">
                 </div>
             </div>
             <div class="col-lg-6">
                 <div class="layouts-section-text">
-                    <h3 class="heading"><span class="text-color-primary">Let's figure out how we could step in and help you out</span></h3>
+                    <h3 class="heading">
+                        <span class="text-color-primary">
+                            {{__('Let\'s figure out how we could step in and help you out')}}
+                        </span>
+                    </h3>
                     <p class="text mt-30">
-                        Our team is blessed with experts who are highly experienced and leverage the latest cutting edge technology to create digital solutions
+                        Our team is blessed with experts who are highly experienced and leverage the latest cutting edge
+                        technology to create digital solutions
                     </p>
 
                     <p class="text mt-30">
-                        We make products and services that are built with an emphasis on perfection, simplicity and customer satisfaction.
+                        We make products and services that are built with an emphasis on perfection, simplicity and
+                        customer satisfaction.
 
 
                     </p>
 
                     <div class="sider-title-button-box mt-30">
-                    <a href="{{ mailto(
+                        <a href="{{ mailto(
 'Hire a team',
 'Tell us as much as you can about
 - where you are stuck
