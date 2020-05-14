@@ -40,6 +40,21 @@
                         <a href="{{ route('about', app()->getLocale()) }}"><span>{{ __('About Us') }}</span></a>
 
                     </li>
+                    <li>
+                        <a href="{{ route('legal.disclaimer', app()->getLocale())}}" class="hover-style-link">
+                            {{ __('Disclaimer')}}
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{{ route('legal.privacy', app()->getLocale())}}" class="hover-style-link">
+                            {{ __('Privacy')}}
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{{ route('legal.conditions', app()->getLocale())}}" class="hover-style-link">
+                            {{ __('Terms and Condition')}}
+                        </a>
+                    </li>
                 </ul>
             </nav>
         </div>
