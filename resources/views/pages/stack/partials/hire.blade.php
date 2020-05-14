@@ -1,5 +1,5 @@
-<section class="layouts-section-wrap">
-    <div class="">
+<section class="layouts-section-wrap bg-gray">
+    <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6">
                 <div class="layouts-images text-right">

@@ -1,5 +1,5 @@
 @extends('layout.default', [
-'title' => '❤️ Open source',
+'title' => '❤️ Our technology stack',
 'description' => 'Get to know our packages and side projects for Laravel & JavaScript. Read insights from the team and
 learn how to support us.',
 ])
@@ -13,13 +13,10 @@ learn how to support us.',
                 <div class="section-title-wrap text-center section-space--mb_60">
 
                     <h1 class="heading  text-white">
-                        Code is for humans
-                        not machine
+                        {{__('Code is for humans not machine')}}
                     </h1>
                     <h5 class="font-weight--normal text-white">
-                        Let it be tooling, frontend, backend, devops.
-
-                        We try to follow almost all best practice
+                        {{__('Let it be tooling, frontend, backend, devops. We try to follow almost all best practice')}}
                     </h5>
                 </div>
                 <!-- section-title-wrap Start -->
@@ -28,7 +25,7 @@ learn how to support us.',
     </div>
 </div>
 
-@include('pages.stack.partials.icons')
+@include('pages.stack.partials.tech')
 
 @include('pages.stack.partials.stack')
 
