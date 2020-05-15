@@ -15,7 +15,16 @@
             <div class="col-lg-6 col-lg-6">
                 <div class="contact-info-two text-center">
                     <div class="contact-us-button">
-                        <a href="#" class="btn btn--secondary">{{__('Lets talk')}}</a>
+                        <a href="{{ mailto(
+'Why I\'m considering Irabu',
+'Tell us as much as you can about
+- your online project
+- your planning
+- your budget
+- …
+
+Anything that helps us to start straightforward!'
+) }}"  class="btn btn--secondary">{{__('Lets talk')}}</a>
                     </div>
                 </div>
             </div>
