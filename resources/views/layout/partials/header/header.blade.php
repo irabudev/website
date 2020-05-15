@@ -10,7 +10,7 @@
                         <!-- brand logo -->
                         <div class="header__logo">
                             <a href="{{ route('home', app()->getLocale()) }}">
-                                <img src="{{ asset('/images/logo.svg') }}" class="img-fluid" alt="irabu.co.tz">
+                                <img src="{{ secure_asset('/images/logo.svg') }}" class="img-fluid" alt="irabu.co.tz">
                             </a>
                         </div>
 

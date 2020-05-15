@@ -17,25 +17,25 @@
                     <div class="redraw-images">
 
                         <img class="img-fluid redrow-1 animate wow fadeInLeft  width-160" data-wow-delay="0.1s"
-                            src="{{ asset('/images/clients/1.png') }}" alt="">
+                            src="{{ secure_asset('/images/clients/1.png') }}" alt="">
 
                         <img class="img-fluid redrow-2 animate wow fadeInLeft  width-160" data-wow-delay="0.2s"
-                            src="{{ asset('/images/clients/2.png') }}" alt="">
+                            src="{{ secure_asset('/images/clients/2.png') }}" alt="">
 
                         <img class="img-fluid redrow-3 animate wow fadeInLeft  width-160" data-wow-delay="0.3s"
-                            src="{{ asset('/images/clients/3.png') }}" alt="">
+                            src="{{ secure_asset('/images/clients/3.png') }}" alt="">
 
                         <img class="img-fluid redrow-4 animate wow fadeInLeft  width-160" data-wow-delay="0.4s"
-                            src="{{ asset('/images/clients/4.png') }}" alt="">
+                            src="{{ secure_asset('/images/clients/4.png') }}" alt="">
 
                         <img class="img-fluid redrow-5  animate wow fadeInLeft  width-160" data-wow-delay="0.1s"
-                            src="{{ asset('/images/clients/5.png') }}" alt="">
+                            src="{{ secure_asset('/images/clients/5.png') }}" alt="">
 
                         <img class="img-fluid redrow-6 animate wow fadeInLeft  width-160" data-wow-delay="0.3s"
-                            src="{{ asset('/images/clients/6.png') }}" alt="">
+                            src="{{ secure_asset('/images/clients/6.png') }}" alt="">
 
                         <img class="img-fluid redrow-7 animate wow fadeInLeft  width-160" data-wow-delay="0.4s"
-                            src="{{ asset('/images/clients/7.png') }}" alt="">
+                            src="{{ secure_asset('/images/clients/7.png') }}" alt="">
                     </div>
 
                 </div>

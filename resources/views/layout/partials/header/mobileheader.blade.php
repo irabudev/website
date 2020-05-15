@@ -8,7 +8,7 @@
                         <!-- logo -->
                         <div class="logo">
                             <a href="{{ route('home', app()->getLocale())}}">
-                                <img src="{{ asset('/images/logo.svg') }}" class="img-fluid w-50" alt="">
+                                <img src="{{ secure_asset('/images/logo.svg') }}" class="img-fluid w-50" alt="">
                             </a>
                         </div>
                     </div>

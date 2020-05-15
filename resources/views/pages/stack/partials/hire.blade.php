@@ -3,7 +3,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6">
                 <div class="layouts-images text-right">
-                    <img class="img-fluid" src="{{ asset('images/vertical.png') }}" alt="Let's figure out how we could step in and help
+                    <img class="img-fluid" src="{{ secure_asset('images/vertical.png') }}" alt="Let's figure out how we could step in and help
                     you out">
                 </div>
             </div>

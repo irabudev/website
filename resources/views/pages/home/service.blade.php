@@ -35,7 +35,7 @@
                             <div class="slide-image">
                                 <div class="image-wrap">
                                     <div class="image">
-                                        <img class="img-fluid" src="{{ asset('images/portfolio/gorocket.png') }}"
+                                        <img class="img-fluid" src="{{ secure_asset('images/portfolio/gorocket.png') }}"
                                             alt="Rocket Inc">
                                     </div>
                                 </div>
@@ -65,7 +65,7 @@
                             <div class="slide-image">
                                 <div class="image-wrap">
                                     <div class="image">
-                                        <img class="img-fluid" src="{{ asset('images/portfolio/78art.png') }}"
+                                        <img class="img-fluid" src="{{ secure_asset('images/portfolio/78art.png') }}"
                                             alt="The House of 78inc">
                                     </div>
                                 </div>

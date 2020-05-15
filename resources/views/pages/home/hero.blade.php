@@ -15,21 +15,21 @@
             <div class="col-lg-6">
                 <div class="preview-inner-img">
                     <img class="img-fluid min-img  animation_images one wow fadeInDown width-60"
-                        src="{{ asset('images/hero/kuli.png') }}" alt="Kuli">
+                        src="{{ secure_asset('images/hero/kuli.png') }}" alt="Kuli">
                 </div>
             </div>
         </div>
 
-        <img class="img-fluid pr-img-01 animation_images two wow fadeInDown" src="{{ asset('images/hero/rpi.png') }}"
+        <img class="img-fluid pr-img-01 animation_images two wow fadeInDown" src="{{ secure_asset('images/hero/rpi.png') }}"
             alt="IoT">
         <img class="img-fluid pr-img-02 animation_images two wow fadeInDown"
-            src="{{ asset('images/hero/mitech-landing-main-slider-slide-01-image-02.png') }}" alt="">
+            src="{{ secure_asset('images/hero/mitech-landing-main-slider-slide-01-image-02.png') }}" alt="">
 
         <img class="img-fluid pr-img-03 animation_images two wow fadeInDown"
-            src="{{ asset('images/hero/mitech-landing-main-slider-slide-01-image-03.png') }}" alt="">
+            src="{{ secure_asset('images/hero/mitech-landing-main-slider-slide-01-image-03.png') }}" alt="">
 
         <img class="img-fluid pr-img-04 animation_images two wow fadeInDown"
-            src="{{ asset('images/hero/mitech-landing-main-slider-slide-01-image-05.png') }}" alt="">
+            src="{{ secure_asset('images/hero/mitech-landing-main-slider-slide-01-image-05.png') }}" alt="">
 
 
     </div>
