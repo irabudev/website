@@ -26,6 +26,10 @@
 
         @include('layout.partials.footer.footer')
         @include('layout.partials.header.mobileheader')
+        <a href="#" class="scroll-top show" id="scroll-top">
+            <i class="arrow-top fal fa-long-arrow-up"></i>
+            <i class="arrow-bottom fal fa-long-arrow-up"></i>
+        </a>
     </div>
 </body>
 

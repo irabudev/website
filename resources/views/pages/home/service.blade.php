@@ -1,4 +1,4 @@
-<div class="service-projects-wrapper section-space--pt_100 mb-20">
+<div class="service-projects-wrapper section-space--pt_100 mb-20" id="case-studies">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">

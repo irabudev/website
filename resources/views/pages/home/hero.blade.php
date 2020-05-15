@@ -8,7 +8,7 @@
                         {{__('We craft SIMPLE & VALUABLE solutions to everday challenges')}}
                     </h6>
                     <div class="hero-button mt-40">
-                        <a href="#section-demos" class="btn btn--primary">{{__('See what we do')}} </a>
+                        <a href="#case-studies" class="btn btn--primary">{{__('See what we do')}} </a>
                     </div>
                 </div>
             </div>
