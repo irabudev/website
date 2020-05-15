@@ -14,7 +14,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="preview-inner-img">
-                    <img class="img-fluid min-img  animation_images one wow fadeInDown"
+                    <img class="img-fluid min-img  animation_images one wow fadeInDown width-60"
                         src="{{ asset('images/hero/kuli.png') }}" alt="Kuli">
                 </div>
             </div>
