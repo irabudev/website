@@ -74,7 +74,14 @@
 
                                 </div>
                             </div>
-
+                            <div class="hidden-icons-menu d-block d-md-none" id="hidden-icon-trigger">
+                                <a href="javascript:void(0)" >
+                                    <language-switcher locale="{{ app()->getLocale() }}"
+                                        link-en="{{ route(Route::currentRouteName(), 'en') }}"
+                                        link-sw="{{ route(Route::currentRouteName(), 'sw') }}">
+                                    </language-switcher>
+                                </a>
+                            </div>
                             <!-- mobile menu -->
                             <div class="mobile-navigation-icon d-block d-xl-none" id="mobile-menu-trigger">
                                 <i></i>

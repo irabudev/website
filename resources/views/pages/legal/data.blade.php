@@ -106,7 +106,7 @@
                             social identity of that natural person.
                         </li>
                         <li>
-                            <strong>Privacy legislation</strong>: the entire Belgian and European data protection
+                            <strong>Privacy legislation</strong>: the entire Tanzanian and European data protection
                             legislation, including the law of 8 December 1992 on privacy protection in
                             relation to the processing of Personal Data and starting from 25 May 2018, the General Data
                             Protection Regulation.
@@ -505,7 +505,7 @@
                             Titles and subtitles in this agreement are deemed to be merely illustrative.
                         </li>
                         <li>
-                            This agreement is governed by Belgian law. In the event of any dispute concerning the
+                            This agreement is governed by Tanzanian law. In the event of any dispute concerning the
                             implementation of this agreement, the Parties are expected to make all efforts to find and
                             amicable solution. The Parties will draw up a reasonable interpretation of this Agreement.
                             In the absence of an amicable solution, the dispute can be submitted to a centre of

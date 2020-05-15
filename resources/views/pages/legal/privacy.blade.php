@@ -12,8 +12,12 @@
                 {{__('Privacy policy')}}
             </h1>
             <p class="mt-4 | print:hidden">
-                <span class="icon mr-2 opacity-50 fill-blue">{{ svg('icons/far-angle-left') }}</span> <a
-                    href="{{ route('legal', app()->getLocale())}}" class="link-underline link-blue">Legal overview</a>
+                <a href="{{ route('legal', app()->getLocale())}}" class="hover-style-link font-weight--bold heading">
+                    {{__('Legal overview')}}
+                    <span class="button-icon ml-1">
+                        <i class="far fa-long-arrow-right"></i>
+                    </span>
+                </a>
             </p>
         </div>
     </section>
@@ -24,7 +28,8 @@
                     <h2>{{__('Why this Privacy Statement')}}</h2>
 
                     <p>
-                        Irabu attaches great importance to the protection of your privacy and personal data. We use your
+                        Irabu Company Ltd attaches great importance to the protection of your privacy and personal data.
+                        We use your
                         personal data solely in accordance with the Privacy Law and other relevant legislation in force.
                         Any
                         reference in this Privacy Statement to the Privacy Law means a reference to the law of 8
@@ -42,14 +47,14 @@
                     </p>
                     <p>
                         It is possible that this Privacy Statement is subject to adjustments and changes in the future.
-                        It
-                        is up to you to consult this document on a regular basis. Any substantial change will always be
+                        It is up to you to consult this document on a regular basis. Any substantial change will always
+                        be
                         clearly communicated on the platform of Irabu.
                     </p>
 
-                    <h2>Who processes your personal data?</h2>
+                    <h2>{{__('Who processes your personal data?')}}}</h2>
 
-                    <p>The website irabu.co.tz is an initiative of: </p>
+                    <h6 class="heading">The website irabu.co.tz is an initiative of: </h6>
                     <address>
                         Irabu Company Ltd.<br>
                         Kilongawima Street<br>
@@ -60,7 +65,7 @@
                     </address>
 
 
-                    <h2>Which personal data are processed?</h2>
+                    <h2>{{__('Which personal data are processed?')}}</h2>
 
                     <p>
                         Irabu commits to only process data that are relevant and necessary for the purposes for which
@@ -137,7 +142,8 @@
                     </p>
 
                     <h2>What are my rights?</h2>
-                    <h3>Guarantee of a legitimate and safe processing of the personal data</h3>
+                    <h3 class="text-color-primary">Guarantee of a legitimate and safe processing of the personal data
+                    </h3>
                     <p>
                         Irabu processes your personal data always fairly and lawfully. This includes the following
                         guarantees:
@@ -165,7 +171,7 @@
                         immediately take all possible measures to limit the damage to a minimum.
                     </p>
 
-                    <h3>The right to access/rectification/erasure of your personal data</h3>
+                    <h3 class="text-color-primary">The right to access/rectification/erasure of your personal data</h3>
                     <p>
                         With proof of your identity as a User, you have the right to receive from Irabu an answer on
                         whether
@@ -213,7 +219,8 @@
                     </ul>
                     <p>Irabu assesses the presence of one of the above-mentioned cases.</p>
 
-                    <h3>Right on limitation of/objection to the processing of your personal data</h3>
+                    <h3 class="text-color-primary">Right on limitation of/objection to the processing of your personal
+                        data</h3>
                     <p>
                         The User has the right to obtain a limitation to the processing of your personal data:
                     </p>
@@ -252,7 +259,7 @@
                             href="mailto:info@irabu.co.tz">info@irabu.co.tz</a>.
                     </p>
 
-                    <h3>Right to data transferability</h3>
+                    <h3 class="text-color-primary">Right to data transferability</h3>
                     <p>
                         The User has the right to receive the personal data provided to Irabu in a structured, common
                         and
@@ -267,7 +274,7 @@
                         receiving the request. The application is done via registered mail or by sending an e-mail to <a
                             href="mailto:info@irabu.co.tz">info@irabu.co.tz</a>.
                     </p>
-                    <h3>Right on the withdrawal of my consent/right to complaint</h3>
+                    <h3 class="text-color-primary">Right on the withdrawal of my consent/right to complaint</h3>
                     <p>
                         The User has the right at all times to withdraw his consent. The withdrawal of the consent
                         leaves
@@ -275,7 +282,7 @@
                         prejudice.
                         In addition, the User has the right to file a complaint concerning the processing of his
                         personal
-                        data by Irabu with the Belgian Commission for the Protection of Privacy.
+                        data by Irabu with the Tanzanian Commission for the Protection of Privacy.
                     </p>
                     <p>
                         If the User wishes to exercise these rights, Irabu will pursue the matter within one (1) month

@@ -6,14 +6,18 @@
 @section('content')
 
 <div class="container" style="padding: 6.5em;">
-    <section id="banner" class="banner" role="banner">
+    <section id="banner" class="banner mb-3" role="banner">
         <div class="wrap">
             <h1 class="banner-slogan">
                 {{__('Disclaimer')}}
             </h1>
             <p class="mt-4 | print:hidden">
-                <span class="icon mr-2 opacity-50 fill-blue">{{ svg('icons/far-angle-left') }}</span> <a
-                    href="{{ route('legal', app()->getLocale())}}" class="link-underline link-blue">Legal overview</a>
+                <a href="{{ route('legal', app()->getLocale())}}" class="hover-style-link font-weight--bold">
+                    {{__('Legal overview')}}
+                    <span class="button-icon ml-1">
+                        <i class="far fa-long-arrow-right"></i>
+                    </span>
+                </a>
             </p>
         </div>
     </section>
@@ -23,10 +27,10 @@
                 <div class="markup markup-titles markup-lists counters links-underline links-blue">
                     <p>
                         The use of our website should always be done in accordance with the rights and obligations which
-                        are
-                        clearly listed on the website and the rights and obligations defined in the disclaimer, sales
-                        terms
-                        and conditions and the privacy statement. The whole of these texts are our terms and conditions.
+                        are clearly listed on the website and the rights and obligations defined in the disclaimer,
+                        sales
+                        terms and conditions and the privacy statement. The whole of these texts are our terms and
+                        conditions.
                     </p>
                     <p>
                         These general terms and conditions apply to both us, Irabu Systems Ltd, as well as for you, the
@@ -44,7 +48,7 @@
 
                     <h2>Who are we?</h2>
 
-                    <p>The website irabu.co.tz is an initiative of: </p>
+                    <h6 class="heading">The website irabu.co.tz is an initiative of: </h6>
                     <address>
                         Irabu Company Ltd.<br>
                         Kilongawima Street<br>
@@ -58,7 +62,7 @@
                     </p>
 
                     <h2>Our website</h2>
-                    <h3>Good operation, safety and accessibility</h3>
+                    <h3 class="text-color-primary">Good operation, safety and accessibility</h3>
                     <p>
                         You can rest assured, we offer an easy-to-use website that is safe for each User. We take all
                         reasonable measures necessary to ensure the proper operation, safety and accessibility of our
@@ -80,7 +84,7 @@
                         but
                         this is not an absolute condition.
                     </p>
-                    <h3>Site content</h3>
+                    <h3 class="text-color-primary">Site content</h3>
                     <p>
                         The content of the website is largely determined by us and we take great care in this content.
                         This
@@ -119,7 +123,7 @@
                         the basis of the agreement with Irabu.
                     </p>
 
-                    <h3>What we expect from you as a User</h3>
+                    <h3 class="text-color-primary">What we expect from you as a User</h3>
                     <p>
                         The User also bears a certain responsibility when using our website. The User should always
                         refrain
@@ -204,7 +208,7 @@
                     </p>
                     <p>
                         These general terms and conditions (including the terms and conditions of sale) are exclusively
-                        governed by and interpreted in accordance with Belgian law. All disputes relating to or arising
+                        governed by and interpreted in accordance with Tanzanian law. All disputes relating to or arising
                         from
                         offers of Irabu, or agreements that are concluded with it shall be submitted to the competent
                         court

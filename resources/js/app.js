@@ -3,10 +3,10 @@ const Swiper = require('./plugins/swiper.min');
 const WOW = require('./plugins/wow.min');
 // require('./main');
 
-$(document).ready(function() {
+$(document).ready(function () {
 
-        $(".preloader-activate").removeClass('preloader-active');
-        $(".open_tm_preloader").addClass('loaded');
+    $(".preloader-activate").removeClass('preloader-active');
+    $(".open_tm_preloader").addClass('loaded');
 
 
 
@@ -25,28 +25,60 @@ $(document).ready(function() {
     =            mobile menu active            =
     ============================================*/
 
-    $("#mobile-menu-trigger").on('click', function(){
+    $("#mobile-menu-trigger").on('click', function () {
         $("#mobile-menu-overlay").addClass("active");
         $body.addClass('no-overflow');
     });
 
-    $("#mobile-menu-close-trigger").on('click', function(){
+    $("#mobile-menu-close-trigger").on('click', function () {
         $("#mobile-menu-overlay").removeClass("active");
         $body.removeClass('no-overflow');
     });
 
-    $(".offcanvas-navigation--onepage ul li a").on('click', function(){
+    $(".offcanvas-navigation--onepage ul li a").on('click', function () {
         $("#mobile-menu-overlay").removeClass("active");
         $body.removeClass('no-overflow');
+    });
+
+
+    var brandLogoSlider = new Swiper('.brand-logo-slider__container', {
+        slidesPerView: 8,
+        loop: true,
+        speed: 1000,
+        spaceBetween: 30,
+        autoplay: {
+            delay: 3000,
+        },
+
+        breakpoints: {
+            1499: {
+                slidesPerView: 6
+            },
+
+            991: {
+                slidesPerView: 4
+            },
+
+            767: {
+                slidesPerView: 3
+
+            },
+
+            575: {
+                slidesPerView: 2
+            }
+        }
     });
 
     var carouselSlider = new Swiper('.service-slider__project-active', {
-        slidesPerView : 1,
+        slidesPerView: 1,
         slidesPerGroup: 1,
         loop: true,
         speed: 1000,
-        autoplay: false,
-        spaceBetween : 0,
+        autoplay: {
+            delay: 5000
+        },
+        spaceBetween: 0,
         navigation: {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
@@ -57,24 +89,24 @@ $(document).ready(function() {
             clickable: true
         },
         breakpoints: {
-            1499:{
-                slidesPerView : 1
+            1499: {
+                slidesPerView: 1
             },
-            1200:{
-                slidesPerView : 1
-            },
-
-            991:{
-                slidesPerView : 1
+            1200: {
+                slidesPerView: 1
             },
 
-            767:{
-                slidesPerView : 1
+            991: {
+                slidesPerView: 1
+            },
+
+            767: {
+                slidesPerView: 1
 
             },
 
-            575:{
-                slidesPerView : 1
+            575: {
+                slidesPerView: 1
             }
         }
     });

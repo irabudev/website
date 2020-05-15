@@ -9,26 +9,33 @@
     <section id="banner" class="banner" role="banner">
         <div class="wrap">
             <h1 class="banner-slogan">
-                General terms <br>
-                and conditions
+                {{__('General terms and conditions')}}
             </h1>
             <p class="mt-4 | print:hidden">
-                <span class="icon mr-2 opacity-50 fill-blue">{{ svg('icons/far-angle-left') }}</span>
-                <a href="{{ route('legal',app()->getLocale())}}"
-                    class="link-underline link-blue">{{__('Legal overview')}}</a>
+                <a href="{{ route('legal', app()->getLocale())}}" class="hover-style-link font-weight--bold heading">
+                    {{__('Legal overview')}}
+                    <span class="button-icon ml-1">
+                        <i class="far fa-long-arrow-right"></i>
+                    </span>
+                </a>
             </p>
         </div>
     </section>
-    <div class="section-group pt-0">
+    <div class="section-group pt-4">
         <section class=section>
             <div class="wrap">
                 <div class="markup markup-lists markup-titles links-underline links-blue">
-                    <h2 id="toc">Table of contents</h2>
+                    <h2 id="toc">{{__('Table of contents')}}</h2>
                     <ol class="counters-upper-roman leading-loose">
-                        <li><a href="#chapter-1">General sales conditions</a></li>
-                        <li><a href="#chapter-2">Development & maintenance of websites & software</a></li>
-                        <li><a href="#chapter-3">Web hosting</a></li>
-                        <li><a href="#chapter-4">Registration of domain names</a></li>
+                        <li><a href="#chapter-1" class="hover-style-link">{{__('General sales conditions')}}</a></li>
+                        <li>
+                            <a href="#chapter-2" class="hover-style-link">
+                                {{__('Development & maintenance of websites & software')}}
+                            </a>
+                        </li>
+                        <li><a href="#chapter-3" class="hover-style-link">{{__('Web hosting')}}</a></li>
+                        <li><a href="#chapter-4" class="hover-style-link">{{__('Registration of domain names')}}</a>
+                        </li>
                     </ol>
                 </div>
             </div>
@@ -36,9 +43,9 @@
         <section class=section>
             <div class="wrap">
                 <div class="markup markup-titles counters markup-lists links-underline links-blue">
-                    <h1 id="chapter-1">General sales conditions</h1>
+                    <h1 id="chapter-1">{{__('General sales conditions')}}</h1>
 
-                    <h2>Applicability</h2>
+                    <h2 class="text-color-primary">{{__('Applicability')}}</h2>
 
                     <ol class="counters-level-2">
                         <li>
@@ -87,7 +94,7 @@
                         </li>
                     </ol>
 
-                    <h2>Prices, tariffs and payment</h2>
+                    <h2 class="text-color-primary">{{__('Prices, tariffs and payment')}}</h2>
 
                     <ol class="counters-level-2">
                         <li>All prices and tariffs of Irabu are exclusive of VAT, unless expressly stated otherwise.
@@ -167,7 +174,7 @@
                         </li>
                     </ol>
 
-                    <h2>Cancellation</h2>
+                    <h2 class="text-color-primary">{{__('Cancellation')}}</h2>
 
                     <ol class="counters-level-2">
                         <li>
@@ -192,7 +199,7 @@
                         </li>
                     </ol>
 
-                    <h2>Implementation</h2>
+                    <h2 class="text-color-primary">{{__('Implementation')}}</h2>
 
                     <ol class="counters-level-2">
                         <li>
@@ -216,7 +223,7 @@
                         </li>
                     </ol>
 
-                    <h2>Changes and additional work</h2>
+                    <h2 class="text-color-primary">{{__('Changes and additional work')}}</h2>
 
                     <ol class="counters-level-2">
                         <li>
@@ -245,7 +252,7 @@
                         </li>
                     </ol>
 
-                    <h2>Time limits</h2>
+                    <h2 class="text-color-primary">{{__('Time limits')}}</h2>
 
                     <ol class="counters-level-2">
                         <li>
@@ -276,7 +283,7 @@
                         </li>
                     </ol>
 
-                    <h2>Confidentiality</h2>
+                    <h2 class="text-color-primary">{{__('Confidentiality')}}</h2>
 
                     <ol class="counters-level-2">
                         <li>
@@ -285,7 +292,7 @@
                         </li>
                     </ol>
 
-                    <h2>Ownership and protection</h2>
+                    <h2 class="text-color-primary">{{__('Ownership and protection')}}</h2>
 
                     <ol class="counters-level-2">
                         <li>
@@ -298,7 +305,7 @@
                         </li>
                     </ol>
 
-                    <h2>Liability</h2>
+                    <h2 class="text-color-primary">{{__('Liability')}}</h2>
 
                     <ol class="counters-level-2">
                         <li>
@@ -362,7 +369,7 @@
                         </li>
                     </ol>
 
-                    <h2>Dissolution, termination and suspension</h2>
+                    <h2 class="text-color-primary">{{__('Dissolution, termination and suspension')}}</h2>
 
                     <ol class="counters-level-2">
                         <li>
@@ -383,7 +390,7 @@
                         </li>
                     </ol>
 
-                    <h2>Intellectual and industrial property rights </h2>
+                    <h2 class="text-color-primary">{{__('Intellectual and industrial property rights')}} </h2>
 
                     <ol class="counters-level-2">
                         <li>
@@ -397,11 +404,11 @@
                         </li>
                     </ol>
 
-                    <h2>Applicable law and disputes</h2>
+                    <h2 class="text-color-primary">{{__('Applicable law and disputes')}}</h2>
 
                     <ol class="counters-level-2">
                         <li>
-                            The agreement between Irabu and the client shall be governed by Belgian law.
+                            The agreement between Irabu and the client shall be governed by Tanzanian law.
                         </li>
                         <li>
                             All disputes relating to these terms and conditions or agreements concluded by a Irabu will
@@ -410,12 +417,12 @@
                     </ol>
 
                     <p class="mt-16 | print:hidden">
-                        <a href="#toc">Table of contents &uarr;</a>
+                        <a href="#toc" class="my-2 hover-style-link">{{__('Table of contents')}} &uarr;</a>
                     </p>
 
-                    <h1 id="chapter-2">Development & maintenance of websites & software</h1>
+                    <h1 id="chapter-2">{{__('Development & maintenance of websites & software')}}</h1>
 
-                    <h2>Subject of the agreement</h2>
+                    <h2 class="text-color-primary">{{__('Subject of the agreement')}}</h2>
 
                     <ol class="counters-level-2">
                         <li>
@@ -430,7 +437,7 @@
                         </li>
                     </ol>
 
-                    <h2>Implementation</h2>
+                    <h2 class="text-color-primary">{{__('Implementation')}}</h2>
 
                     <ol class="counters-level-2">
                         <li>
@@ -449,7 +456,7 @@
                         </li>
                     </ol>
 
-                    <h2>Delivery and acceptance</h2>
+                    <h2 class="text-color-primary">{{__('Delivery and acceptance')}}</h2>
 
                     <ol class="counters-level-2">
                         <li>
@@ -497,7 +504,7 @@
                         </li>
                     </ol>
 
-                    <h2>Ownership and protection</h2>
+                    <h2 class="text-color-primary">{{__('Ownership and protection')}}</h2>
 
                     <ol class="counters-level-2">
                         <li>
@@ -571,12 +578,12 @@
                     </ol>
 
                     <p class="mt-16 | print:hidden">
-                        <a href="#toc">Table of contents &uarr;</a>
+                        <a href="#toc" class="my-2 hover-style-link">{{__('Table of contents')}} &uarr;</a>
                     </p>
 
-                    <h1 id="chapter-3">Web hosting</h1>
+                    <h1 id="chapter-3">{{__('Web hosting')}}</h1>
 
-                    <h2>Subject of the agreement</h2>
+                    <h2 class="text-color-primary">{{__('Subject of the agreement')}}</h2>
 
                     <ol class="counters-level-2">
                         <li>
@@ -593,7 +600,7 @@
                         </li>
                     </ol>
 
-                    <h2>Ownership and protection</h2>
+                    <h2 class="text-color-primary">{{__('Ownership and protection')}}</h2>
 
                     <ol class="counters-level-2">
                         <li>
@@ -662,7 +669,7 @@
                         </li>
                     </ol>
 
-                    <h2>Duration of the agreement</h2>
+                    <h2 class="text-color-primary">{{__('Duration of the agreement')}}</h2>
 
                     <ol class="counters-level-2">
                         <li>
@@ -676,12 +683,12 @@
                     </ol>
 
                     <p class="mt-16 | print:hidden">
-                        <a href="#toc">Table of contents &uarr;</a>
+                        <a href="#toc" class="my-2 hover-style-link">{{__('Table of contents')}} &uarr;</a>
                     </p>
 
-                    <h1 id="chapter-4">Registration of domain names</h1>
+                    <h1 id="chapter-4">{{__('Registration of domain names')}}</h1>
 
-                    <h2>Subject of the agreement</h2>
+                    <h2 class="text-color-primary">{{__('Subject of the agreement')}}</h2>
 
                     <ol class="counters-level-2">
                         <li>
@@ -698,7 +705,7 @@
                     </ol>
 
 
-                    <h2>Registration</h2>
+                    <h2 class="text-color-primary">{{__('Registration')}}</h2>
 
                     <ol class="counters-level-2">
                         <li>
@@ -706,7 +713,7 @@
                         </li>
                     </ol>
 
-                    <h2>Responsibility</h2>
+                    <h2 class="text-color-primary">{{__('Responsibility')}}</h2>
 
                     <ol class="counters-level-2">
                         <li>
@@ -717,7 +724,7 @@
                         </li>
                     </ol>
 
-                    <h2>Duration of the agreement</h2>
+                    <h2 class="text-color-primary">{{__('Duration of the agreement')}}</h2>
 
                     <ol class="counters-level-2">
                         <li>
@@ -736,7 +743,7 @@
                         </li>
                     </ol>
 
-                    <h2>Name servers</h2>
+                    <h2 class="text-color-primary">{{__('Name servers')}}</h2>
 
                     <ol class="counters-level-2">
                         <li>
@@ -749,7 +756,7 @@
                         </li>
                     </ol>
 
-                    <h2>Email address</h2>
+                    <h2 class="text-color-primary">{{__('Email address')}}</h2>
 
                     <ol class="counters-level-2">
                         <li>
@@ -764,7 +771,7 @@
                         </li>
                     </ol>
 
-                    <h2>Modalities</h2>
+                    <h2 class="text-color-primary">{{__('Modalities')}}</h2>
 
                     <ol class="counters-level-2">
                         <li>
@@ -786,7 +793,7 @@
                     </ol>
 
                     <p class="mt-16 | print:hidden">
-                        <a href="#toc">Table of contents &uarr;</a>
+                        <a href="#toc" class="my-2 hover-style-link">{{__('Table of contents')}} &uarr;</a>
                     </p>
 
                 </div>
