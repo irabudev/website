@@ -4,7 +4,7 @@
             <div class="row footer-widget-wrapper">
                 <div class="col-lg-4 col-md-6 col-sm-6 footer-widget">
                     <div class="footer-widget__logo mb-30" style="width: 30%;">
-                        <img src="{{ secure_asset('/images/logo.svg') }}" class="img-fluid" alt="">
+                        <img src="{{ asset('/images/logo.svg') }}" class="img-fluid" alt="">
                     </div>
                     <ul class="footer-widget__list">
                         <li>Irabu | Kiotani, Dar es Salaam</li>

@@ -22,7 +22,7 @@
                                 <div class="image-box-wrap">
                                     <div class="box-image">
                                         <img class="img-fulid"
-                                            src="{{ secure_asset('images/icons/mitech-box-image-style-01-image-01-100x108.png') }}"
+                                            src="{{ asset('images/icons/mitech-box-image-style-01-image-01-100x108.png') }}"
                                             alt="">
                                     </div>
                                     <div class="content">
@@ -44,7 +44,7 @@
                                 <div class="image-box-wrap">
                                     <div class="box-image">
                                         <img class="img-fulid"
-                                            src="{{ secure_asset('images/icons/mitech-box-image-style-01-image-02-100x108.png') }}"
+                                            src="{{ asset('images/icons/mitech-box-image-style-01-image-02-100x108.png') }}"
                                             alt="">
                                     </div>
                                     <div class="content">
@@ -65,7 +65,7 @@
                                 <div class="image-box-wrap">
                                     <div class="box-image">
                                         <img class="img-fulid"
-                                            src="{{ secure_asset('images/icons/mitech-box-image-style-01-image-06-100x108.png') }}"
+                                            src="{{ asset('images/icons/mitech-box-image-style-01-image-06-100x108.png') }}"
                                             alt="">
                                     </div>
                                     <div class="content">
@@ -87,7 +87,7 @@
                                 <div class="image-box-wrap">
                                     <div class="box-image">
                                         <img class="img-fulid"
-                                            src="{{ secure_asset('images/icons/mitech-box-image-style-01-image-03-100x108.png') }}"
+                                            src="{{ asset('images/icons/mitech-box-image-style-01-image-03-100x108.png') }}"
                                             alt="">
                                     </div>
                                     <div class="content">
@@ -109,7 +109,7 @@
                                 <div class="image-box-wrap">
                                     <div class="box-image">
                                         <img class="img-fulid"
-                                            src="{{ secure_asset('images/icons/mitech-box-image-style-01-image-04-100x108.png') }}"
+                                            src="{{ asset('images/icons/mitech-box-image-style-01-image-04-100x108.png') }}"
                                             alt="">
                                     </div>
                                     <div class="content">
@@ -131,7 +131,7 @@
                                 <div class="image-box-wrap">
                                     <div class="box-image">
                                         <img class="img-fulid"
-                                            src="{{ secure_asset('images/icons/mitech-box-image-style-01-image-05-100x108.png') }}"
+                                            src="{{ asset('images/icons/mitech-box-image-style-01-image-05-100x108.png') }}"
                                             alt="">
                                     </div>
                                     <div class="content">
