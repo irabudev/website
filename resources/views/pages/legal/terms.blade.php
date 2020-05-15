@@ -78,7 +78,7 @@
                         <li>
                             The placing of an order or task with Irabu is valid as the acceptance of these general sales
                             conditions, to be consulted on the Irabu website at <a
-                                href="https://irabu.dev/legal">https://irabu.dev/legal</a>.
+                                href="https://irabu.co.tz/legal">https://irabu.co.tz/legal</a>.
                         </li>
                         <li>
                             The person placing the order or task in the name of the client is assumed as being

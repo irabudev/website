@@ -44,7 +44,7 @@
 
                     <h2>Who are we?</h2>
 
-                    <p>The website irabu.dev is an initiative of: </p>
+                    <p>The website irabu.co.tz is an initiative of: </p>
                     <address>
                         Irabu Company Ltd.<br>
                         Kilongawima Street<br>

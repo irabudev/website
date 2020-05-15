@@ -10814,7 +10814,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
     height: 94%;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
-    background-color: #fff;
+    background-color: #9FC131;
 }
 
 .conact-us-wrap-one .sub-heading {
@@ -13626,7 +13626,7 @@ only screen and (max-width: 767px) {
     font-size: 28px;
     line-height: 1.43;
     font-weight: 400;
-    color: #002fa6;
+    color: #000000;
 }
 
 .portfolio-details-table table {

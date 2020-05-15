@@ -183,7 +183,7 @@ us as a team',
                                 the best solutions for IT services chosen.
                             </div>
 
-                            <a class="gradation-btn" href="index-services.html#">
+                            <a class="gradation-btn" href="#">
                                 <span class="button-text" data-text="{{__('Look more')}}">
                                     {{__('Look more')}}
                                 </span>
@@ -215,7 +215,7 @@ us as a team',
                                 give comments on the results &amp; adaptations.
                             </div>
 
-                            <a class="gradation-btn" href="index-services.html#">
+                            <a class="gradation-btn" href="#">
                                 <span class="button-text" data-text="Look more">
                                     {{__('Look more')}} </span>
                                 <span class="button-icon far fa-long-arrow-right"></span>
@@ -244,7 +244,7 @@ us as a team',
                             <div class="text">Once the final plan is approved, everything will be conducted according to
                                 the agreed contract.</div>
 
-                            <a class="gradation-btn" href="index-services.html#">
+                            <a class="gradation-btn" href="#">
                                 <span class="button-text" data-text="{{__('Look more')}}">
                                     {{__('Look more')}} </span>
                                 <span class="button-icon far fa-long-arrow-right"></span>

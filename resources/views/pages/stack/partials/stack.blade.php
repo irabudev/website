@@ -1,4 +1,4 @@
-<section id="stack" class=" bg-gray section-space--pt_100 ">
+<section id="stack" class="bg-gray section-space--pt_100 ">
     <div class="container">
         <div class="lists-wrapper section-space--pb_40">
             <div class="container">

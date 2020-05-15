@@ -26,11 +26,9 @@
                 <ul>
                     <li class="{{ (request()->is(app()->getLocale())) ? 'active' : '' }}">
                         <a href="{{ route('home', app()->getLocale()) }}"><span>{{ __('Home') }}</span></a>
-
                     </li>
                     <li class="{{ (request()->is(app()->getLocale().'/process*')) ? 'active' : '' }}">
                         <a href="{{ route('process', app()->getLocale()) }}"><span>{{ __('Our Process') }}</span></a>
-
                     </li>
                     <li class="{{ (request()->is(app()->getLocale().'/our-stack*')) ? 'active' : '' }}">
                         <a href="{{ route('stack', app()->getLocale()) }}"><span>{{ __('Our Stack') }}</span></a>
@@ -39,6 +37,21 @@
                     <li class="{{ (request()->is(app()->getLocale().'/about*')) ? 'active' : '' }}">
                         <a href="{{ route('about', app()->getLocale()) }}"><span>{{ __('About Us') }}</span></a>
 
+                    </li>
+                    <li class="{{ (request()->is(app()->getLocale().'/disclaimer*')) ? 'active' : '' }}">
+                        <a href="{{ route('legal.disclaimer', app()->getLocale())}}" class="hover-style-link">
+                            {{ __('Disclaimer')}}
+                        </a>
+                    </li>
+                    <li class="{{ (request()->is(app()->getLocale().'/privacy*')) ? 'active' : '' }}">
+                        <a href="{{ route('legal.privacy', app()->getLocale())}}" class="hover-style-link">
+                            {{ __('Privacy')}}
+                        </a>
+                    </li>
+                    <li class="{{ (request()->is(app()->getLocale().'/general-conditions*')) ? 'active' : '' }}">
+                        <a href="{{ route('legal.conditions', app()->getLocale())}}" class="hover-style-link">
+                            {{ __('Terms and Condition')}}
+                        </a>
                     </li>
                 </ul>
             </nav>

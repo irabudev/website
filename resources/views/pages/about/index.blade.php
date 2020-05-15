@@ -13,8 +13,11 @@ team.',
                 <div class="section-title-wrap text-center section-space--mb_60">
 
                     <h1 class="heading  text-white">
-                        Lets grab a <span class="text-color-primary">cup of coffee <br> (or
-                            tea) </span> & <span class="text-color-primary"> chat.</span>
+                        {{__('Lets grab a')}}
+                        <span class="text-color-primary">
+                            {{__('cup of coffee')}} <br> {{__('(or tea)')}}
+                        </span> &
+                        <span class="text-color-primary"> {{__('chat')}}.</span>
                     </h1>
                 </div>
                 <!-- section-title-wrap Start -->

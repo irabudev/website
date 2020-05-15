@@ -20,9 +20,7 @@
                                 <h4 class="heading font-weight--reguler mb-10">Gorocket</h4>
                                 <p class="sub-text text-color-primary">WEB, iOS , ANDROID</p>
                                 <div class="text mb-10">
-                                    A simple, instinctive and customizable cloud based tool that
-                                    helps you manage your leads, sales and product delivery processes; ultimately
-                                    boosting sales and productivity!
+                                    {{__('index.gorocket')}}
                                 </div>
                                 <a href="https://app.gorocket.co/" class="text-color-primary">
                                     <span>
@@ -38,7 +36,7 @@
                                 <div class="image-wrap">
                                     <div class="image">
                                         <img class="img-fluid" src="{{ asset('images/portfolio/gorocket.png') }}"
-                                            alt="">
+                                            alt="Rocket Inc">
                                     </div>
                                 </div>
                             </div>
@@ -49,11 +47,17 @@
                     <div class="row">
                         <div class="slide-content col-lg-6 col-xl-5 order-2 order-lg-1">
                             <div class="service-project-slide-info">
-                                <h4 class="heading font-weight--reguler mb-10">Aqua Technology Case Studies</h4>
-                                <p class="sub-text text-color-primary">Cyber Security</p>
-                                <div class="text">ARM Holdings is the world's leading semiconductor Intellectual
-                                    Property (IP) supplier. A semiconductor is the electronic controller at the heart of
-                                    many devices that we use every day.</div>
+                                <h4 class="heading font-weight--reguler mb-10">The House of 78inc</h4>
+                                <p class="sub-text text-color-primary">ETHOS, PATHOS, LOGOS</p>
+                                <div class="text">
+                                    {{__('index.78inc')}}
+                                </div>
+                                <a href="https://78inc.co/" class="text-color-primary">
+                                    <span>
+                                        <i class="fas fa-chevron-right"></i>
+                                        {{ __('Visit www.78inc.co to see their portfolio') }}
+                                    </span>
+                                </a>
                             </div>
                         </div>
 
@@ -61,9 +65,8 @@
                             <div class="slide-image">
                                 <div class="image-wrap">
                                     <div class="image">
-                                        <img class="img-fluid"
-                                            src="{{ asset('images/features/home-services-case-study-slide-image-02.png') }}"
-                                            alt="">
+                                        <img class="img-fluid" src="{{ asset('images/portfolio/78art.png') }}"
+                                            alt="The House of 78inc">
                                     </div>
                                 </div>
                             </div>

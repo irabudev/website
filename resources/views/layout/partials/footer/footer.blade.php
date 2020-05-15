@@ -63,7 +63,6 @@
                                 {{ __('Terms and Condition')}}
                             </a>
                         </li>
-
                     </ul>
                 </div>
 

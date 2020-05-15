@@ -10,18 +10,19 @@
         <div class="row">
             <div class="col-lg-8">
                 <div class="vision-content">
-                    <h5 class="heading"> We are a creative digital agency with a core quest of <strong>build to
-                            simplify</strong> — since 2013, formally incorporated in 2020</h5>
-                    <h5 class="heading section-space--mt_30"> We use human-centered software design tools and techniques
-                        to gain a better understanding of users needs and improve the efficacy of their
-                        products.</strong> — since 2013.</h5>
-                    <h5 class="heading section-space--mt_30"> We work hand in hand with our clients to help them boost
-                        their businesses by creating exceptional digital solutions.</h5>
+                    <h5 class="heading">
+                        {{__('We are a creative digital agency with a core quest of')}}
+                    <strong>{{__('build to simplify')}}</strong>
+                        {{__('— since 2013, formally incorporated in 2020')}}
+                    </h5>
                     <h5 class="heading section-space--mt_30">
-                        The Irabu team consists of designers, developers,
-                        technologists, strategists, engineers to writers,
-                        With a strong mentality to stay on of things.
-                        But most of all we are thirsty problem solvers with an innate desire to simplify.
+                        {{__('about.sec_1')}}
+                    </h5>
+                    <h5 class="heading section-space--mt_30">
+                        {{__('about.sec_2')}}
+                    </h5>
+                    <h5 class="heading section-space--mt_30">
+                        {{__('about.sec_3')}}
                     </h5>
                 </div>
 
@@ -30,13 +31,12 @@
                 <div class="portfolio-details-content">
                     <div class="text">
                         <div class="author">
-                            <h6 class="font-weight--reguler mb-1">irabu is Swahili for vowels, i.e. relating to the
-                                voice.
+                            <h6 class="font-weight--reguler mb-1">
+                                {{__('irabu is Kiswahili for vowels, i.e. relating to the voice.')}}
                             </h6>
                             <p>{{__('You pronounce it')}} /'irabuː/.</p>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
