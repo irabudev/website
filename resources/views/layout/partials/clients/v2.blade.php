@@ -24,7 +24,7 @@
                                     </a>
                                 </div>
                                 <div class="brand-logo brand-logo--slider">
-                                    <a href="http://www.ten.co.tz/" target="_blank">
+                                    <a href="{{ secure_url('http://www.ten.co.tz/')}}" target="_blank">
                                         <div class="brand-logo__image">
                                             <img src="{{ asset('/images/clients/10.png')}}" class="img-fluid width-160"
                                                 alt="Ten Africa | School of Tech">
@@ -51,7 +51,7 @@
                                 </div>
 
                                 <div class="brand-logo brand-logo--slider">
-                                    <a href="http://stallionattorneys.com/" target="_blank">
+                                    <a href="{{secure_url('http://stallionattorneys.com/')}}" target="_blank">
                                         <div class="brand-logo__image">
                                             <img src="{{ asset('/images/clients/stallion.png')}}"
                                                 class="img-fluid width-160" alt="Stallion Attorneys">
@@ -69,7 +69,7 @@
                                 </div>
 
                                 <div class="brand-logo brand-logo--slider">
-                                    <a href="http://www.nuktaafrica.co.tz/" target="_blank">
+                                    <a href="{{secure_url('http://www.nuktaafrica.co.tz/')}}" target="_blank">
                                         <div class="brand-logo__image">
                                             <img src="{{ asset('/images/clients/nukta.png')}}"
                                                 class="img-fluid width-160" alt="Nukta Africa">
@@ -78,7 +78,7 @@
                                 </div>
 
                                 <div class="brand-logo brand-logo--slider">
-                                    <a href="http://phd.co.tz/" target="_blank">
+                                    <a href="{{secure_url('http://phd.co.tz/')}}" target="_blank">
                                         <div class="brand-logo__image">
                                             <img src="{{ asset('/images/clients/phd.png')}}" class="img-fluid width-160"
                                                 alt="Praxis for Health and Development">
@@ -89,16 +89,16 @@
                                 <div class="brand-logo brand-logo--slider">
                                     <a href="https://gepc.or.tz/" target="_blank">
                                         <div class="brand-logo__image">
-                                            <img src="{{ asset('/images/clients/gepc.png')}}"
-                                                class="img-fluid width-160" alt="">
+                                            <img src="{{asset('/images/clients/gepc.png')}}" class="img-fluid width-160"
+                                                alt="GEPC">
                                         </div>
                                     </a>
                                 </div>
 
                                 <div class="brand-logo brand-logo--slider">
-                                    <a href="http://mowara.com/" target="_blank">
+                                    <a href="{{secure_url('http://mowara.com/')}}" target="_blank">
                                         <div class="brand-logo__image">
-                                            <img src="{{ asset('/images/clients/mowara.png')}}"
+                                            <img src="{{asset('/images/clients/mowara.png')}}"
                                                 class="img-fluid width-160" alt="Mowara Limited">
                                         </div>
                                     </a>
