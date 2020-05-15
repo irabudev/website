@@ -10,20 +10,75 @@ $(document).ready(function () {
 
 
 
-    // wow = new WOW.WOW(
-    //     {
-    //     boxClass:     'wow',      // default
-    //     animateClass: 'animated', // default
-    //     offset:       0,          // default
-    //     mobile:       true,       // default
-    //     live:         true        // default
-    //   }
-    //   )
-    //   wow.init();
+    /*=======================================================
+    Smooth scrolling trick
+    https://css-tricks.com/snippets/jquery/smooth-scrolling/
+    =========================================================*/
 
-    /*==========================================
-    =            mobile menu active            =
-    ============================================*/
+    window.scroll({
+        top: 2500,
+        left: 0,
+        behavior: 'smooth'
+    });
+
+    // Scroll certain amounts from current position
+    window.scrollBy({
+        top: 100, // could be negative value
+        left: 0,
+        behavior: 'smooth'
+    });
+    /*=======================================================
+    End of Smooth scrolling trick
+    https://css-tricks.com/snippets/jquery/smooth-scrolling/
+    =========================================================*/
+
+    var windows = $(window);
+    var screenSize = windows.width();
+    var sticky = $('.header-sticky');
+    var $body = $('body');
+
+    windows.on('scroll', function () {
+        var scroll = windows.scrollTop();
+        var headerHeight = sticky.height();
+
+        if (screenSize >= 320) {
+            if (scroll < headerHeight) {
+                sticky.removeClass('is-sticky');
+            } else {
+                sticky.addClass('is-sticky');
+            }
+        }
+
+    });
+    /*----------  Scroll to top  ----------*/
+    function scrollToTop() {
+        var $scrollUp = $('#scroll-top'),
+            $lastScrollTop = 0,
+            $window = $(window);
+
+        $window.on('scroll', function () {
+            var st = $(this).scrollTop();
+            if (st > $lastScrollTop) {
+                $scrollUp.removeClass('show');
+            } else {
+                if ($window.scrollTop() > 200) {
+                    $scrollUp.addClass('show');
+                } else {
+                    $scrollUp.removeClass('show');
+                }
+            }
+            $lastScrollTop = st;
+        });
+
+        $scrollUp.on('click', function (evt) {
+            $('html, body').animate({
+                scrollTop: 0
+            }, 600);
+            evt.preventDefault();
+        });
+    }
+    scrollToTop();
+
 
     $("#mobile-menu-trigger").on('click', function () {
         $("#mobile-menu-overlay").addClass("active");
