@@ -29,6 +29,14 @@ services:
     networks:
       - default
 
+  node:
+      tty: true # Enables debugging capabilities when attached to this container.
+      image: 'bitnami/node:12'
+      # command: sh -c 'npm ci && npm run-script dev-server'
+      # ports:
+      #   - 3000:3000
+      volumes:
+        - .:/var/www
   php:
     build:
       context: .
