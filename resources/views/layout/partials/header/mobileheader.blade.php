@@ -26,11 +26,9 @@
                 <ul>
                     <li class="{{ (request()->is(app()->getLocale())) ? 'active' : '' }}">
                         <a href="{{ route('home', app()->getLocale()) }}"><span>{{ __('Home') }}</span></a>
-
                     </li>
                     <li class="{{ (request()->is(app()->getLocale().'/process*')) ? 'active' : '' }}">
                         <a href="{{ route('process', app()->getLocale()) }}"><span>{{ __('Our Process') }}</span></a>
-
                     </li>
                     <li class="{{ (request()->is(app()->getLocale().'/our-stack*')) ? 'active' : '' }}">
                         <a href="{{ route('stack', app()->getLocale()) }}"><span>{{ __('Our Stack') }}</span></a>

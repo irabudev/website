@@ -118,7 +118,23 @@
                                     <a href="https://tcsaa.or.tz/" target="_blank">
                                         <div class="brand-logo__image">
                                             <img src="{{ asset('/images/clients/tcsaa.png')}}"
-                                                class="img-fluid width-160" alt="">
+                                                class="img-fluid width-160" alt="TCSAA">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="brand-logo brand-logo--slider">
+                                    <a href="https://demichtoph.co.tz/" target="_blank">
+                                        <div class="brand-logo__image">
+                                            <img src="{{ asset('/images/clients/demichtoph.png')}}"
+                                                class="img-fluid width-160" alt="Demichtoph">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="brand-logo brand-logo--slider">
+                                    <a href="https://reliance.or.tz/" target="_blank">
+                                        <div class="brand-logo__image">
+                                            <img src="{{ asset('/images/clients/self.png')}}"
+                                                class="img-fluid width-160" alt="Reliance">
                                         </div>
                                     </a>
                                 </div>

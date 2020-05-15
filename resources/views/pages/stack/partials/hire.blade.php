@@ -11,7 +11,7 @@
                 <div class="layouts-section-text">
                     <h3 class="heading">
                         <span class="text-color-primary">
-                            {{__('Let\'s figure out how we could step in and help you out')}}
+                            {{__('stack.cta')}}
                         </span>
                     </h3>
                     <p class="text mt-30">
@@ -22,8 +22,6 @@
                     <p class="text mt-30">
                         We make products and services that are built with an emphasis on perfection, simplicity and
                         customer satisfaction.
-
-
                     </p>
 
                     <div class="sider-title-button-box mt-30">
