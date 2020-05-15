@@ -1,5 +1,5 @@
 @extends('layout.default', [
-'title' => 'Building to Simplify',
+'title' => 'Build to Simplify',
 'description' => 'At irabu we craft SIMPLE & VALUABLE solutions to everday challengess.',
 ])
 
