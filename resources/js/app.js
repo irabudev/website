@@ -9,21 +9,26 @@ $(document).ready(function () {
     $(".open_tm_preloader").addClass('loaded');
 
 
+    $(".break-first").html(function () {
+        var text = $(this).text().trim().split(" ");
+        var first = text.shift();
+        return (text.length > 0 ? first + "<br> " : first) + text.join(" ");
+    });
 
     /*=======================================================
     Smooth scrolling trick
     https://css-tricks.com/snippets/jquery/smooth-scrolling/
     =========================================================*/
 
-    window.scroll({
-        top: 2500,
-        left: 0,
-        behavior: 'smooth'
-    });
+    // window.scroll({
+    //     top: 2500,
+    //     left: 0,
+    //     behavior: 'smooth'
+    // });
 
     // Scroll certain amounts from current position
     window.scrollBy({
-        top: 100, // could be negative value
+        top: 0, // could be negative value
         left: 0,
         behavior: 'smooth'
     });

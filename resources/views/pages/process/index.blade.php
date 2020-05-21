@@ -33,11 +33,12 @@ us as a team',
                     <div class="gradation-title-wrap ">
                         <h6 class="section-sub-title text-black mb-20">{{__('How we work')}}</h6>
                         <h4 class="heading">
-                            How we helps <span class="text-color-primary">your <br> business
-                                succeed</span>
+                            {{__('How we help')}}
+                            <span class="text-color-primary break-first">
+                                {{__('your business succeed')}}
+                            </span>
                         </h4>
                     </div>
-
 
                     <div class="gradation-sub-heading">
                         <h3 class="heading"><mark>07</mark> {{__('Steps')}}</h3>
@@ -176,7 +177,7 @@ us as a team',
 
                         <div class="content-wrap">
 
-                            <h6 class="heading">05. {{__('Concepts &amp; Initatives')}}</h6>
+                            <h6 class="heading">05. {{__('Concepts & Initatives')}}</h6>
 
                             <div class="text">
                                 Our experts come up with all kinds of ideas and initiatives for delivering
@@ -241,8 +242,10 @@ us as a team',
 
                             <h6 class="heading">07. {{__('Execute & install')}}</h6>
 
-                            <div class="text">Once the final plan is approved, everything will be conducted according to
-                                the agreed contract.</div>
+                            <div class="text">
+                                Once the final plan is approved, everything will be conducted according to
+                                the agreed contract.
+                            </div>
 
                             <a class="gradation-btn" href="#">
                                 <span class="button-text" data-text="{{__('Look more')}}">
