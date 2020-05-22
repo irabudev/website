@@ -8,8 +8,8 @@ return [
     |-------------------------------------
     */
 
-    'sec_1' => 'Tunatumia zana za kutengeneza programu zinazosimamiwa na watu makini pamoja na mbinu za kuweza kuelewa mahitaji ya wateja na kukuza ufanisi wa bidhaa zao.',
-    'sec_2' => 'Tunafanya kazi mkono kwa mkono na wateja wetu ili kuweza kuwasaidia kunyanyua biashara zao kwa kuunda tatuzi za kidigitali zenye upekee. ',
-    'sec_3' => 'Timu yetu inahusisha wasanifu, waendelezaji, wanateknolojia, wanamipango, wahandisi mpaka waandishi, tukiwa na fikra imara zakusimamia vitu. Lakini wengi miongoni mwetu ni watatua matatizo wenye kiu na hulika ya kutaka kurahisisha.',
+    'sec_1' => 'We use human-centered software design tools and techniques to gain a better understanding of users needs and improve the efficacy of their products.',
+    'sec_2' => 'We work hand in hand with our clients to help them boost their businesses by creating exceptional digital solutions.',
+    'sec_3' => 'Our team consists of designers, developers, technologists, strategists, engineers to writers, With a strong mentality to stay on of things. But most of all we are thirsty problem solvers with an innate desire to simplify.',
 
 ];
