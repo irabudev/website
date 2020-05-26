@@ -70,8 +70,7 @@ us as a team',
                             <h6 class="heading">01. {{__('DISCOVERY (Objectives, Ideas, Concepts)')}} 🔎 </h6>
 
                             <div class="text">
-                                Learn more about the client's business and explore their current approach on solving the
-                                problem to find insights that will inform and guide us during the project
+                                {{__('process.discovery')}}
                             </div>
 
 
@@ -97,9 +96,7 @@ us as a team',
                             <h6 class="heading">02. {{__('DEFINE (Sketches & Stories)')}} ✍️</h6>
 
                             <div class="text">
-                                This step is all about evolving the concept
-                                Focus on the main objective of the piece and avoid getting hung up on all the little
-                                details
+                                {{__('process.define')}}
                             </div>
                         </div>
                     </div>
@@ -123,8 +120,7 @@ us as a team',
                             <h6 class="heading">03. {{__('DESIGN (Design, build & iterate')}}) 📐</h6>
 
                             <div class="text">
-                                Now we can start to develop all of this into high fidelity designs and begin iterate on
-                                our ideas
+                                {{__('process.design')}}
                             </div>
 
                         </div>
@@ -149,8 +145,7 @@ us as a team',
                             <h6 class="heading">04. {{__('DEVELOP (Iterate, iterate & iterate)')}} 🏗️</h6>
 
                             <div class="text">
-                                Continue refining designs, story and assets. By the end of this step we
-                                should be <b>95.998328%</b> done with the project
+                                {{__('process.develop')}}
                             </div>
                         </div>
                     </div>
@@ -180,8 +175,7 @@ us as a team',
                             <h6 class="heading">05. {{__('Concepts & Initatives')}}</h6>
 
                             <div class="text">
-                                Our experts come up with all kinds of ideas and initiatives for delivering
-                                the best solutions for IT services chosen.
+                                {{__('process.concepts')}}
                             </div>
 
                             <a class="gradation-btn" href="#">
@@ -212,8 +206,7 @@ us as a team',
                             <h6 class="heading">06. {{__('Testing & Trying')}}</h6>
 
                             <div class="text">
-                                After agreeing on the ideas and plans, we will conduct as scheduled and
-                                give comments on the results &amp; adaptations.
+                                {{__('process.testing')}}
                             </div>
 
                             <a class="gradation-btn" href="#">
@@ -243,8 +236,7 @@ us as a team',
                             <h6 class="heading">07. {{__('Execute & install')}}</h6>
 
                             <div class="text">
-                                Once the final plan is approved, everything will be conducted according to
-                                the agreed contract.
+                                {{__('process.execute')}}
                             </div>
 
                             <a class="gradation-btn" href="#">

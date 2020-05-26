@@ -4,7 +4,7 @@
             <div class="col-lg-6 col-lg-6">
                 <div class="conact-us-wrap-one">
                     <h3 class="heading text-white">
-                        Let's grab a cup of coffee or tea and discuss your idea.
+                        {{__("Let's grab a cup of coffee or tea and discuss your idea.")}}
                     </h3>
 
                     <div class="sub-heading text-white"></div>
@@ -24,7 +24,7 @@
 - …
 
 Anything that helps us to start straightforward!'
-) }}"  class="btn btn--secondary">{{__('Lets talk')}}</a>
+) }}"  class="btn btn--secondary">{{__("Let's talk")}}</a>
                     </div>
                 </div>
             </div>

@@ -5,7 +5,7 @@
             <div class="col-lg-8 col-md-6">
                 <div class="contact-us-wrap-one">
 
-                    <div class="sub-heading ">Enough about us!</div>
+                    <div class="sub-heading">{{__('Enough about us!')}}</div>
 
                 </div>
             </div>
@@ -20,11 +20,11 @@
 - …
 
 Anything that helps us to start straightforward!'
-) }}" class="">
-                    <h2 class=" text-right">
+) }}">
+                    <h2 class="text-right">
                         <span class="text-color-primary contact-link">
-                            What brought
-                            <br> you here
+                            {{__('What brought')}}
+                            <br> {{__('you here')}}
                         </span> ?
                     </h2>
                 </a>
