@@ -8,12 +8,11 @@ return [
     |-------------------------------------
     */
 
-    "discovery" => "Jifunze zaidi juu ya biashara ya mteja na uchunguze mbinu yao ya sasa ya kutatua
-    Tatizo la kupata ufahamu ambao utatuarifu na kutuongoza wakati wa mradi",
-    "define" => "Hatua hii inahusu kutoa wazo Zingatia kusudi kuu la kipande na epuka kukwama juu ya yote kidogo maelezo",
-    "design" => "Sasa tunaweza kuanza kukuza haya yote kuwa miundo ya uaminifu wa hali ya juu na kuanza kuisimamia maoni yetu",
-    "develop" => "Endelea kubuni miundo, hadithi na mali. Mwisho wa hatua hii sisi inapaswa kufanywa 95.998328% kufanywa na mradi huo",
-    "concepts" => "Wataalam wetu wanakuja na kila aina ya maoni na hatua za kutoa suluhisho bora kwa huduma za IT zilizochaguliwa.",
-    "testing" => "Baada ya kukubaliana juu ya maoni na mipango, tutafanya kama ilivyopangwa na toa maoni juu ya marekebisho ya matokeo.",
+    "discovery" => "Tunajifunza zaidi juu ya biashara ya mteja na kuchunguza mbinu zao za sasa za kutatua tatizo ili kupata ufahamu ambao utatuarifu na kutuongoza wakati wote wa mradi",
+    "define" => "Hatua hii kwa ujumla inahusu ukuzaji wa fikra kwa kulenga kwenye lengo kuu la kipande na kuzuia kuning'inia kwenye maelezo madogo madogo",
+    "design" => "Sasa tunaweza kuanza kuendeleza vyote hivi kwa usanifu wa hali ya juu na kuanza kurudiarudia kwenye wazo letu ",
+    "develop" => "Tunaendelea kusafisha mitindo, hadithi na rasilimali. Kufikia mwisho wa hatua hii tayari tutakuwa tumemaliza 95.998328% ya mradi wetu",
+    "concepts" => "Wataalam wetu wanakuja na kila aina ya mawazo na njia za kutoa suluhisho bora kwa huduma za IT zilizochaguliwa.",
+    "testing" => "Baada ya kukubaliana juu ya maoni na mipango, tutafanya kama ilivyopangwa na tutatoa maoni juu ya matokeo na marekebisho.",
     "execute" => "Mara tu mpango wa mwisho utapitishwa, kila kitu kitafanywa kulingana na mkataba uliokubaliwa."
 ];
