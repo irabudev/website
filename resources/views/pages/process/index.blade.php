@@ -178,7 +178,7 @@ us as a team',
                                 {{__('process.concepts')}}
                             </div>
 
-                            <a class="gradation-btn" href="#">
+                            <a class="gradation-btn d-none" href="#">
                                 <span class="button-text" data-text="{{__('Look more')}}">
                                     {{__('Look more')}}
                                 </span>
@@ -209,7 +209,7 @@ us as a team',
                                 {{__('process.testing')}}
                             </div>
 
-                            <a class="gradation-btn" href="#">
+                            <a class="gradation-btn d-none" href="#">
                                 <span class="button-text" data-text="Look more">
                                     {{__('Look more')}} </span>
                                 <span class="button-icon far fa-long-arrow-right"></span>
@@ -239,7 +239,7 @@ us as a team',
                                 {{__('process.execute')}}
                             </div>
 
-                            <a class="gradation-btn" href="#">
+                            <a class="gradation-btn d-none" href="#">
                                 <span class="button-text" data-text="{{__('Look more')}}">
                                     {{__('Look more')}} </span>
                                 <span class="button-icon far fa-long-arrow-right"></span>

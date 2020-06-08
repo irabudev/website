@@ -15,13 +15,11 @@
                         </span>
                     </h3>
                     <p class="text mt-30">
-                        Our team is blessed with experts who are highly experienced and leverage the latest cutting edge
-                        technology to create digital solutions
+                        {{ __('stack.p1') }}
                     </p>
 
                     <p class="text mt-30">
-                        We make products and services that are built with an emphasis on perfection, simplicity and
-                        customer satisfaction.
+                        {{ __('stack.p2') }}
                     </p>
 
                     <div class="sider-title-button-box mt-30">
@@ -34,7 +32,7 @@
 - …
 
 Anything that helps us to start straightforward!'
-) }}" class="ht-btn ht-btn-md"> Hire our team</a>
+                        ) }}" class="ht-btn ht-btn-md"> {{__('Hire our team')}}</a>
                     </div>
 
                 </div>

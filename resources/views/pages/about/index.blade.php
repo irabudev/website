@@ -15,7 +15,7 @@ team.',
                     <h1 class="heading  text-white">
                         {{__('Lets grab a')}}
                         <span class="text-color-primary">
-                            {{__('cup of coffee')}} <br> {{__('(or tea)')}}
+                            {{__('cup of coffee')}} <br> {{__('or tea')}}
                         </span> &
                         <span class="text-color-primary"> {{__('chat')}}.</span>
                     </h1>

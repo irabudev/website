@@ -4,7 +4,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 mb-20">
-                        <h3 class="title line-after mb-16">Our technology stack</h3>
+                    <h3 class="title line-after mb-16">{{__('Our technology stack')}}</h3>
                     </div>
                 </div>
                 <div class="row">
