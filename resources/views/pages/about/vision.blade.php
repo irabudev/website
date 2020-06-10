@@ -15,7 +15,7 @@
                     <strong>{{__('build to simplify')}}</strong>
                         {{__('— since 2013, formally incorporated in 2020')}}
                     </h5>
-                    <h5 class="heading section-space--mt_30">
+                    <h5 class="heading section-space--mt_30 d-none">
                         {{__('about.sec_1')}}
                     </h5>
                     <h5 class="heading section-space--mt_30">
