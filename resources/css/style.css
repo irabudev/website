@@ -3944,7 +3944,7 @@ only screen and (max-width: 767px) {
     overflow: auto;
     -webkit-transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
     transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
-    z-index: 9999;
+    z-index: 999;
     background: rgba(0, 0, 0, 0.7);
     cursor: url(../images/icons/light-close.png) 16 16, pointer;
     visibility: hidden;

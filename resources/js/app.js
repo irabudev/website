@@ -1,14 +1,8 @@
 require('./bootstrap');
 const Swiper = require('./plugins/swiper.min');
 const WOW = require('./plugins/wow.min');
-// require('./main');
 
 $(document).ready(function () {
-
-    $(".preloader-activate").removeClass('preloader-active');
-    $(".open_tm_preloader").addClass('loaded');
-
-
     $(".break-first").html(function () {
         var text = $(this).text().trim().split(" ");
         var first = text.shift();
@@ -55,6 +49,7 @@ $(document).ready(function () {
         }
 
     });
+
     /*----------  Scroll to top  ----------*/
     function scrollToTop() {
         var $scrollUp = $('#scroll-top'),
@@ -84,6 +79,25 @@ $(document).ready(function () {
     }
     scrollToTop();
 
+    /*=========================================
+    =            Preloader             =
+    ===========================================*/
+    windows.on('load', function () {
+    });
+
+
+    $(window).on('load', function () {
+        $(".preloader-activate").removeClass('preloader-active');
+
+        setTimeout(function () {
+            jQuery('.open_tm_preloader').addClass('loaded');
+        }, 1000);
+
+    });
+
+      /*==========================================
+    =            mobile menu active            =
+    ============================================*/
 
     $("#mobile-menu-trigger").on('click', function () {
         $("#mobile-menu-overlay").addClass("active");
@@ -100,6 +114,18 @@ $(document).ready(function () {
         $body.removeClass('no-overflow');
     });
 
+    /*Close When Click Outside*/
+    $body.on('click', function(e){
+        var $target = e.target;
+        if (!$($target).is('.mobile-menu-overlay__inner') && !$($target).parents().is('.mobile-menu-overlay__inner') && !$($target).is('#mobile-menu-trigger') && !$($target).is('#mobile-menu-trigger i')){
+            $("#mobile-menu-overlay").removeClass("active");
+            $body.removeClass('no-overflow');
+        }
+        if (!$($target).is('.search-overlay__inner') && !$($target).parents().is('.search-overlay__inner') && !$($target).is('#search-overlay-trigger') && !$($target).is('#search-overlay-trigger i')){
+            $("#search-overlay").removeClass("active");
+            $body.removeClass('no-overflow');
+        }
+    });
 
     var brandLogoSlider = new Swiper('.brand-logo-slider__container', {
         slidesPerView: 8,
@@ -170,39 +196,8 @@ $(document).ready(function () {
             }
         }
     });
+
 });
-
-
-// (function ($) {
-
-//     var windows = $(window);
-
-//      /*===============================
-//     =         Wow Active            =
-//     ================================*/
-//     //
-//     window.wow = new WOW.WOW({
-//         live: false
-//     });
-
-//     window.wow.init();
-//         /*=========================================
-//     =            Preloader active            =
-//     ===========================================*/
-//     windows.on('load', function(){
-//         $(".preloader-activate").removeClass('preloader-active');
-//     });
-
-
-//     jQuery(window).on('load', function(){
-// 		setTimeout(function(){
-//         jQuery('.open_tm_preloader').addClass('loaded');
-//         }, 1000);
-// 	});
-
-
-
-// })(jQuery);
 
 
 window.Vue = require('vue');
