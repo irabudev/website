@@ -2,8 +2,6 @@
 
 return [
     'cta' => "Tujulishe ni namna gani tunaweza kuanza kukusaidia",
-    'p1' => "[SW] Our team is blessed with experts who are highly experienced and leverage the latest cutting edge
-    technology to create digital solutions",
-    'p2' => "[SW] We make products and services that are built with an emphasis on perfection, simplicity and
-    customer satisfaction."
+    'p1' => "Timu yetu imebarikiwa kuwa na wataalam wenye uzoefu wa hali ya juu wanaotumia teknolojia za kisasa kuunda tatuzi za kidigitali",
+    'p2' => "Tunatengeneza bidhaa na huduma ambazo zinaundwa kwa msisitizo na mkazo wa usahihi, urahisi na maridhio ya mteja."
 ];
