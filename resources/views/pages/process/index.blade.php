@@ -117,7 +117,7 @@ us as a team',
 
                         <div class="content-wrap">
 
-                            <h6 class="heading">03. {{__('DESIGN (Design, build & iterate')}}) 📐</h6>
+                            <h6 class="heading">03. {{__('DESIGN (Design, build & iterate)')}} 📐</h6>
 
                             <div class="text">
                                 {{__('process.design')}}
@@ -172,7 +172,7 @@ us as a team',
 
                         <div class="content-wrap">
 
-                            <h6 class="heading">05. {{__('Concepts & Initatives')}}</h6>
+                            <h6 class="heading">05. {{__('Concepts & Initiatives')}}</h6>
 
                             <div class="text">
                                 {{__('process.concepts')}}
