@@ -20,7 +20,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 RUN apt-get clean && rm -rf /var/lib/apt/lists/*
 
 # Installing extensions
-RUN docker-php-ext-install pdo_mysql mbstring zip exif pcntl bcmath opcache
+RUN docker-php-ext-install pdo_mysql mbstring zip exif pcntl bcmath opcache intl
 RUN docker-php-ext-enable imagick
 
 # Installing composer
