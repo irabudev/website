@@ -29,8 +29,8 @@
         @include('layout.partials.footer.footer')
         @include('layout.partials.header.mobileheader')
         <a href="#" class="scroll-top show" id="scroll-top">
-            <i class="arrow-top fal fa-long-arrow-up"></i>
-            <i class="arrow-bottom fal fa-long-arrow-up"></i>
+            <img src="{{ asset('images/icons/arrow-up.svg') }}" class="arrow-top" alt="Go up" style="margin: 1.2em;">
+            <img src="{{ asset('images/icons/arrow-down.svg') }}" class="arrow-bottom" alt="Go down">
         </a>
     </div>
 </body>

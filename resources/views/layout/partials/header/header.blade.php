@@ -9,7 +9,7 @@
                     <div class="header default-menu-style position-relative">
                         <!-- brand logo -->
                         <div class="header__logo">
-                            <a href="{{ route('home', app()->getLocale()) }}">
+                            <a href="{{ route('home') }}">
                                 <img src="{{ asset('/images/logo.svg') }}" class="img-fluid" alt="irabu.co.tz">
                             </a>
                         </div>
@@ -25,27 +25,27 @@
                                                 <ul>
                                                     <li
                                                         class="{{ (request()->is(app()->getLocale())) ? 'active' : '' }}">
-                                                        <a href="{{ route('home',app()->getLocale()) }}">
+                                                        <a href="{{ route('home') }}">
                                                             <span>{{ __('Home') }}</span>
                                                         </a>
 
                                                     </li>
                                                     <li
                                                         class="{{ (request()->is(app()->getLocale().'/process*')) ? 'active' : '' }}">
-                                                        <a href="{{ route('process', app()->getLocale()) }}">
+                                                        <a href="{{ route('process') }}">
                                                             <span>{{ __('Our Process') }}</span>
                                                         </a>
 
                                                     </li>
                                                     <li
                                                         class="{{ (request()->is(app()->getLocale().'/our-stack*')) ? 'active' : '' }}">
-                                                        <a href="{{ route('stack', app()->getLocale()) }}">
+                                                        <a href="{{ route('stack') }}">
                                                             <span>{{ __('Our Stack') }}</span>
                                                         </a>
                                                     </li>
                                                     <li
                                                         class="{{ (request()->is(app()->getLocale().'/about*')) ? 'active' : '' }}">
-                                                        <a href="{{ route('about', app()->getLocale()) }}">
+                                                        <a href="{{ route('about') }}">
                                                             <span>{{ __('About Us') }}</span>
                                                         </a>
                                                     </li>
@@ -65,22 +65,68 @@
                                 <div class="language-menu">
                                     <ul>
                                         <li>
-                                            <language-switcher locale="{{ app()->getLocale() }}"
-                                                link-en="{{ route(Route::currentRouteName(), 'en') }}"
-                                                link-sw="{{ route(Route::currentRouteName(), 'sw') }}">
-                                            </language-switcher>
+                                            <a href="#" class="">
+                                                <img class="ls-flag" style="height: 2em;"
+                                                    src="{{ app()->getLocale() === 'en' ? asset('images/flags/en.svg') : asset('images/flags/sw.svg') }}"
+                                                    alt="en" title="English">
+                                                <span
+                                                    class="wpml-ls-native">{{ app()->getLocale() === 'en' ? 'EN' : 'SW' }}</span>
+                                            </a>
+
+                                            <ul class="ls-sub-menu">
+                                                <li class="">
+                                                    <a href="{{route('home', [], true, 'en')}}">
+                                                        <img class="ls-flag" src="{{ asset('images/flags/en.svg') }}"
+                                                            alt="en" title="English"><span
+                                                            class="wpml-ls-native">English</span>
+                                                    </a>
+                                                </li>
+                                                <li class="">
+                                                    <a href="{{route('home', [], true, 'sw')}}">
+                                                        <img class="wpml-ls-flag"
+                                                            src="{{ asset('images/flags/sw.svg') }}" alt="de"
+                                                            title="Kiswahili">
+                                                        <span class="wpml-ls-native">Kiswahili</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
                                         </li>
                                     </ul>
-
                                 </div>
                             </div>
                             <div class="hidden-icons-menu d-block d-md-none" id="hidden-icon-trigger">
-                                <a href="javascript:void(0)" >
-                                    <language-switcher locale="{{ app()->getLocale() }}"
-                                        link-en="{{ route(Route::currentRouteName(), 'en') }}"
-                                        link-sw="{{ route(Route::currentRouteName(), 'sw') }}">
-                                    </language-switcher>
-                                </a>
+                                <div class="language-menu" style="padding: 0;">
+                                    <ul>
+                                        <li>
+                                            <a href="#" style="padding: 0;">
+                                                <img class="ls-flag" style="height: 1.25em;"
+                                                    src="{{ app()->getLocale() === 'en' ? asset('images/flags/en.svg') : asset('images/flags/sw.svg') }}"
+                                                    alt="en" title="English">
+                                                <span
+                                                    class="wpml-ls-native" style="font-size: 12px;">{{ app()->getLocale() === 'en' ? 'EN' : 'SW' }}</span>
+                                            </a>
+
+                                            <ul class="ls-sub-menu" style="min-width: 118px;">
+                                                <li class="">
+                                                    <a href="{{route('home', [], true, 'en')}}">
+                                                        <img class="ls-flag" src="{{ asset('images/flags/en.svg') }}"
+                                                            alt="en" title="English" style="width: 18px;">
+                                                            <span
+                                                            class="wpml-ls-native" style="font-size: 12px;">English</span>
+                                                    </a>
+                                                </li>
+                                                <li class="">
+                                                    <a href="{{route('home', [], true, 'sw')}}">
+                                                        <img class="wpml-ls-flag"
+                                                            src="{{ asset('images/flags/sw.svg') }}" style="width: 18px;" alt="de"
+                                                            title="Kiswahili">
+                                                        <span class="wpml-ls-native" style="font-size: 12px;">Kiswahili</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                             <!-- mobile menu -->
                             <div class="mobile-navigation-icon d-block d-xl-none" id="mobile-menu-trigger">

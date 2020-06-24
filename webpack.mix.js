@@ -17,5 +17,5 @@ mix.js('resources/js/app.js', 'public/js')
     .options({
         processCssUrls: false
     })
-    .styles(['resources/css/plugins/plugins.min.css', 'resources/css/style.css'], 'public/css/style.css')
     .purgeCss();
+    // .styles(['resources/css/plugins/plugins.min.css', 'resources/css/style.css'], 'public/css/style.css')

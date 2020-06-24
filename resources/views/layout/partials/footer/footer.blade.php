@@ -82,25 +82,27 @@
                         <li class="item">
                             <a href="https://twitter.com/irabudev" target="_blank" aria-label="@irabudev"
                                 class="social-link hint--bounce hint--top hint--primary">
-                                <i class="fab fa-twitter link-icon"></i>
+                                <img src="{{ asset('images/icons/twitter.svg') }}" alt="twitter">
                             </a>
                         </li>
                         <li class="item">
-                            <a href="fb.me/irabudev" target="_blank" aria-label="Facebook"
+                            <a href="https://fb.me/irabudev" target="_blank" aria-label="Facebook"
                                 class="social-link hint--bounce hint--top hint--primary">
-                                <i class="fab fa-facebook-f link-icon"></i>
+                                <img src="{{ asset('images/icons/facebook.svg') }}" alt="Facebook">
                             </a>
                         </li>
-                        <li class="item">
+                        <li class="item text-center">
                             <a href="https://www.instagram.com/irabu.dev/" target="_blank" aria-label="@irabudev"
                                 class="social-link hint--bounce hint--top hint--primary">
-                                <i class="fab fa-instagram link-icon"></i>
+                                <img src="{{ asset('images/icons/instagram.svg') }}" alt="Instagram"
+                                    style="margin-bottom: .25em;">
                             </a>
                         </li>
                         <li class="item">
                             <a href="https://www.linkedin.com/company/irabu/" target="_blank" aria-label="irabu"
                                 class="social-link hint--bounce hint--top hint--primary">
-                                <i class="fab fa-linkedin link-icon"></i>
+                                <img src="{{ asset('images/icons/linkedin.svg') }}" alt="linkedin"
+                                    style="margin-bottom: .25em;">
                             </a>
                         </li>
                     </ul>

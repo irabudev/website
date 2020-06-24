@@ -15,7 +15,11 @@ use Illuminate\Support\Facades\Route;
 
 Route::redirect('/', '/en');
 
-Route::group(['prefix' => '{language}'], function () {
+Route::localized(function () {
+
+    Route::fallback(function () {
+        return response()->view('errors.404', [], 404);
+    })->middleware(\CodeZero\LocalizedRoutes\Middleware\SetLocale::class);
 
     Route::get('/', function () {
         return view('pages.home.index');

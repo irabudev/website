@@ -20,8 +20,9 @@
             <div class="row">
                 <div class="col-lg-5 offset-lg-1">
                     <div class="modern-number-01 number-two">
-                        <h5 class="heading mt-30">Here is a few
-                            suggestions</h5>
+                        <h5 class="heading mt-30">
+                            Here is a few suggestions
+                        </h5>
                     </div>
                 </div>
 

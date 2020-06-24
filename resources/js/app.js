@@ -1,6 +1,5 @@
 require('./bootstrap');
 const Swiper = require('./plugins/swiper.min');
-const WOW = require('./plugins/wow.min');
 
 $(document).ready(function () {
     $(".break-first").html(function () {
@@ -8,17 +7,6 @@ $(document).ready(function () {
         var first = text.shift();
         return (text.length > 0 ? first + "<br> " : first) + text.join(" ");
     });
-
-    /*=======================================================
-    Smooth scrolling trick
-    https://css-tricks.com/snippets/jquery/smooth-scrolling/
-    =========================================================*/
-
-    // window.scroll({
-    //     top: 2500,
-    //     left: 0,
-    //     behavior: 'smooth'
-    // });
 
     // Scroll certain amounts from current position
     window.scrollBy({
@@ -199,17 +187,3 @@ $(document).ready(function () {
 
 });
 
-
-window.Vue = require('vue');
-
-Vue.component('language-switcher', require('./LanguageSwitcher.vue').default);
-
-/**
- * Next, we will create a fresh Vue application instance and attach it to
- * the page. Then, you may begin adding components to this application
- * or customize the JavaScript scaffolding to fit your unique needs.
- */
-
-const app = new Vue({
-    el: '#app',
-});
