@@ -8,7 +8,7 @@
                 <div class="col-lg-12">
                     <div class="header default-menu-style position-relative">
                         <!-- brand logo -->
-                        <div class="header__logo">
+                        <div class="header__logo flex justify-content-start">
                             <a href="{{ route('home') }}">
                                 <img src="{{ asset('/images/logo.svg') }}" class="img-fluid" alt="irabu.co.tz">
                             </a>

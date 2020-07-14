@@ -5,7 +5,7 @@
 
 @section('content')
 
-<div class="container" style="padding: 6.5em;">
+<div class="container">
     <section id="banner" class="banner mb-3" role="banner">
         <div class="wrap">
             <h1 class="banner-slogan">
