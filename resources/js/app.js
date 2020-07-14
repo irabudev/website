@@ -1,6 +1,16 @@
 require('./bootstrap');
 const Swiper = require('./plugins/swiper.min');
 
+// Preloader
+$(window).on('load', function () {
+    $(".preloader-activate").removeClass('preloader-active');
+
+    setTimeout(function () {
+        jQuery('.open_tm_preloader').addClass('loaded');
+    }, 1000);
+
+});
+
 $(document).ready(function () {
     $(".break-first").html(function () {
         var text = $(this).text().trim().split(" ");
@@ -67,23 +77,8 @@ $(document).ready(function () {
     }
     scrollToTop();
 
-    /*=========================================
-    =            Preloader             =
-    ===========================================*/
-    windows.on('load', function () {
-    });
 
-
-    $(window).on('load', function () {
-        $(".preloader-activate").removeClass('preloader-active');
-
-        setTimeout(function () {
-            jQuery('.open_tm_preloader').addClass('loaded');
-        }, 1000);
-
-    });
-
-      /*==========================================
+    /*==========================================
     =            mobile menu active            =
     ============================================*/
 
@@ -103,13 +98,13 @@ $(document).ready(function () {
     });
 
     /*Close When Click Outside*/
-    $body.on('click', function(e){
+    $body.on('click', function (e) {
         var $target = e.target;
-        if (!$($target).is('.mobile-menu-overlay__inner') && !$($target).parents().is('.mobile-menu-overlay__inner') && !$($target).is('#mobile-menu-trigger') && !$($target).is('#mobile-menu-trigger i')){
+        if (!$($target).is('.mobile-menu-overlay__inner') && !$($target).parents().is('.mobile-menu-overlay__inner') && !$($target).is('#mobile-menu-trigger') && !$($target).is('#mobile-menu-trigger i')) {
             $("#mobile-menu-overlay").removeClass("active");
             $body.removeClass('no-overflow');
         }
-        if (!$($target).is('.search-overlay__inner') && !$($target).parents().is('.search-overlay__inner') && !$($target).is('#search-overlay-trigger') && !$($target).is('#search-overlay-trigger i')){
+        if (!$($target).is('.search-overlay__inner') && !$($target).parents().is('.search-overlay__inner') && !$($target).is('#search-overlay-trigger') && !$($target).is('#search-overlay-trigger i')) {
             $("#search-overlay").removeClass("active");
             $body.removeClass('no-overflow');
         }
@@ -186,4 +181,3 @@ $(document).ready(function () {
     });
 
 });
-
