@@ -9,13 +9,13 @@ return [
     'notifications' => [
 
         'notifications' => [
-            \Spatie\UptimeMonitor\Notifications\Notifications\UptimeCheckFailed::class => ['slack','email'],
-            \Spatie\UptimeMonitor\Notifications\Notifications\UptimeCheckRecovered::class => ['slack','email'],
-            \Spatie\UptimeMonitor\Notifications\Notifications\UptimeCheckSucceeded::class => ['slack','email'],
+            \Spatie\UptimeMonitor\Notifications\Notifications\UptimeCheckFailed::class => ['slack','mail'],
+            \Spatie\UptimeMonitor\Notifications\Notifications\UptimeCheckRecovered::class => ['slack','mail'],
+            \Spatie\UptimeMonitor\Notifications\Notifications\UptimeCheckSucceeded::class => ['slack','mail'],
 
-            \Spatie\UptimeMonitor\Notifications\Notifications\CertificateCheckFailed::class => ['slack','email'],
-            \Spatie\UptimeMonitor\Notifications\Notifications\CertificateExpiresSoon::class => ['slack','email'],
-            \Spatie\UptimeMonitor\Notifications\Notifications\CertificateCheckSucceeded::class => ['slack','email'],
+            \Spatie\UptimeMonitor\Notifications\Notifications\CertificateCheckFailed::class => ['slack','mail'],
+            \Spatie\UptimeMonitor\Notifications\Notifications\CertificateExpiresSoon::class => ['slack','mail'],
+            \Spatie\UptimeMonitor\Notifications\Notifications\CertificateCheckSucceeded::class => ['slack','mail'],
         ],
 
         /*
