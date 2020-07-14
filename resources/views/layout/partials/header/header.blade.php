@@ -65,12 +65,13 @@
                                 <div class="language-menu">
                                     <ul>
                                         <li>
-                                            <a href="#" class="">
+                                            <a href="#" class="nav-link dropdown-toggle">
                                                 <img class="ls-flag" style="height: 2em;"
                                                     src="{{ app()->getLocale() === 'en' ? asset('images/flags/en.svg') : asset('images/flags/sw.svg') }}"
                                                     alt="en" title="English">
                                                 <span
                                                     class="wpml-ls-native">{{ app()->getLocale() === 'en' ? 'EN' : 'SW' }}</span>
+                                                {{-- <i class="fas fa-chevron-down"></i> --}}
                                             </a>
 
                                             <ul class="ls-sub-menu">
@@ -102,8 +103,8 @@
                                                 <img class="ls-flag" style="height: 1.25em;"
                                                     src="{{ app()->getLocale() === 'en' ? asset('images/flags/en.svg') : asset('images/flags/sw.svg') }}"
                                                     alt="en" title="English">
-                                                <span
-                                                    class="wpml-ls-native" style="font-size: 12px;">{{ app()->getLocale() === 'en' ? 'EN' : 'SW' }}</span>
+                                                <span class="wpml-ls-native"
+                                                    style="font-size: 12px;">{{ app()->getLocale() === 'en' ? 'EN' : 'SW' }}</span>
                                             </a>
 
                                             <ul class="ls-sub-menu" style="min-width: 118px;">
@@ -111,16 +112,17 @@
                                                     <a href="{{route('home', [], true, 'en')}}">
                                                         <img class="ls-flag" src="{{ asset('images/flags/en.svg') }}"
                                                             alt="en" title="English" style="width: 18px;">
-                                                            <span
-                                                            class="wpml-ls-native" style="font-size: 12px;">English</span>
+                                                        <span class="wpml-ls-native"
+                                                            style="font-size: 12px;">English</span>
                                                     </a>
                                                 </li>
                                                 <li class="">
                                                     <a href="{{route('home', [], true, 'sw')}}">
                                                         <img class="wpml-ls-flag"
-                                                            src="{{ asset('images/flags/sw.svg') }}" style="width: 18px;" alt="de"
-                                                            title="Kiswahili">
-                                                        <span class="wpml-ls-native" style="font-size: 12px;">Kiswahili</span>
+                                                            src="{{ asset('images/flags/sw.svg') }}"
+                                                            style="width: 18px;" alt="de" title="Kiswahili">
+                                                        <span class="wpml-ls-native"
+                                                            style="font-size: 12px;">Kiswahili</span>
                                                     </a>
                                                 </li>
                                             </ul>
