@@ -16,6 +16,7 @@
         "laravel/framework": "^7.0",
         "laravel/tinker": "^2.0",
         "laravel/ui": "^2.0",
+        "spatie/laravel-sitemap": "^5.7",
         "spatie/laravel-uptime-monitor": "^3.8"
     },
     "require-dev": {
