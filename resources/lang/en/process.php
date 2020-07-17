@@ -21,6 +21,8 @@ return [
     "testing" => "After agreeing on the ideas and plans, we will conduct as scheduled and
     give comments on the results & adaptations.",
     "execute" => "Once the final plan is approved, everything will be conducted according to
-    the agreed contract."
+    the agreed contract.",
+    "description" => "About our preferred tools to build modern web applications. Read more on our technology stack and hire
+    us as a team",
 
 ];
