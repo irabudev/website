@@ -49,17 +49,17 @@
                     </h6>
                     <ul class="footer-widget__list">
                         <li>
-                            <a href="{{ route('legal.disclaimer', app()->getLocale())}}" class="hover-style-link">
+                            <a href="{{ route('legal.disclaimer')}}" class="hover-style-link">
                                 {{ __('Disclaimer')}}
                             </a>
                         </li>
                         <li>
-                            <a href="{{ route('legal.privacy', app()->getLocale())}}" class="hover-style-link">
+                            <a href="{{ route('legal.privacy')}}" class="hover-style-link">
                                 {{ __('Privacy')}}
                             </a>
                         </li>
                         <li>
-                            <a href="{{ route('legal.conditions', app()->getLocale())}}" class="hover-style-link">
+                            <a href="{{ route('legal.conditions')}}" class="hover-style-link">
                                 {{ __('Terms and Condition')}}
                             </a>
                         </li>
