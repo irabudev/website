@@ -1,7 +1,6 @@
 @extends('layout.default', [
-'title' => 'About us',
-'description' => 'Contact us on info@irabu.co.tz or (+255) 764 556 463. See our contact details and get to know our
-team.',
+'title' => __('About us'),
+'description' => __('about.description'),
 ])
 
 @section('content')

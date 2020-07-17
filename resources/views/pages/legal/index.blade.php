@@ -1,6 +1,6 @@
 @extends('layout.default', [
-'title' => 'Legal',
-'description' => 'General conditions, policies & disclaimers. A lot of difficult sentences.',
+'title' => __('Legal'),
+'description' => __('legal.description'),
 ])
 
 @section('content')

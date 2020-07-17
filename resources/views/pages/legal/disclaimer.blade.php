@@ -1,6 +1,6 @@
 @extends('layout.default', [
-'title' => 'Disclaimer',
-'description' => 'Our disclaimer. Yes, we have one too.',
+'title' => __('Disclaimer'),
+'description' => __('Our disclaimer. Yes, we have one too.'),
 ])
 
 @section('content')

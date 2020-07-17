@@ -1,6 +1,6 @@
 @extends('layout.default', [
-'title' => 'Privacy"',
-'description' => 'Our privacy policy. Because we respect you.',
+'title' => __('Privacy'),
+'description' => __('Our privacy policy. Because we respect you.'),
 ])
 
 @section('content')
@@ -52,7 +52,7 @@
                         clearly communicated on the platform of Irabu.
                     </p>
 
-                    <h2>{{__('Who processes your personal data?')}}}</h2>
+                    <h2>{{__('Who processes your personal data?')}}</h2>
 
                     <h6 class="heading">The website irabu.co.tz is an initiative of: </h6>
                     <address>

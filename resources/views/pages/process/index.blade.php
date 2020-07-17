@@ -1,7 +1,6 @@
 @extends('layout.default', [
-'title' => 'Design & Development',
-'description' => 'About our preferred tools to build modern web applications. Read more on our technology stack and hire
-us as a team',
+'title' => __('Design & Development'),
+'description' => __('process.dscription'),
 ])
 
 @section('content')

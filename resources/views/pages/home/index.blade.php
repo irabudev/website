@@ -1,6 +1,6 @@
 @extends('layout.default', [
-'title' => 'Build to Simplify',
-'description' => 'At irabu we craft SIMPLE & VALUABLE solutions to everday challengess.',
+'title' => __('Build to simplify'),
+'description' => __('At irabu we craft SIMPLE & VALUABLE solutions to everday challengess.'),
 ])
 
 @section('content')
