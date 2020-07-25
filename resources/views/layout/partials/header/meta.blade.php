@@ -1,6 +1,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover">
 
+<!-- yandex-verification Meta Tags -->
+<meta name = "yandex-verification" content = "e6e0e4dba2580186" />
+
 <!-- Primary Meta Tags -->
 <title>{{ $title ?? '' }} | Irabu</title>
 <meta name="title" content="{{ $title ?? '' }}">
