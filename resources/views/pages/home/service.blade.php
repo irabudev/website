@@ -47,13 +47,47 @@
                     <div class="row">
                         <div class="slide-content col-lg-6 col-xl-5 order-2 order-lg-1">
                             <div class="service-project-slide-info">
+                                <h4 class="heading font-weight--reguler mb-10">Jiranileo RSVP</h4>
+                                <p class="sub-text text-color-primary">iOS , ANDROID</p>
+                                <div class="text mb-10">
+                                    {{__('index.jiranileo')}}
+                                </div>
+                                <a href="https://play.google.com/store/apps/details?id=tz.co.irabu.jiranileorsvp" class="text-color-primary">
+                                    <span >
+                                       <img class="width-160 " src="{{ asset('images/ComingSoon-AppStore.png') }}"/>
+                                    </span>
+                                </a>
+                                <a href="#" class="text-color-primary">
+                                    <span >
+                                       <img class="width-160 " src="{{ asset('images/playstore.png') }}"/>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-xl-7 order-1 order-lg-2">
+                            <div class="slide-image">
+                                <div class="image-wrap">
+                                    <div class="image">
+                                        <img class="img-fluid" src="{{ asset('images/portfolio/jiranileo.png') }}"
+                                            alt="Rocket Inc">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="row">
+                        <div class="slide-content col-lg-6 col-xl-5 order-2 order-lg-1">
+                            <div class="service-project-slide-info">
                                 <h4 class="heading font-weight--reguler mb-10">The House of 78inc</h4>
                                 <p class="sub-text text-color-primary">ETHOS, PATHOS, LOGOS</p>
                                 <div class="text">
                                     {{__('index.78inc')}}
                                 </div>
                                 <a href="https://78inc.co/" class="text-color-primary">
-                                    <span>
+                                    <span >
                                         <i class="fas fa-chevron-right"></i>
                                         {{ __('Visit www.78inc.co to see their portfolio') }}
                                     </span>
