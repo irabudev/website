@@ -77,7 +77,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="swiper-slide">
+                {{-- <div class="swiper-slide">
                     <div class="row">
                         <div class="slide-content col-lg-6 col-xl-5 order-2 order-lg-1">
                             <div class="service-project-slide-info">
@@ -106,7 +106,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
     </div>
