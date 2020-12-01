@@ -45,7 +45,7 @@
                 </div>
                 <div class="col-lg-2 col-md-4 col-sm-6 footer-widget">
                     <h6 class="footer-widget__title mb-20">
-                        {{ __('Legal')}}
+                        {{-- {{ __('Legal')}} --}}
                     </h6>
                     <ul class="footer-widget__list">
                         <li>
