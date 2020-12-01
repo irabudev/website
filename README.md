@@ -1,5 +1,5 @@
 <div align="center"  style="margin-bottom:30px">
-    <img src="https://res.cloudinary.com/irabucompany/image/upload/v1584477165/logos/irabu_skjvfe.png" alt="Logo" width='100px' height='auto'/>
+    <img src="https://user-images.githubusercontent.com/6592749/100774239-ec184000-3412-11eb-9831-4d02476cc2d5.png" alt="Logo" width='100px' height='auto'/>
 </div>
 
 <div align="center">
