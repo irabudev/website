@@ -15,7 +15,7 @@
                         {{__('Simple and custom is achievable')}}
                     </h1>
                     <h5 class="font-weight--normal text-white">
-                        {{__('We craft SIMPLE & VALUABLE solutions to everday challenges')}}
+                        {{__('We craft SIMPLE & VALUABLE solutions to everyday challenges')}}
                     </h5>
                 </div>
                 <!-- section-title-wrap Start -->

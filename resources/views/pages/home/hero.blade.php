@@ -5,7 +5,7 @@
                 <div class="preview-hero-text wow move-up">
                     <h1 class="font-weight--reguler mb-30 intro-slogan">{{__('Build to simplify')}}</h1>
                     <h6 class="mb-30 text-black">
-                        {{__('We craft SIMPLE & VALUABLE solutions to everday challenges')}}
+                        {{__('We craft SIMPLE & VALUABLE solutions to everyday challenges')}}
                     </h6>
                     <div class="hero-button mt-40">
                         <a href="#case-studies" class="btn btn--primary">{{__('See what we do')}} </a>
