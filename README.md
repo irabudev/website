@@ -32,11 +32,11 @@ yarn dev or watch
 
 ## Author
 
-Developers at [irabu.dev](https://irabu.dev)
+Developers at [irabu](https://irabu.co.tz)
 
 ### Find us on
 
-- Twitter - ([@irabudev](https://twitter.com/irabudev))
+- Twitter - ([@irabudev](https://twitter.com/irabuteam))
 - GitHub - ([irabudev](https://github.com/irabudev))
 
 ## License
