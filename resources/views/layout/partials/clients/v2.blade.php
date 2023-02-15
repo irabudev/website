@@ -16,18 +16,18 @@
                         <div class="tab-history-wrap section-space--mt_60 brand-logo-slider__one">
                             <div class="modern-grid--6">
                                 <div class="brand-logo brand-logo--slider">
-                                    <a href="https://aashiqshariff.com/" target="_blank">
+                                    <a href="https://pycon.or.tz/" target="_blank">
                                         <div class="brand-logo__image">
                                             <img src="{{ asset('/images/clients/cpj.png')}}" class="img-fluid width-160"
-                                                alt="The Corporate Junkie">
+                                                alt="Pycon Tanzania">
                                         </div>
                                     </a>
                                 </div>
                                 <div class="brand-logo brand-logo--slider">
-                                    <a href="{{ secure_url('http://www.ten.co.tz/')}}" target="_blank">
+                                    <a href="{{ secure_url('https://bit.africa/')}}" target="_blank">
                                         <div class="brand-logo__image">
-                                            <img src="{{ asset('/images/clients/10.png')}}" class="img-fluid width-160"
-                                                alt="Ten Africa | School of Tech">
+                                            <img src="{{ asset('/images/clients/BinaryInstitute.svg')}}" class="img-fluid width-160"
+                                                alt="Binary Institute Africa | School of Tech">
                                         </div>
                                     </a>
                                 </div>
@@ -135,6 +135,14 @@
                                         <div class="brand-logo__image">
                                             <img src="{{ asset('/images/clients/self.png')}}"
                                                 class="img-fluid width-160" alt="Reliance">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="brand-logo brand-logo--slider">
+                                    <a href="https://aashiqshariff.com/" target="_blank">
+                                        <div class="brand-logo__image">
+                                            <img src="{{ asset('/images/clients/cpj.png')}}" class="img-fluid width-160"
+                                                alt="The Corporate Junkie">
                                         </div>
                                     </a>
                                 </div>
