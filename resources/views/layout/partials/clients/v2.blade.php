@@ -18,7 +18,7 @@
                                 <div class="brand-logo brand-logo--slider">
                                     <a href="https://pycon.or.tz/" target="_blank">
                                         <div class="brand-logo__image">
-                                            <img src="{{ asset('/images/clients/cpj.png')}}" class="img-fluid width-160"
+                                            <img src="{{ asset('/images/clients/pycon.png')}}" class="img-fluid width-160"
                                                 alt="Pycon Tanzania">
                                         </div>
                                     </a>
