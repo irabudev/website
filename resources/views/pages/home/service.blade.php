@@ -17,15 +17,15 @@
                     <div class="row">
                         <div class="slide-content col-lg-6 col-xl-5 order-2 order-lg-1">
                             <div class="service-project-slide-info">
-                                <h4 class="heading font-weight--reguler mb-10">Gorocket</h4>
+                                <h4 class="heading font-weight--reguler mb-10">Uza</h4>
                                 <p class="sub-text text-color-primary">WEB, iOS , ANDROID</p>
                                 <div class="text mb-10">
-                                    {{__('index.gorocket')}}
+                                    {{__('index.uza')}}
                                 </div>
-                                <a href="https://app.gorocket.co/" class="text-color-primary">
+                                <a href="https://uza.co.tz/" class="text-color-primary">
                                     <span>
                                         <i class="fas fa-chevron-right"></i>
-                                        {{ __('app.gorocket.co') }}
+                                        {{ __('uza.co.tz') }}
                                     </span>
                                 </a>
                             </div>
@@ -35,7 +35,7 @@
                             <div class="slide-image">
                                 <div class="image-wrap">
                                     <div class="image">
-                                        <img class="img-fluid" src="{{ asset('images/portfolio/gorocket.png') }}"
+                                        <img class="img-fluid" src="{{ asset('images/portfolio/2.png') }}"
                                             alt="Rocket Inc">
                                     </div>
                                 </div>
