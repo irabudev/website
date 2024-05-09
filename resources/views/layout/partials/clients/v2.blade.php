@@ -15,6 +15,14 @@
                     <div class="tab-pane  fade show active" id="tab_list_08" role="tabpanel">
                         <div class="tab-history-wrap section-space--mt_60 brand-logo-slider__one">
                             <div class="modern-grid--6">
+                            <div class="brand-logo brand-logo--slider">
+                                    <a href="https://pycon.or.tz/" target="_blank">
+                                        <div class="brand-logo__image">
+                                            <img src="{{ asset('/images/clients/subcode.png')}}" class="img-fluid width-160"
+                                                alt="Pycon Tanzania">
+                                        </div>
+                                    </a>
+                                </div>
                                 <div class="brand-logo brand-logo--slider">
                                     <a href="https://pycon.or.tz/" target="_blank">
                                         <div class="brand-logo__image">

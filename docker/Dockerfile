@@ -1,5 +1,5 @@
-FROM php:7.4-fpm
-LABEL maintainer="guillaumebriday@gmail.com"
+FROM php:7.4.5-fpm
+LABEL maintainer="irabusoftware@gmail.com"
 
 # Installing dependencies
 RUN apt-get update && apt-get install -y --no-install-recommends \
@@ -31,3 +31,22 @@ RUN echo fr_FR.UTF-8 UTF-8 > /etc/locale.gen && locale-gen
 
 # Changing Workdir
 WORKDIR /var/www
+
+# Run composer install
+RUN composer install --no-dev --prefer-dist --no-interaction
+
+# CMD ["php-fpm", "-y", "/usr/local/etc/php-fpm.conf", "-R"]
+
+# Node.js Stage
+FROM node:14.16-alpine3.12
+
+WORKDIR /var/www
+
+# Copy the necessary files from the previous stage
+COPY --from=0 /var/www /var/www
+
+# Install production dependencies
+RUN npm install --production=true
+
+# Run production build
+RUN npm run prod
