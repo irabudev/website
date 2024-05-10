@@ -1,5 +1,5 @@
-FROM php:7.4.5-fpm
-LABEL maintainer="irabusoftware@gmail.com"
+
+FROM php:7.4-fpm
 
 # Installing dependencies
 RUN apt-get update && apt-get install -y --no-install-recommends \
@@ -26,16 +26,16 @@ RUN docker-php-ext-enable imagick
 # Installing composer
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 
-# Setting locales
-RUN echo fr_FR.UTF-8 UTF-8 > /etc/locale.gen && locale-gen
+# Copy your application code
+COPY . /var/www
 
-# Changing Workdir
+# Change the working directory
 WORKDIR /var/www
 
 # Run composer install
 RUN composer install --no-dev --prefer-dist --no-interaction
 
-# CMD ["php-fpm", "-y", "/usr/local/etc/php-fpm.conf", "-R"]
+CMD ["php-fpm", "-y", "/usr/local/etc/php-fpm.conf", "-R"]
 
 # Node.js Stage
 FROM node:14.16-alpine3.12
